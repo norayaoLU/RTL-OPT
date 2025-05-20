@@ -1,0 +1,669 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : mul_subexpression_mini
+Version: T-2022.03-SP2
+Date   : Mon May 12 15:08:58 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: multiplicand[2]
+              (input port)
+  Endpoint: product[15]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  multiplicand[2] (in)                     0.00      0.00       0.00 r
+  multiplicand[2] (net)          1                   0.00       0.00 r
+  mult_12_U21/ZN (INV_X2)                  0.01      0.03       0.03 f
+  mult_12_n68 (net)              8                   0.00       0.03 f
+  mult_12_U110/ZN (NOR2_X1)                0.04      0.07       0.11 r
+  mult_12_ab_2__6_ (net)         3                   0.00       0.11 r
+  mult_12_U29/Z (XOR2_X1)                  0.03      0.08       0.19 r
+  mult_12_n19 (net)              1                   0.00       0.19 r
+  mult_12_U30/Z (XOR2_X1)                  0.03      0.07       0.26 r
+  mult_12_SUMB_2__6_ (net)       1                   0.00       0.26 r
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.12       0.38 f    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.38 f
+  mult_12_S2_4_4/S (FA_X1)                 0.01      0.14       0.52 r    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 r
+  mult_12_S2_5_3/S (FA_X1)                 0.02      0.11       0.64 f    mo 
+  mult_12_SUMB_5__3_ (net)       1                   0.00       0.64 f
+  mult_12_S2_6_2/CO (FA_X1)                0.02      0.09       0.73 f    mo 
+  mult_12_CARRYB_6__2_ (net)     1                   0.00       0.73 f
+  mult_12_S4_2/S (FA_X1)                   0.02      0.14       0.87 r    mo 
+  mult_12_SUMB_7__2_ (net)       2                   0.00       0.87 r
+  mult_12_U77/Z (XOR2_X1)                  0.03      0.07       0.95 r
+  mult_12_n49 (net)              2                   0.00       0.95 r
+  mult_12_FS_1_U12/Z (BUF_X1)              0.01      0.04       0.99 r
+  mult_12_FS_1_n7 (net)          2                   0.00       0.99 r
+  mult_12_FS_1_U24/ZN (AND2_X1)            0.01      0.04       1.03 r
+  mult_12_FS_1_n12 (net)         1                   0.00       1.03 r
+  mult_12_FS_1_U23/ZN (INV_X1)             0.00      0.02       1.05 f
+  mult_12_FS_1_n40 (net)         1                   0.00       1.05 f
+  mult_12_FS_1_U51/ZN (NOR2_X1)            0.02      0.03       1.08 r
+  mult_12_FS_1_n37 (net)         1                   0.00       1.08 r
+  mult_12_FS_1_U67/ZN (AOI21_X1)           0.01      0.03       1.11 f
+  mult_12_FS_1_n36 (net)         1                   0.00       1.11 f
+  mult_12_FS_1_U70/ZN (OAI211_X1)          0.02      0.04       1.15 r
+  mult_12_FS_1_n31 (net)         1                   0.00       1.15 r
+  mult_12_FS_1_U69/ZN (XNOR2_X1)           0.01      0.05       1.20 r
+  product[15] (net)              1                   0.00       1.20 r
+  product[15] (out)                        0.01      0.00       1.21 r
+  data arrival time                                             1.21
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.21
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.11
+
+
+  Startpoint: multiplicand[1]
+              (input port)
+  Endpoint: product[13]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  multiplicand[1] (in)                     0.00      0.00       0.00 f
+  multiplicand[1] (net)          6                   0.00       0.00 f
+  mult_12_U90/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_12_ab_1__5_ (net)         1                   0.00       0.04 f
+  mult_12_S0_5/CO (FA_X1)                  0.02      0.10       0.14 f    mo 
+  mult_12_CARRYB_1__5_ (net)     1                   0.00       0.14 f
+  mult_12_S2_2_5/CO (FA_X1)                0.02      0.11       0.25 f    mo 
+  mult_12_CARRYB_2__5_ (net)     1                   0.00       0.25 f
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.15       0.40 r    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.40 r
+  mult_12_S2_4_4/S (FA_X1)                 0.02      0.12       0.52 f    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 f
+  mult_12_S2_5_3/CO (FA_X1)                0.01      0.09       0.61 f    mo 
+  mult_12_CARRYB_5__3_ (net)     1                   0.00       0.61 f
+  mult_12_S2_6_3/CO (FA_X1)                0.02      0.09       0.70 f    mo 
+  mult_12_CARRYB_6__3_ (net)     1                   0.00       0.70 f
+  mult_12_S4_3/S (FA_X1)                   0.03      0.16       0.86 r    mo 
+  mult_12_SUMB_7__3_ (net)       2                   0.00       0.86 r
+  mult_12_U2/ZN (NAND2_X2)                 0.01      0.04       0.90 f
+  mult_12_n2 (net)               1                   0.00       0.90 f
+  mult_12_U3/ZN (INV_X2)                   0.01      0.04       0.94 r
+  mult_12_A2_9_ (net)            3                   0.00       0.94 r
+  mult_12_FS_1_U39/ZN (OR2_X2)             0.02      0.05       0.99 r
+  mult_12_FS_1_n25 (net)         7                   0.00       0.99 r
+  mult_12_FS_1_U3/ZN (AND2_X1)             0.01      0.05       1.04 r
+  mult_12_FS_1_n2 (net)          1                   0.00       1.04 r
+  mult_12_FS_1_U5/ZN (INV_X1)              0.00      0.02       1.06 f
+  mult_12_FS_1_n3 (net)          1                   0.00       1.06 f
+  mult_12_FS_1_U4/ZN (NOR2_X1)             0.02      0.04       1.09 r
+  mult_12_FS_1_n60 (net)         1                   0.00       1.09 r
+  mult_12_FS_1_U79/ZN (NAND2_X1)           0.01      0.03       1.12 f
+  mult_12_FS_1_n59 (net)         1                   0.00       1.12 f
+  mult_12_FS_1_U10/ZN (NAND2_X1)           0.01      0.03       1.15 r
+  mult_12_FS_1_n56 (net)         1                   0.00       1.15 r
+  mult_12_FS_1_U78/ZN (XNOR2_X1)           0.01      0.05       1.20 r
+  product[13] (net)              1                   0.00       1.20 r
+  product[13] (out)                        0.01      0.00       1.20 r
+  data arrival time                                             1.20
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.20
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.10
+
+
+  Startpoint: multiplicand[2]
+              (input port)
+  Endpoint: product[14]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  multiplicand[2] (in)                     0.00      0.00       0.00 r
+  multiplicand[2] (net)          1                   0.00       0.00 r
+  mult_12_U21/ZN (INV_X2)                  0.01      0.03       0.03 f
+  mult_12_n68 (net)              8                   0.00       0.03 f
+  mult_12_U110/ZN (NOR2_X1)                0.04      0.07       0.11 r
+  mult_12_ab_2__6_ (net)         3                   0.00       0.11 r
+  mult_12_U29/Z (XOR2_X1)                  0.03      0.08       0.19 r
+  mult_12_n19 (net)              1                   0.00       0.19 r
+  mult_12_U30/Z (XOR2_X1)                  0.03      0.07       0.26 r
+  mult_12_SUMB_2__6_ (net)       1                   0.00       0.26 r
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.12       0.38 f    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.38 f
+  mult_12_S2_4_4/S (FA_X1)                 0.01      0.14       0.52 r    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 r
+  mult_12_S2_5_3/S (FA_X1)                 0.02      0.11       0.64 f    mo 
+  mult_12_SUMB_5__3_ (net)       1                   0.00       0.64 f
+  mult_12_S2_6_2/CO (FA_X1)                0.02      0.09       0.73 f    mo 
+  mult_12_CARRYB_6__2_ (net)     1                   0.00       0.73 f
+  mult_12_S4_2/S (FA_X1)                   0.02      0.14       0.87 r    mo 
+  mult_12_SUMB_7__2_ (net)       2                   0.00       0.87 r
+  mult_12_U77/Z (XOR2_X1)                  0.03      0.07       0.95 r
+  mult_12_n49 (net)              2                   0.00       0.95 r
+  mult_12_FS_1_U12/Z (BUF_X1)              0.01      0.04       0.99 r
+  mult_12_FS_1_n7 (net)          2                   0.00       0.99 r
+  mult_12_FS_1_U62/ZN (NAND2_X1)           0.01      0.03       1.02 f
+  mult_12_FS_1_n22 (net)         3                   0.00       1.02 f
+  mult_12_FS_1_U19/ZN (INV_X1)             0.02      0.05       1.07 r
+  mult_12_FS_1_n29 (net)         4                   0.00       1.07 r
+  mult_12_FS_1_U75/ZN (NAND2_X1)           0.01      0.03       1.10 f
+  mult_12_FS_1_n49 (net)         1                   0.00       1.10 f
+  mult_12_FS_1_U74/ZN (OAI211_X1)          0.02      0.03       1.14 r
+  mult_12_FS_1_n46 (net)         1                   0.00       1.14 r
+  mult_12_FS_1_U73/ZN (XNOR2_X1)           0.01      0.05       1.19 r
+  product[14] (net)              1                   0.00       1.19 r
+  product[14] (out)                        0.01      0.00       1.20 r
+  data arrival time                                             1.20
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.20
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.10
+
+
+  Startpoint: multiplicand[2]
+              (input port)
+  Endpoint: product[11]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  multiplicand[2] (in)                     0.00      0.00       0.00 r
+  multiplicand[2] (net)          1                   0.00       0.00 r
+  mult_12_U21/ZN (INV_X2)                  0.01      0.03       0.03 f
+  mult_12_n68 (net)              8                   0.00       0.03 f
+  mult_12_U110/ZN (NOR2_X1)                0.04      0.07       0.11 r
+  mult_12_ab_2__6_ (net)         3                   0.00       0.11 r
+  mult_12_U29/Z (XOR2_X1)                  0.03      0.08       0.19 r
+  mult_12_n19 (net)              1                   0.00       0.19 r
+  mult_12_U30/Z (XOR2_X1)                  0.03      0.07       0.26 r
+  mult_12_SUMB_2__6_ (net)       1                   0.00       0.26 r
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.12       0.38 f    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.38 f
+  mult_12_S2_4_4/S (FA_X1)                 0.01      0.14       0.52 r    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 r
+  mult_12_S2_5_3/S (FA_X1)                 0.02      0.11       0.64 f    mo 
+  mult_12_SUMB_5__3_ (net)       1                   0.00       0.64 f
+  mult_12_S2_6_2/CO (FA_X1)                0.02      0.09       0.73 f    mo 
+  mult_12_CARRYB_6__2_ (net)     1                   0.00       0.73 f
+  mult_12_S4_2/S (FA_X1)                   0.02      0.14       0.87 r    mo 
+  mult_12_SUMB_7__2_ (net)       2                   0.00       0.87 r
+  mult_12_U77/Z (XOR2_X1)                  0.03      0.07       0.95 r
+  mult_12_n49 (net)              2                   0.00       0.95 r
+  mult_12_FS_1_U12/Z (BUF_X1)              0.01      0.04       0.99 r
+  mult_12_FS_1_n7 (net)          2                   0.00       0.99 r
+  mult_12_FS_1_U62/ZN (NAND2_X1)           0.01      0.03       1.02 f
+  mult_12_FS_1_n22 (net)         3                   0.00       1.02 f
+  mult_12_FS_1_U19/ZN (INV_X1)             0.02      0.05       1.07 r
+  mult_12_FS_1_n29 (net)         4                   0.00       1.07 r
+  mult_12_FS_1_U68/ZN (NAND2_X1)           0.01      0.03       1.10 f
+  mult_12_FS_1_n27 (net)         1                   0.00       1.10 f
+  mult_12_FS_1_U38/ZN (NAND2_X1)           0.01      0.03       1.13 r
+  mult_12_FS_1_n23 (net)         1                   0.00       1.13 r
+  mult_12_FS_1_U37/ZN (XNOR2_X1)           0.01      0.05       1.18 r
+  product[11] (net)              1                   0.00       1.18 r
+  product[11] (out)                        0.01      0.00       1.18 r
+  data arrival time                                             1.18
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.18
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.08
+
+
+  Startpoint: multiplicand[2]
+              (input port)
+  Endpoint: product[12]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  multiplicand[2] (in)                     0.00      0.00       0.00 r
+  multiplicand[2] (net)          1                   0.00       0.00 r
+  mult_12_U21/ZN (INV_X2)                  0.01      0.03       0.03 f
+  mult_12_n68 (net)              8                   0.00       0.03 f
+  mult_12_U110/ZN (NOR2_X1)                0.04      0.07       0.11 r
+  mult_12_ab_2__6_ (net)         3                   0.00       0.11 r
+  mult_12_U29/Z (XOR2_X1)                  0.03      0.08       0.19 r
+  mult_12_n19 (net)              1                   0.00       0.19 r
+  mult_12_U30/Z (XOR2_X1)                  0.03      0.07       0.26 r
+  mult_12_SUMB_2__6_ (net)       1                   0.00       0.26 r
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.12       0.38 f    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.38 f
+  mult_12_S2_4_4/S (FA_X1)                 0.01      0.14       0.52 r    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 r
+  mult_12_S2_5_3/S (FA_X1)                 0.02      0.11       0.64 f    mo 
+  mult_12_SUMB_5__3_ (net)       1                   0.00       0.64 f
+  mult_12_S2_6_2/CO (FA_X1)                0.02      0.09       0.73 f    mo 
+  mult_12_CARRYB_6__2_ (net)     1                   0.00       0.73 f
+  mult_12_S4_2/S (FA_X1)                   0.02      0.14       0.87 r    mo 
+  mult_12_SUMB_7__2_ (net)       2                   0.00       0.87 r
+  mult_12_U77/Z (XOR2_X1)                  0.03      0.07       0.95 r
+  mult_12_n49 (net)              2                   0.00       0.95 r
+  mult_12_FS_1_U12/Z (BUF_X1)              0.01      0.04       0.99 r
+  mult_12_FS_1_n7 (net)          2                   0.00       0.99 r
+  mult_12_FS_1_U62/ZN (NAND2_X1)           0.01      0.03       1.02 f
+  mult_12_FS_1_n22 (net)         3                   0.00       1.02 f
+  mult_12_FS_1_U36/ZN (INV_X1)             0.01      0.03       1.05 r
+  mult_12_FS_1_n69 (net)         1                   0.00       1.05 r
+  mult_12_FS_1_U59/ZN (NAND2_X1)           0.01      0.02       1.08 f
+  mult_12_FS_1_n68 (net)         1                   0.00       1.08 f
+  mult_12_FS_1_U57/ZN (OAI211_X1)          0.02      0.05       1.13 r
+  mult_12_FS_1_n65 (net)         1                   0.00       1.13 r
+  mult_12_FS_1_U34/ZN (XNOR2_X1)           0.01      0.05       1.18 r
+  product[12] (net)              1                   0.00       1.18 r
+  product[12] (out)                        0.01      0.00       1.18 r
+  data arrival time                                             1.18
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.18
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.08
+
+
+  Startpoint: multiplicand[1]
+              (input port)
+  Endpoint: product[10]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  multiplicand[1] (in)                     0.00      0.00       0.00 f
+  multiplicand[1] (net)          6                   0.00       0.00 f
+  mult_12_U90/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_12_ab_1__5_ (net)         1                   0.00       0.04 f
+  mult_12_S0_5/CO (FA_X1)                  0.02      0.10       0.14 f    mo 
+  mult_12_CARRYB_1__5_ (net)     1                   0.00       0.14 f
+  mult_12_S2_2_5/CO (FA_X1)                0.02      0.11       0.25 f    mo 
+  mult_12_CARRYB_2__5_ (net)     1                   0.00       0.25 f
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.15       0.40 r    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.40 r
+  mult_12_S2_4_4/S (FA_X1)                 0.02      0.12       0.52 f    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 f
+  mult_12_S2_5_3/CO (FA_X1)                0.01      0.09       0.61 f    mo 
+  mult_12_CARRYB_5__3_ (net)     1                   0.00       0.61 f
+  mult_12_S2_6_3/CO (FA_X1)                0.02      0.09       0.70 f    mo 
+  mult_12_CARRYB_6__3_ (net)     1                   0.00       0.70 f
+  mult_12_S4_3/S (FA_X1)                   0.03      0.16       0.86 r    mo 
+  mult_12_SUMB_7__3_ (net)       2                   0.00       0.86 r
+  mult_12_U4/ZN (XNOR2_X2)                 0.02      0.08       0.94 r
+  mult_12_n3 (net)               1                   0.00       0.94 r
+  mult_12_U5/ZN (INV_X2)                   0.01      0.03       0.97 f
+  mult_12_A1_8_ (net)            3                   0.00       0.97 f
+  mult_12_FS_1_U63/ZN (INV_X1)             0.01      0.03       1.00 r
+  mult_12_FS_1_n73 (net)         2                   0.00       1.00 r
+  mult_12_FS_1_U52/ZN (AND2_X1)            0.02      0.05       1.05 r
+  mult_12_FS_1_n21 (net)         3                   0.00       1.05 r
+  mult_12_FS_1_U18/ZN (INV_X1)             0.01      0.03       1.08 f
+  mult_12_FS_1_n10 (net)         2                   0.00       1.08 f
+  mult_12_FS_1_U9/ZN (NAND2_X1)            0.01      0.03       1.11 r
+  mult_12_FS_1_n6 (net)          1                   0.00       1.11 r
+  mult_12_FS_1_U8/ZN (XNOR2_X1)            0.01      0.05       1.16 r
+  product[10] (net)              1                   0.00       1.16 r
+  product[10] (out)                        0.01      0.00       1.16 r
+  data arrival time                                             1.16
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.16
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.06
+
+
+  Startpoint: multiplicand[2]
+              (input port)
+  Endpoint: product[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  multiplicand[2] (in)                     0.00      0.00       0.00 r
+  multiplicand[2] (net)          1                   0.00       0.00 r
+  mult_12_U21/ZN (INV_X2)                  0.01      0.03       0.03 f
+  mult_12_n68 (net)              8                   0.00       0.03 f
+  mult_12_U110/ZN (NOR2_X1)                0.04      0.07       0.11 r
+  mult_12_ab_2__6_ (net)         3                   0.00       0.11 r
+  mult_12_U29/Z (XOR2_X1)                  0.03      0.08       0.19 r
+  mult_12_n19 (net)              1                   0.00       0.19 r
+  mult_12_U30/Z (XOR2_X1)                  0.03      0.07       0.26 r
+  mult_12_SUMB_2__6_ (net)       1                   0.00       0.26 r
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.12       0.38 f    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.38 f
+  mult_12_S2_4_4/S (FA_X1)                 0.01      0.14       0.52 r    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 r
+  mult_12_S2_5_3/S (FA_X1)                 0.02      0.11       0.64 f    mo 
+  mult_12_SUMB_5__3_ (net)       1                   0.00       0.64 f
+  mult_12_S2_6_2/CO (FA_X1)                0.02      0.09       0.73 f    mo 
+  mult_12_CARRYB_6__2_ (net)     1                   0.00       0.73 f
+  mult_12_S4_2/S (FA_X1)                   0.02      0.14       0.87 r    mo 
+  mult_12_SUMB_7__2_ (net)       2                   0.00       0.87 r
+  mult_12_U77/Z (XOR2_X1)                  0.03      0.07       0.95 r
+  mult_12_n49 (net)              2                   0.00       0.95 r
+  mult_12_FS_1_U12/Z (BUF_X1)              0.01      0.04       0.99 r
+  mult_12_FS_1_n7 (net)          2                   0.00       0.99 r
+  mult_12_FS_1_U62/ZN (NAND2_X1)           0.01      0.03       1.02 f
+  mult_12_FS_1_n22 (net)         3                   0.00       1.02 f
+  mult_12_FS_1_U22/ZN (AND2_X1)            0.00      0.04       1.06 f
+  product[9] (net)               1                   0.00       1.06 f
+  product[9] (out)                         0.00      0.00       1.06 f
+  data arrival time                                             1.06
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.06
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.96
+
+
+  Startpoint: multiplicand[1]
+              (input port)
+  Endpoint: product[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  multiplicand[1] (in)                     0.00      0.00       0.00 f
+  multiplicand[1] (net)          6                   0.00       0.00 f
+  mult_12_U90/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_12_ab_1__5_ (net)         1                   0.00       0.04 f
+  mult_12_S0_5/CO (FA_X1)                  0.02      0.10       0.14 f    mo 
+  mult_12_CARRYB_1__5_ (net)     1                   0.00       0.14 f
+  mult_12_S2_2_5/CO (FA_X1)                0.02      0.11       0.25 f    mo 
+  mult_12_CARRYB_2__5_ (net)     1                   0.00       0.25 f
+  mult_12_S2_3_5/S (FA_X1)                 0.02      0.15       0.40 r    mo 
+  mult_12_SUMB_3__5_ (net)       1                   0.00       0.40 r
+  mult_12_S2_4_4/S (FA_X1)                 0.02      0.12       0.52 f    mo 
+  mult_12_SUMB_4__4_ (net)       1                   0.00       0.52 f
+  mult_12_S2_5_3/S (FA_X1)                 0.01      0.13       0.65 r    mo 
+  mult_12_SUMB_5__3_ (net)       1                   0.00       0.65 r
+  mult_12_S2_6_2/S (FA_X1)                 0.02      0.11       0.76 f    mo 
+  mult_12_SUMB_6__2_ (net)       1                   0.00       0.76 f
+  mult_12_S4_1/S (FA_X1)                   0.02      0.14       0.90 r    mo 
+  mult_12_SUMB_7__1_ (net)       2                   0.00       0.90 r
+  mult_12_U84/Z (XOR2_X1)                  0.02      0.06       0.96 r
+  mult_12_n57 (net)              1                   0.00       0.96 r
+  mult_12_FS_1_U44/Z (BUF_X1)              0.00      0.03       0.99 r
+  product[8] (net)               1                   0.00       0.99 r
+  product[8] (out)                         0.00      0.00       1.00 r
+  data arrival time                                             1.00
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -1.00
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.90
+
+
+  Startpoint: multiplier[4]
+              (input port)
+  Endpoint: product[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  multiplier[4] (in)                       0.00      0.00       0.00 f
+  multiplier[4] (net)            2                   0.00       0.00 f
+  mult_12_U42/ZN (INV_X1)                  0.02      0.04       0.04 r
+  mult_12_n74 (net)              4                   0.00       0.04 r
+  mult_12_U97/ZN (NOR2_X1)                 0.01      0.03       0.07 f
+  mult_12_ab_1__4_ (net)         1                   0.00       0.07 f
+  mult_12_S0_4/S (FA_X1)                   0.02      0.15       0.22 r    mo 
+  mult_12_SUMB_1__4_ (net)       3                   0.00       0.22 r
+  mult_12_U69/Z (XOR2_X1)                  0.04      0.09       0.32 r
+  mult_12_SUMB_2__3_ (net)       3                   0.00       0.32 r
+  mult_12_U59/ZN (NAND2_X1)                0.01      0.03       0.35 f
+  mult_12_n37 (net)              1                   0.00       0.35 f
+  mult_12_U61/ZN (NAND3_X1)                0.02      0.04       0.40 r
+  mult_12_CARRYB_3__2_ (net)     3                   0.00       0.40 r
+  mult_12_U62/Z (XOR2_X1)                  0.03      0.07       0.47 r
+  mult_12_n39 (net)              1                   0.00       0.47 r
+  mult_12_U63/Z (XOR2_X1)                  0.03      0.07       0.54 r
+  mult_12_SUMB_4__2_ (net)       1                   0.00       0.54 r
+  mult_12_S2_5_1/S (FA_X1)                 0.02      0.12       0.66 f    mo 
+  mult_12_SUMB_5__1_ (net)       1                   0.00       0.66 f
+  mult_12_S1_6_0/CO (FA_X1)                0.02      0.09       0.75 f    mo 
+  mult_12_CARRYB_6__0_ (net)     1                   0.00       0.75 f
+  mult_12_S4_0/S (FA_X1)                   0.01      0.14       0.90 r    mo 
+  mult_12_SUMB_7__0_ (net)       1                   0.00       0.90 r
+  mult_12_FS_1_U45/Z (BUF_X1)              0.00      0.03       0.92 r
+  product[7] (net)               1                   0.00       0.92 r
+  product[7] (out)                         0.00      0.00       0.93 r
+  data arrival time                                             0.93
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.93
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.83
+
+
+  Startpoint: multiplier[4]
+              (input port)
+  Endpoint: product[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_mini 5K_hvratio_1_1    NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  multiplier[4] (in)                       0.00      0.00       0.00 f
+  multiplier[4] (net)            2                   0.00       0.00 f
+  mult_12_U42/ZN (INV_X1)                  0.02      0.04       0.04 r
+  mult_12_n74 (net)              4                   0.00       0.04 r
+  mult_12_U97/ZN (NOR2_X1)                 0.01      0.03       0.07 f
+  mult_12_ab_1__4_ (net)         1                   0.00       0.07 f
+  mult_12_S0_4/S (FA_X1)                   0.02      0.15       0.22 r    mo 
+  mult_12_SUMB_1__4_ (net)       3                   0.00       0.22 r
+  mult_12_U69/Z (XOR2_X1)                  0.04      0.09       0.32 r
+  mult_12_SUMB_2__3_ (net)       3                   0.00       0.32 r
+  mult_12_U59/ZN (NAND2_X1)                0.01      0.03       0.35 f
+  mult_12_n37 (net)              1                   0.00       0.35 f
+  mult_12_U61/ZN (NAND3_X1)                0.02      0.04       0.40 r
+  mult_12_CARRYB_3__2_ (net)     3                   0.00       0.40 r
+  mult_12_U62/Z (XOR2_X1)                  0.03      0.07       0.47 r
+  mult_12_n39 (net)              1                   0.00       0.47 r
+  mult_12_U63/Z (XOR2_X1)                  0.03      0.07       0.54 r
+  mult_12_SUMB_4__2_ (net)       1                   0.00       0.54 r
+  mult_12_S2_5_1/S (FA_X1)                 0.02      0.12       0.66 f    mo 
+  mult_12_SUMB_5__1_ (net)       1                   0.00       0.66 f
+  mult_12_S1_6_0/S (FA_X1)                 0.01      0.13       0.79 r    mo 
+  mult_12_A1_4_ (net)            1                   0.00       0.79 r
+  mult_12_FS_1_U46/Z (BUF_X1)              0.00      0.03       0.82 r
+  product[6] (net)               1                   0.00       0.82 r
+  product[6] (out)                         0.00      0.00       0.82 r
+  data arrival time                                             0.82
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.82
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.72
+
+
+1

@@ -1,0 +1,28 @@
+
+13. Printing statistics.
+
+=== saturating_add_ref ===
+
+   Number of wires:                100
+   Number of wire bits:            184
+   Number of public wires:           7
+   Number of public wire bits:      36
+   Number of ports:                  4
+   Number of port bits:             25
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 42
+     AND2_X1                         3
+     AOI21_X1                        3
+     DFF_X1                          8
+     NAND2_X1                        4
+     NOR2_X1                         3
+     OAI21_X1                        3
+     OR2_X1                          3
+     XNOR2_X1                       10
+     XOR2_X1                         5
+
+   Chip area for module '\saturating_add_ref': 78.470000
+     of which used for sequential elements: 36.176000 (46.10%)
+

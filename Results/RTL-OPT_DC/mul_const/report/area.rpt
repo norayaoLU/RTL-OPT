@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : mul_const
+Version: T-2022.03-SP2
+Date   : Mon May 12 01:45:26 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           48
+Number of nets:                           134
+Number of cells:                          113
+Number of combinational cells:            107
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         30
+Number of references:                      21
+
+Combinational area:                122.891999
+Buf/Inv area:                       20.748000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   122.891999
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+mul_const                          122.8920    100.0  122.8920     0.0000  0.0000  mul_const
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 122.8920     0.0000  0.0000
+
+1

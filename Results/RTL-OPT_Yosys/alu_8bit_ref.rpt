@@ -1,0 +1,39 @@
+
+13. Printing statistics.
+
+=== alu_8bit_ref ===
+
+   Number of wires:                229
+   Number of wire bits:            490
+   Number of public wires:           8
+   Number of public wire bits:      53
+   Number of ports:                  4
+   Number of port bits:             27
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                130
+     AND2_X1                         1
+     AND3_X1                         1
+     AOI211_X1                       2
+     AOI21_X1                        4
+     AOI221_X1                       1
+     AOI22_X1                        7
+     INV_X1                          7
+     MUX2_X1                         8
+     NAND2_X1                       13
+     NAND3_X1                       10
+     NAND4_X1                        8
+     NOR2_X1                        14
+     NOR3_X1                         3
+     NOR4_X1                         1
+     OAI21_X1                       12
+     OAI221_X1                       4
+     OAI22_X1                        1
+     OR3_X1                          2
+     XNOR2_X1                       26
+     XOR2_X1                         5
+
+   Chip area for module '\alu_8bit_ref': 158.802000
+     of which used for sequential elements: 0.000000 (0.00%)
+

@@ -1,0 +1,535 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : decoder_8bit_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:29:21 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: in[2] (input port)
+  Endpoint: out[249] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  in[2] (in)                               0.00      0.00       0.00 r
+  in[2] (net)                    8                   0.00       0.00 r
+  sll_10_U182/ZN (INV_X1)                  0.00      0.03       0.03 f
+  sll_10_n75 (net)               1                   0.00       0.03 f
+  sll_10_U181/ZN (AND3_X1)                 0.01      0.04       0.07 f
+  sll_10_ML_int_3__1_ (net)      2                   0.00       0.07 f
+  sll_10_U204/Z (MUX2_X2)                  0.01      0.06       0.13 f
+  sll_10_ML_int_4__9_ (net)      2                   0.00       0.13 f
+  sll_10_U232/ZN (NAND2_X1)                0.01      0.03       0.16 r
+  sll_10_n111 (net)              1                   0.00       0.16 r
+  sll_10_U50/ZN (NAND2_X1)                 0.01      0.03       0.18 f
+  sll_10_ML_int_5__25_ (net)     2                   0.00       0.18 f
+  sll_10_U254/ZN (NAND2_X1)                0.01      0.03       0.21 r
+  sll_10_n133 (net)              1                   0.00       0.21 r
+  sll_10_U32/ZN (NAND2_X1)                 0.01      0.03       0.24 f
+  sll_10_ML_int_6__57_ (net)     2                   0.00       0.24 f
+  sll_10_U206/Z (MUX2_X1)                  0.01      0.07       0.31 f
+  sll_10_ML_int_7__121_ (net)     2                  0.00       0.31 f
+  sll_10_M1_7_249/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[249] (net)                 1                   0.00       0.37 f
+  out[249] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[235] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[0] (in)                               0.00      0.00       0.00 f
+  in[0] (net)                    5                   0.00       0.00 f
+  sll_10_U179/ZN (INV_X1)                  0.01      0.03       0.03 r
+  sll_10_n74 (net)               2                   0.00       0.03 r
+  sll_10_U177/ZN (NOR3_X1)                 0.01      0.03       0.06 f
+  sll_10_ML_int_3__3_ (net)      2                   0.00       0.06 f
+  sll_10_M1_3_11/Z (MUX2_X1)               0.01      0.07       0.13 f    mo 
+  sll_10_ML_int_4__11_ (net)     2                   0.00       0.13 f
+  sll_10_U594/ZN (AND2_X1)                 0.01      0.04       0.17 f
+  sll_10_ML_int_5__11_ (net)     2                   0.00       0.17 f
+  sll_10_M1_5_43/Z (MUX2_X1)               0.01      0.07       0.24 f    mo 
+  sll_10_ML_int_6__43_ (net)     2                   0.00       0.24 f
+  sll_10_M1_6_107/Z (MUX2_X1)              0.01      0.07       0.31 f    mo 
+  sll_10_ML_int_7__107_ (net)     2                  0.00       0.31 f
+  sll_10_M1_7_235/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[235] (net)                 1                   0.00       0.37 f
+  out[235] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[245] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[0] (in)                               0.00      0.00       0.00 f
+  in[0] (net)                    5                   0.00       0.00 f
+  sll_10_U179/ZN (INV_X1)                  0.01      0.03       0.03 r
+  sll_10_n74 (net)               2                   0.00       0.03 r
+  sll_10_U210/ZN (NOR2_X1)                 0.01      0.03       0.06 f
+  sll_10_n88 (net)               3                   0.00       0.06 f
+  sll_10_U261/ZN (NAND2_X1)                0.01      0.03       0.09 r
+  sll_10_n136 (net)              1                   0.00       0.09 r
+  sll_10_U34/ZN (AOI21_X1)                 0.01      0.03       0.12 f
+  sll_10_ML_int_4__5_ (net)      2                   0.00       0.12 f
+  sll_10_U205/Z (MUX2_X2)                  0.01      0.06       0.18 f
+  sll_10_ML_int_5__21_ (net)     2                   0.00       0.18 f
+  sll_10_U186/ZN (NAND2_X1)                0.01      0.03       0.21 r
+  sll_10_n109 (net)              1                   0.00       0.21 r
+  sll_10_U55/ZN (NAND2_X1)                 0.01      0.03       0.24 f
+  sll_10_ML_int_6__53_ (net)     2                   0.00       0.24 f
+  sll_10_M1_6_117/Z (MUX2_X1)              0.01      0.07       0.31 f    mo 
+  sll_10_ML_int_7__117_ (net)     2                  0.00       0.31 f
+  sll_10_M1_7_245/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[245] (net)                 1                   0.00       0.37 f
+  out[245] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[234] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  in[0] (in)                               0.00      0.00       0.00 r
+  in[0] (net)                    5                   0.00       0.00 r
+  sll_10_U374/ZN (INV_X1)                  0.00      0.02       0.02 f
+  sll_10_n294 (net)              1                   0.00       0.02 f
+  sll_10_U287/ZN (NAND2_X1)                0.01      0.02       0.05 r
+  sll_10_n160 (net)              1                   0.00       0.05 r
+  sll_10_U3/ZN (NAND2_X1)                  0.01      0.03       0.08 f
+  sll_10_ML_int_2__2_ (net)      2                   0.00       0.08 f
+  sll_10_U600/ZN (AND2_X1)                 0.01      0.04       0.12 f
+  sll_10_ML_int_3__2_ (net)      3                   0.00       0.12 f
+  sll_10_U202/Z (MUX2_X2)                  0.01      0.07       0.19 f
+  sll_10_ML_int_4__10_ (net)     4                   0.00       0.19 f
+  sll_10_U184/ZN (NAND3_X1)                0.01      0.04       0.22 r
+  sll_10_n130 (net)              1                   0.00       0.22 r
+  sll_10_U45/ZN (NAND2_X1)                 0.01      0.03       0.25 f
+  sll_10_ML_int_6__42_ (net)     2                   0.00       0.25 f
+  sll_10_U189/ZN (NAND2_X1)                0.01      0.03       0.28 r
+  sll_10_n105 (net)              1                   0.00       0.28 r
+  sll_10_U26/ZN (NAND2_X1)                 0.01      0.03       0.31 f
+  sll_10_ML_int_7__106_ (net)     2                  0.00       0.31 f
+  sll_10_U190/Z (MUX2_X1)                  0.01      0.06       0.37 f
+  out[234] (net)                 1                   0.00       0.37 f
+  out[234] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[215] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[0] (in)                               0.00      0.00       0.00 f
+  in[0] (net)                    5                   0.00       0.00 f
+  sll_10_U369/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  sll_10_n162 (net)              1                   0.00       0.04 f
+  sll_10_M1_2_7/Z (MUX2_X2)                0.01      0.05       0.09 f    mo 
+  sll_10_ML_int_3__7_ (net)      4                   0.00       0.09 f
+  sll_10_U110/ZN (AND2_X1)                 0.01      0.04       0.13 f
+  sll_10_n35 (net)               2                   0.00       0.13 f
+  sll_10_M1_4_23/Z (MUX2_X1)               0.01      0.06       0.20 f    mo 
+  sll_10_ML_int_5__23_ (net)     1                   0.00       0.20 f
+  sll_10_U571/ZN (AND2_X1)                 0.01      0.04       0.24 f
+  sll_10_ML_int_6__23_ (net)     2                   0.00       0.24 f
+  sll_10_U165/Z (MUX2_X1)                  0.01      0.07       0.31 f
+  sll_10_n65 (net)               2                   0.00       0.31 f
+  sll_10_M1_7_215/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[215] (net)                 1                   0.00       0.37 f
+  out[215] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[2] (input port)
+  Endpoint: out[233] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  in[2] (in)                               0.00      0.00       0.00 r
+  in[2] (net)                    8                   0.00       0.00 r
+  sll_10_U182/ZN (INV_X1)                  0.00      0.03       0.03 f
+  sll_10_n75 (net)               1                   0.00       0.03 f
+  sll_10_U181/ZN (AND3_X1)                 0.01      0.04       0.07 f
+  sll_10_ML_int_3__1_ (net)      2                   0.00       0.07 f
+  sll_10_U204/Z (MUX2_X2)                  0.01      0.06       0.13 f
+  sll_10_ML_int_4__9_ (net)      2                   0.00       0.13 f
+  sll_10_U585/ZN (AND2_X1)                 0.01      0.04       0.17 f
+  sll_10_ML_int_5__9_ (net)      2                   0.00       0.17 f
+  sll_10_M1_5_41/Z (MUX2_X1)               0.01      0.07       0.24 f    mo 
+  sll_10_ML_int_6__41_ (net)     2                   0.00       0.24 f
+  sll_10_M1_6_105/Z (MUX2_X1)              0.01      0.07       0.31 f    mo 
+  sll_10_ML_int_7__105_ (net)     2                  0.00       0.31 f
+  sll_10_M1_7_233/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[233] (net)                 1                   0.00       0.37 f
+  out[233] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[226] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  in[0] (in)                               0.00      0.00       0.00 r
+  in[0] (net)                    5                   0.00       0.00 r
+  sll_10_U374/ZN (INV_X1)                  0.00      0.02       0.02 f
+  sll_10_n294 (net)              1                   0.00       0.02 f
+  sll_10_U287/ZN (NAND2_X1)                0.01      0.02       0.05 r
+  sll_10_n160 (net)              1                   0.00       0.05 r
+  sll_10_U3/ZN (NAND2_X1)                  0.01      0.03       0.08 f
+  sll_10_ML_int_2__2_ (net)      2                   0.00       0.08 f
+  sll_10_U600/ZN (AND2_X1)                 0.01      0.04       0.12 f
+  sll_10_ML_int_3__2_ (net)      3                   0.00       0.12 f
+  sll_10_U107/ZN (AND3_X1)                 0.01      0.05       0.16 f
+  sll_10_ML_int_5__2_ (net)      3                   0.00       0.16 f
+  sll_10_M1_5_34/Z (MUX2_X1)               0.01      0.07       0.24 f    mo 
+  sll_10_ML_int_6__34_ (net)     2                   0.00       0.24 f
+  sll_10_M1_6_98/Z (MUX2_X1)               0.01      0.07       0.31 f    mo 
+  sll_10_ML_int_7__98_ (net)     2                   0.00       0.31 f
+  sll_10_M1_7_226/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[226] (net)                 1                   0.00       0.37 f
+  out[226] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[170] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  in[0] (in)                               0.00      0.00       0.00 r
+  in[0] (net)                    5                   0.00       0.00 r
+  sll_10_U374/ZN (INV_X1)                  0.00      0.02       0.02 f
+  sll_10_n294 (net)              1                   0.00       0.02 f
+  sll_10_U287/ZN (NAND2_X1)                0.01      0.02       0.05 r
+  sll_10_n160 (net)              1                   0.00       0.05 r
+  sll_10_U3/ZN (NAND2_X1)                  0.01      0.03       0.08 f
+  sll_10_ML_int_2__2_ (net)      2                   0.00       0.08 f
+  sll_10_U600/ZN (AND2_X1)                 0.01      0.04       0.12 f
+  sll_10_ML_int_3__2_ (net)      3                   0.00       0.12 f
+  sll_10_U202/Z (MUX2_X2)                  0.01      0.07       0.19 f
+  sll_10_ML_int_4__10_ (net)     4                   0.00       0.19 f
+  sll_10_U184/ZN (NAND3_X1)                0.01      0.04       0.22 r
+  sll_10_n130 (net)              1                   0.00       0.22 r
+  sll_10_U45/ZN (NAND2_X1)                 0.01      0.03       0.25 f
+  sll_10_ML_int_6__42_ (net)     2                   0.00       0.25 f
+  sll_10_U521/ZN (NAND2_X1)                0.02      0.03       0.29 r
+  sll_10_n318 (net)              2                   0.00       0.29 r
+  sll_10_U307/ZN (INV_X1)                  0.01      0.02       0.31 f
+  sll_10_n259 (net)              1                   0.00       0.31 f
+  sll_10_M1_7_170/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[170] (net)                 1                   0.00       0.37 f
+  out[170] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[231] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[0] (in)                               0.00      0.00       0.00 f
+  in[0] (net)                    5                   0.00       0.00 f
+  sll_10_U369/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  sll_10_n162 (net)              1                   0.00       0.04 f
+  sll_10_M1_2_7/Z (MUX2_X2)                0.01      0.05       0.09 f    mo 
+  sll_10_ML_int_3__7_ (net)      4                   0.00       0.09 f
+  sll_10_U110/ZN (AND2_X1)                 0.01      0.04       0.13 f
+  sll_10_n35 (net)               2                   0.00       0.13 f
+  sll_10_U587/ZN (AND2_X1)                 0.01      0.04       0.17 f
+  sll_10_ML_int_5__7_ (net)      2                   0.00       0.17 f
+  sll_10_M1_5_39/Z (MUX2_X1)               0.01      0.07       0.24 f    mo 
+  sll_10_ML_int_6__39_ (net)     2                   0.00       0.24 f
+  sll_10_U101/Z (MUX2_X2)                  0.01      0.06       0.31 f
+  sll_10_ML_int_7__103_ (net)     2                  0.00       0.31 f
+  sll_10_M1_7_231/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[231] (net)                 1                   0.00       0.37 f
+  out[231] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: in[0] (input port)
+  Endpoint: out[186] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_8bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  in[0] (in)                               0.00      0.00       0.00 r
+  in[0] (net)                    5                   0.00       0.00 r
+  sll_10_U374/ZN (INV_X1)                  0.00      0.02       0.02 f
+  sll_10_n294 (net)              1                   0.00       0.02 f
+  sll_10_U287/ZN (NAND2_X1)                0.01      0.02       0.05 r
+  sll_10_n160 (net)              1                   0.00       0.05 r
+  sll_10_U3/ZN (NAND2_X1)                  0.01      0.03       0.08 f
+  sll_10_ML_int_2__2_ (net)      2                   0.00       0.08 f
+  sll_10_U600/ZN (AND2_X1)                 0.01      0.04       0.12 f
+  sll_10_ML_int_3__2_ (net)      3                   0.00       0.12 f
+  sll_10_U202/Z (MUX2_X2)                  0.01      0.07       0.19 f
+  sll_10_ML_int_4__10_ (net)     4                   0.00       0.19 f
+  sll_10_U259/ZN (NAND2_X1)                0.01      0.03       0.22 r
+  sll_10_n135 (net)              1                   0.00       0.22 r
+  sll_10_U38/ZN (NAND2_X1)                 0.01      0.03       0.25 f
+  sll_10_n114 (net)              2                   0.00       0.25 f
+  sll_10_U185/ZN (OAI211_X1)               0.02      0.03       0.28 r
+  sll_10_n305 (net)              1                   0.00       0.28 r
+  sll_10_U312/ZN (INV_X1)                  0.01      0.02       0.31 f
+  sll_10_n261 (net)              2                   0.00       0.31 f
+  sll_10_M1_7_186/Z (MUX2_X1)              0.01      0.06       0.37 f    mo 
+  out[186] (net)                 1                   0.00       0.37 f
+  out[186] (out)                           0.01      0.00       0.37 f
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+1

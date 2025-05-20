@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : alu_8bit_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:28:33 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           27
+Number of nets:                           418
+Number of cells:                          402
+Number of combinational cells:            399
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                        101
+Number of references:                      26
+
+Combinational area:                370.005997
+Buf/Inv area:                       57.456000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   370.005997
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+alu_8bit_gpt                       370.0060    100.0  370.0060     0.0000  0.0000  alu_8bit_gpt
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 370.0060     0.0000  0.0000
+
+1

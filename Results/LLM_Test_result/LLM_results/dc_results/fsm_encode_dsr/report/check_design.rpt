@@ -1,0 +1,17 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Tue May 13 12:39:05 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               3
+    Cells do not drive (LINT-1)                                     3
+--------------------------------------------------------------------------------
+
+Warning: In design 'fsm_encode_dsr', cell 'B_9' does not drive any nets. (LINT-1)
+Warning: In design 'fsm_encode_dsr', cell 'C231' does not drive any nets. (LINT-1)
+Warning: In design 'fsm_encode_dsr', cell 'C232' does not drive any nets. (LINT-1)
+1

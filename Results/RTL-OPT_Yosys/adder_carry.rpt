@@ -1,0 +1,67 @@
+
+13. Printing statistics.
+
+=== adder_carry ===
+
+   Number of wires:                 53
+   Number of wire bits:             94
+   Number of public wires:           8
+   Number of public wire bits:      49
+   Number of ports:                  5
+   Number of port bits:             26
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 28
+     AOI21_X1                        4
+     INV_X1                         12
+     OAI21_X1                        4
+     partial_full_adder              8
+
+   Area for cell type \partial_full_adder is unknown!
+
+   Chip area for module '\adder_carry': 14.896000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== partial_full_adder ===
+
+   Number of wires:                 13
+   Number of wire bits:             13
+   Number of public wires:           7
+   Number of public wire bits:       7
+   Number of ports:                  6
+   Number of port bits:              6
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     AND2_X1                         1
+     XOR2_X1                         2
+
+   Chip area for module '\partial_full_adder': 4.256000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+   adder_carry                       1
+     partial_full_adder              8
+
+   Number of wires:                157
+   Number of wire bits:            198
+   Number of public wires:          64
+   Number of public wire bits:     105
+   Number of ports:                 53
+   Number of port bits:             74
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 44
+     AND2_X1                         8
+     AOI21_X1                        4
+     INV_X1                         12
+     OAI21_X1                        4
+     XOR2_X1                        16
+
+   Chip area for top module '\adder_carry': 48.944000
+     of which used for sequential elements: 0.000000 (0.00%)
+

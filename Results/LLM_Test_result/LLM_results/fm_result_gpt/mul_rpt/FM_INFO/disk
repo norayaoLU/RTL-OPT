@@ -1,0 +1,10 @@
+Directory = /local/home/coguest10/zha/fm_scripts/mul_rpt
+Total     = 4095 GB
+Available = 678 GB
+Used      = 3417 GB (84%)
+
+Directory = /tmp
+Total     = 50 GB
+Available = 17 GB
+Used      = 33 GB (66%)
+

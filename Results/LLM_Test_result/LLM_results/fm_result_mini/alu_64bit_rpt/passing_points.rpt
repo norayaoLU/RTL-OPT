@@ -1,0 +1,228 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/alu_64bit_ref
+Implementation : i:/WORK/alu_64bit_mini
+Version        : V-2023.12
+Date           : Mon May 12 15:04:52 2025
+**************************************************
+
+64 Passing compare points:
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[0]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[0]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[10]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[10]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[11]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[11]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[12]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[12]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[13]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[13]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[14]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[14]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[15]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[15]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[16]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[16]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[17]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[17]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[18]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[18]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[19]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[19]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[1]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[1]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[20]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[20]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[21]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[21]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[22]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[22]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[23]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[23]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[24]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[24]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[25]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[25]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[26]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[26]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[27]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[27]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[28]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[28]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[29]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[29]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[2]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[2]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[30]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[30]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[31]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[31]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[32]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[32]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[33]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[33]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[34]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[34]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[35]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[35]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[36]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[36]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[37]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[37]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[38]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[38]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[39]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[39]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[3]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[3]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[40]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[40]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[41]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[41]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[42]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[42]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[43]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[43]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[44]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[44]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[45]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[45]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[46]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[46]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[47]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[47]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[48]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[48]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[49]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[49]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[4]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[4]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[50]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[50]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[51]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[51]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[52]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[52]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[53]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[53]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[54]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[54]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[55]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[55]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[56]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[56]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[57]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[57]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[58]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[58]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[59]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[59]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[5]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[5]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[60]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[60]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[61]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[61]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[62]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[62]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[63]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[63]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[6]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[6]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[7]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[7]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[8]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[8]
+
+  Ref  Port       r:/WORK/alu_64bit_ref/sum[9]
+  Impl Port       i:/WORK/alu_64bit_mini/sum[9]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

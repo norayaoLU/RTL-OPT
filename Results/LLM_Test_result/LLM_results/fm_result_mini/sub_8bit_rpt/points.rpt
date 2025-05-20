@@ -1,0 +1,82 @@
+Found 8 Unmatched Cone Inputs
+--------------------------------
+Unmatched cone inputs result either from mismatched compare points
+or from differences in the logic within the cones. Only unmatched
+inputs that are suspected of contributing to verification failures
+are included in the report.
+The source of the matching or logical differences may be determined
+using the schematic, cone and source views.
+--------------------------------
+r:/WORK/sub_8bit_ref/b[0]
+    Matched with port i:/WORK/sub_8bit_mini/b[0]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[0]
+
+-----------
+r:/WORK/sub_8bit_ref/b[1]
+    Matched with port i:/WORK/sub_8bit_mini/b[1]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[1]
+
+-----------
+r:/WORK/sub_8bit_ref/b[2]
+    Matched with port i:/WORK/sub_8bit_mini/b[2]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[2]
+
+-----------
+r:/WORK/sub_8bit_ref/b[3]
+    Matched with port i:/WORK/sub_8bit_mini/b[3]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[3]
+
+-----------
+r:/WORK/sub_8bit_ref/b[4]
+    Matched with port i:/WORK/sub_8bit_mini/b[4]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[4]
+
+-----------
+r:/WORK/sub_8bit_ref/b[5]
+    Matched with port i:/WORK/sub_8bit_mini/b[5]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[5]
+
+-----------
+r:/WORK/sub_8bit_ref/b[6]
+    Matched with port i:/WORK/sub_8bit_mini/b[6]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[6]
+
+-----------
+r:/WORK/sub_8bit_ref/b[7]
+    Matched with port i:/WORK/sub_8bit_mini/b[7]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[7]
+
+-----------
+--------------------------------
+Found 2 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/sub_8bit_mini/a[2]
+    Fans out to 7 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[2]
+
+-----------
+i:/WORK/sub_8bit_mini/b[2]
+    Fans out to 6 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/sub_8bit_mini/diff[3]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

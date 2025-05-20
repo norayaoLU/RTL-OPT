@@ -1,0 +1,62 @@
+Loading db file '/temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : fsm_encode_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:30:03 2025
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fsm_encode_gpt         5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   2.9227 mW   (79%)
+  Net Switching Power  = 764.1999 uW   (21%)
+                         ---------
+Total Dynamic Power    =   3.6869 mW  (100%)
+
+Cell Leakage Power     =  11.1924 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  2.1260e+03            0.0000            0.0000            0.0000  (   0.00%)  i
+register         240.8081          103.5729        2.7051e+03        2.4731e+03  (  66.88%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    555.8668          660.6273        8.4873e+03        1.2250e+03  (  33.12%)
+--------------------------------------------------------------------------------------------------
+Total          2.9227e+03 uW       764.2002 uW     1.1192e+04 nW     3.6981e+03 uW
+1

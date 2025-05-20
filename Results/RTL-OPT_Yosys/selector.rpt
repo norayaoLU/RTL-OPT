@@ -1,0 +1,28 @@
+
+13. Printing statistics.
+
+=== selector ===
+
+   Number of wires:                 42
+   Number of wire bits:            460
+   Number of public wires:           4
+   Number of public wire bits:      19
+   Number of ports:                  3
+   Number of port bits:             12
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 17
+     AOI21_X1                        1
+     BUF_X1                          1
+     DFF_X1                          7
+     INV_X1                          1
+     NAND2_X1                        1
+     NOR2_X1                         1
+     OAI21_X1                        2
+     XNOR2_X1                        2
+     XOR2_X1                         1
+
+   Chip area for module '\selector': 42.560000
+     of which used for sequential elements: 31.654000 (74.38%)
+

@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : fsm_encode_ds
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:06:21 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           20
+Number of nets:                           409
+Number of cells:                          372
+Number of combinational cells:            341
+Number of sequential cells:                28
+Number of macros/black boxes:               0
+Number of buf/inv:                        119
+Number of references:                      25
+
+Combinational area:                317.869999
+Buf/Inv area:                       69.426000
+Noncombinational area:             148.960005
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   466.830003
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+fsm_encode_ds                      466.8300    100.0  317.8700   148.9600  0.0000  fsm_encode_ds
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 317.8700   148.9600  0.0000
+
+1

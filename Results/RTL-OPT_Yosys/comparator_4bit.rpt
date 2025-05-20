@@ -1,0 +1,30 @@
+
+13. Printing statistics.
+
+=== comparator_4bit ===
+
+   Number of wires:                 83
+   Number of wire bits:             89
+   Number of public wires:           5
+   Number of public wire bits:      11
+   Number of ports:                  5
+   Number of port bits:             11
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 22
+     AOI21_X1                        1
+     AOI22_X1                        2
+     INV_X1                          6
+     NAND2_X1                        3
+     NAND3_X1                        2
+     NAND4_X1                        1
+     NOR2_X1                         3
+     OAI221_X1                       1
+     OAI222_X1                       1
+     OR2_X1                          1
+     XNOR2_X1                        1
+
+   Chip area for module '\comparator_4bit': 21.546000
+     of which used for sequential elements: 0.000000 (0.00%)
+

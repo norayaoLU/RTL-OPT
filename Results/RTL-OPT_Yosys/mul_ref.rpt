@@ -1,0 +1,42 @@
+
+13. Printing statistics.
+
+=== mul_ref ===
+
+   Number of wires:                494
+   Number of wire bits:           1257
+   Number of public wires:           6
+   Number of public wire bits:      49
+   Number of ports:                  4
+   Number of port bits:             25
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                397
+     AND2_X1                        17
+     AND3_X1                        23
+     AND4_X1                        11
+     AOI211_X1                       3
+     AOI21_X1                       37
+     AOI22_X1                       15
+     DFF_X1                          8
+     INV_X1                         26
+     NAND2_X1                       34
+     NAND3_X1                       18
+     NAND4_X1                        6
+     NOR2_X1                        36
+     NOR3_X1                         9
+     NOR4_X1                         1
+     OAI211_X1                       1
+     OAI21_X1                       51
+     OAI221_X1                       2
+     OAI22_X1                        3
+     OR2_X1                         12
+     OR3_X1                         25
+     OR4_X1                          1
+     XNOR2_X1                       25
+     XOR2_X1                        33
+
+   Chip area for module '\mul_ref': 476.406000
+     of which used for sequential elements: 36.176000 (7.59%)
+

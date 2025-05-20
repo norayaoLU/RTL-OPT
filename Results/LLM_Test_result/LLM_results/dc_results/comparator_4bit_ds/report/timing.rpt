@@ -1,0 +1,144 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : comparator_4bit_ds
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:05:01 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: A[0] (input port)
+  Endpoint: gt (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  comparator_4bit_ds 5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  A[0] (in)                                0.00      0.00       0.00 r
+  A[0] (net)                     3                   0.00       0.00 r
+  U39/ZN (INV_X1)                          0.00      0.02       0.02 f
+  n29 (net)                      1                   0.00       0.02 f
+  U40/ZN (AOI211_X1)                       0.04      0.07       0.10 r
+  n31 (net)                      1                   0.00       0.10 r
+  U25/ZN (NOR2_X1)                         0.01      0.02       0.12 f
+  n36 (net)                      1                   0.00       0.12 f
+  U43/ZN (OAI221_X1)                       0.03      0.03       0.15 r
+  gt (net)                       1                   0.00       0.15 r
+  gt (out)                                 0.03      0.00       0.16 r
+  data arrival time                                             0.16
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.16
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.06
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: lt (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  comparator_4bit_ds 5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  B[0] (in)                                0.00      0.00       0.00 r
+  B[0] (net)                     3                   0.00       0.00 r
+  U32/ZN (INV_X1)                          0.00      0.02       0.02 f
+  n21 (net)                      1                   0.00       0.02 f
+  U33/ZN (AOI211_X1)                       0.04      0.07       0.10 r
+  n22 (net)                      1                   0.00       0.10 r
+  U23/ZN (NOR2_X1)                         0.01      0.02       0.12 f
+  n27 (net)                      1                   0.00       0.12 f
+  U38/ZN (OAI221_X1)                       0.03      0.03       0.15 r
+  lt (net)                       1                   0.00       0.15 r
+  lt (out)                                 0.03      0.00       0.16 r
+  data arrival time                                             0.16
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.16
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.06
+
+
+  Startpoint: B[3] (input port)
+  Endpoint: eq (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  comparator_4bit_ds 5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  B[3] (in)                                0.00      0.00       0.00 r
+  B[3] (net)                     4                   0.00       0.00 r
+  U28/ZN (XNOR2_X1)                        0.02      0.06       0.06 r
+  n23 (net)                      1                   0.00       0.06 r
+  U36/ZN (NAND2_X1)                        0.01      0.04       0.10 f
+  n38 (net)                      3                   0.00       0.10 f
+  U46/ZN (NOR3_X1)                         0.02      0.04       0.14 r
+  eq (net)                       1                   0.00       0.14 r
+  eq (out)                                 0.02      0.00       0.14 r
+  data arrival time                                             0.14
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.14
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.04
+
+
+1

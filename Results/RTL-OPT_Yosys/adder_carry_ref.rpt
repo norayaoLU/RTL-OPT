@@ -1,0 +1,60 @@
+
+13. Printing statistics.
+
+=== adder_carry_ref ===
+
+   Number of wires:                  6
+   Number of wire bits:             33
+   Number of public wires:           6
+   Number of public wire bits:      33
+   Number of ports:                  5
+   Number of port bits:             26
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     full_adder                      8
+
+   Area for cell type \full_adder is unknown!
+
+=== full_adder ===
+
+   Number of wires:                 18
+   Number of wire bits:             18
+   Number of public wires:           5
+   Number of public wire bits:       5
+   Number of ports:                  5
+   Number of port bits:              5
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  5
+     NAND2_X1                        2
+     OAI21_X1                        1
+     XNOR2_X1                        2
+
+   Chip area for module '\full_adder': 5.852000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+   adder_carry_ref                   1
+     full_adder                      8
+
+   Number of wires:                150
+   Number of wire bits:            177
+   Number of public wires:          46
+   Number of public wire bits:      73
+   Number of ports:                 45
+   Number of port bits:             66
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 40
+     NAND2_X1                       16
+     OAI21_X1                        8
+     XNOR2_X1                       16
+
+   Chip area for top module '\adder_carry_ref': 46.816000
+     of which used for sequential elements: 0.000000 (0.00%)
+

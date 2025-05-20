@@ -1,0 +1,52 @@
+Found 5 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/divider_8bit_ds/A[7]
+    Fans out to 5 failing and 11 passing points and has
+    logic value '1' for 3 compare point(s):
+        i:/WORK/divider_8bit_ds/result[0]
+        i:/WORK/divider_8bit_ds/result[6]
+        i:/WORK/divider_8bit_ds/result[7]
+
+-----------
+i:/WORK/divider_8bit_ds/B[1]
+    Fans out to 5 failing and 11 passing points and has
+    logic value '0' for 3 compare point(s):
+        i:/WORK/divider_8bit_ds/result[0]
+        i:/WORK/divider_8bit_ds/result[4]
+        i:/WORK/divider_8bit_ds/result[7]
+
+-----------
+i:/WORK/divider_8bit_ds/B[2]
+    Fans out to 5 failing and 11 passing points and has
+    logic value '0' for 3 compare point(s):
+        i:/WORK/divider_8bit_ds/result[0]
+        i:/WORK/divider_8bit_ds/result[6]
+        i:/WORK/divider_8bit_ds/result[7]
+
+-----------
+i:/WORK/divider_8bit_ds/B[3]
+    Fans out to 5 failing and 11 passing points and has
+    logic value '0' for 4 compare point(s):
+        i:/WORK/divider_8bit_ds/result[0]
+        i:/WORK/divider_8bit_ds/result[5]
+        i:/WORK/divider_8bit_ds/result[6]
+        i:/WORK/divider_8bit_ds/result[7]
+
+-----------
+i:/WORK/divider_8bit_ds/A[5]
+    Fans out to 5 failing and 11 passing points and has
+    logic value '0' for 2 compare point(s):
+        i:/WORK/divider_8bit_ds/result[6]
+        i:/WORK/divider_8bit_ds/result[7]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

@@ -1,0 +1,13 @@
+read -sv /XXX/example4_opt.v
+hierarchy -top example4_opt
+
+proc; fsm; opt; memory; opt
+
+techmap; opt
+
+dfflibmap -liberty nangate45.lib
+abc -liberty nangate45.lib    
+
+tee -o example4_opt.rpt stat -top example4_opt -liberty nangate45.lib
+
+clean

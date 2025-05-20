@@ -1,0 +1,804 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/decoder_8bit_ref
+Implementation : i:/WORK/decoder_8bit_dsr
+Version        : V-2023.12
+Date           : Tue May 13 14:57:45 2025
+**************************************************
+
+256 Passing compare points:
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[0]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[0]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[100]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[100]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[101]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[101]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[102]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[102]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[103]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[103]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[104]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[104]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[105]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[105]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[106]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[106]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[107]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[107]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[108]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[108]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[109]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[109]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[10]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[10]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[110]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[110]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[111]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[111]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[112]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[112]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[113]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[113]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[114]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[114]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[115]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[115]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[116]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[116]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[117]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[117]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[118]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[118]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[119]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[119]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[11]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[11]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[120]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[120]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[121]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[121]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[122]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[122]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[123]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[123]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[124]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[124]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[125]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[125]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[126]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[126]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[127]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[127]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[128]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[128]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[129]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[129]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[12]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[12]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[130]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[130]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[131]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[131]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[132]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[132]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[133]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[133]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[134]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[134]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[135]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[135]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[136]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[136]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[137]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[137]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[138]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[138]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[139]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[139]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[13]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[13]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[140]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[140]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[141]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[141]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[142]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[142]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[143]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[143]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[144]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[144]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[145]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[145]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[146]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[146]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[147]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[147]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[148]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[148]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[149]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[149]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[14]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[14]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[150]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[150]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[151]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[151]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[152]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[152]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[153]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[153]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[154]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[154]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[155]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[155]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[156]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[156]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[157]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[157]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[158]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[158]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[159]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[159]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[15]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[15]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[160]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[160]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[161]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[161]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[162]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[162]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[163]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[163]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[164]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[164]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[165]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[165]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[166]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[166]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[167]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[167]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[168]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[168]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[169]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[169]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[16]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[16]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[170]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[170]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[171]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[171]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[172]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[172]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[173]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[173]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[174]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[174]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[175]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[175]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[176]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[176]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[177]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[177]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[178]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[178]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[179]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[179]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[17]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[17]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[180]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[180]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[181]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[181]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[182]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[182]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[183]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[183]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[184]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[184]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[185]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[185]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[186]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[186]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[187]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[187]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[188]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[188]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[189]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[189]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[18]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[18]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[190]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[190]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[191]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[191]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[192]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[192]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[193]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[193]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[194]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[194]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[195]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[195]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[196]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[196]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[197]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[197]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[198]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[198]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[199]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[199]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[19]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[19]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[1]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[1]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[200]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[200]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[201]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[201]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[202]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[202]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[203]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[203]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[204]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[204]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[205]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[205]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[206]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[206]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[207]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[207]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[208]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[208]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[209]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[209]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[20]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[20]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[210]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[210]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[211]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[211]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[212]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[212]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[213]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[213]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[214]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[214]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[215]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[215]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[216]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[216]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[217]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[217]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[218]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[218]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[219]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[219]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[21]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[21]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[220]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[220]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[221]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[221]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[222]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[222]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[223]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[223]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[224]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[224]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[225]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[225]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[226]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[226]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[227]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[227]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[228]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[228]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[229]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[229]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[22]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[22]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[230]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[230]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[231]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[231]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[232]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[232]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[233]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[233]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[234]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[234]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[235]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[235]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[236]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[236]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[237]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[237]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[238]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[238]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[239]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[239]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[23]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[23]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[240]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[240]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[241]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[241]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[242]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[242]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[243]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[243]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[244]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[244]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[245]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[245]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[246]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[246]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[247]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[247]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[248]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[248]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[249]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[249]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[24]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[24]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[250]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[250]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[251]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[251]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[252]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[252]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[253]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[253]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[254]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[254]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[255]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[255]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[25]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[25]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[26]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[26]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[27]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[27]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[28]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[28]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[29]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[29]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[2]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[2]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[30]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[30]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[31]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[31]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[32]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[32]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[33]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[33]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[34]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[34]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[35]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[35]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[36]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[36]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[37]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[37]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[38]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[38]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[39]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[39]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[3]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[3]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[40]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[40]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[41]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[41]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[42]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[42]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[43]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[43]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[44]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[44]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[45]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[45]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[46]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[46]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[47]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[47]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[48]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[48]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[49]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[49]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[4]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[4]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[50]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[50]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[51]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[51]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[52]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[52]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[53]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[53]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[54]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[54]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[55]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[55]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[56]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[56]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[57]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[57]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[58]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[58]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[59]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[59]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[5]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[5]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[60]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[60]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[61]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[61]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[62]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[62]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[63]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[63]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[64]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[64]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[65]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[65]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[66]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[66]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[67]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[67]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[68]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[68]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[69]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[69]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[6]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[6]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[70]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[70]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[71]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[71]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[72]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[72]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[73]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[73]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[74]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[74]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[75]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[75]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[76]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[76]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[77]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[77]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[78]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[78]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[79]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[79]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[7]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[7]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[80]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[80]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[81]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[81]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[82]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[82]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[83]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[83]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[84]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[84]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[85]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[85]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[86]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[86]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[87]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[87]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[88]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[88]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[89]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[89]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[8]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[8]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[90]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[90]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[91]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[91]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[92]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[92]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[93]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[93]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[94]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[94]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[95]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[95]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[96]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[96]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[97]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[97]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[98]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[98]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[99]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[99]
+
+  Ref  Port       r:/WORK/decoder_8bit_ref/out[9]
+  Impl Port       i:/WORK/decoder_8bit_dsr/out[9]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

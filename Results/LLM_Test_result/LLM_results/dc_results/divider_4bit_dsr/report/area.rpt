@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : divider_4bit_dsr
+Version: T-2022.03-SP2
+Date   : Tue May 13 12:38:54 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           14
+Number of nets:                            91
+Number of cells:                           85
+Number of combinational cells:             85
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         22
+Number of references:                      17
+
+Combinational area:                 84.854000
+Buf/Inv area:                       13.034000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    84.854000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+divider_4bit_dsr                    84.8540    100.0   84.8540     0.0000  0.0000  divider_4bit_dsr
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  84.8540     0.0000  0.0000
+
+1

@@ -1,0 +1,190 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : comparator_16bit_ds
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:05:10 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: B[0] (input port)
+  Endpoint: gt (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  comparator_16bit_ds 5K_hvratio_1_1       NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  B[0] (in)                                0.00      0.00       0.00 r
+  B[0] (net)                     4                   0.00       0.00 r
+  sub_9_U27/ZN (INV_X1)                    0.00      0.02       0.02 f
+  sub_9_n18 (net)                1                   0.00       0.02 f
+  sub_9_U125/ZN (NAND2_X1)                 0.01      0.02       0.05 r
+  sub_9_n249 (net)               1                   0.00       0.05 r
+  sub_9_U90/ZN (NAND2_X1)                  0.01      0.03       0.08 f
+  sub_9_n245 (net)               2                   0.00       0.08 f
+  sub_9_U89/ZN (NAND4_X1)                  0.02      0.04       0.11 r
+  sub_9_n79 (net)                3                   0.00       0.11 r
+  sub_9_U34/ZN (AND4_X1)                   0.01      0.07       0.18 r
+  sub_9_n25 (net)                1                   0.00       0.18 r
+  sub_9_U30/ZN (OR2_X1)                    0.01      0.03       0.21 r
+  sub_9_n21 (net)                1                   0.00       0.21 r
+  sub_9_U31/ZN (NAND2_X1)                  0.01      0.03       0.24 f
+  sub_9_n77 (net)                1                   0.00       0.24 f
+  sub_9_U218/ZN (XNOR2_X1)                 0.01      0.05       0.29 f
+  diff_8_ (net)                  1                   0.00       0.29 f
+  U12/ZN (OR3_X2)                          0.01      0.09       0.38 f
+  n10 (net)                      1                   0.00       0.38 f
+  U16/ZN (NOR4_X1)                         0.04      0.05       0.43 r
+  n11 (net)                      1                   0.00       0.43 r
+  U10/ZN (AND3_X1)                         0.01      0.06       0.49 r
+  eq (net)                       2                   0.00       0.49 r
+  U17/ZN (NOR2_X1)                         0.00      0.02       0.51 f
+  gt (net)                       1                   0.00       0.51 f
+  gt (out)                                 0.00      0.00       0.51 f
+  data arrival time                                             0.51
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.51
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.41
+
+
+  Startpoint: B[0] (input port)
+  Endpoint: eq (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  comparator_16bit_ds 5K_hvratio_1_1       NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  B[0] (in)                                0.00      0.00       0.00 r
+  B[0] (net)                     4                   0.00       0.00 r
+  sub_9_U27/ZN (INV_X1)                    0.00      0.02       0.02 f
+  sub_9_n18 (net)                1                   0.00       0.02 f
+  sub_9_U125/ZN (NAND2_X1)                 0.01      0.02       0.05 r
+  sub_9_n249 (net)               1                   0.00       0.05 r
+  sub_9_U90/ZN (NAND2_X1)                  0.01      0.03       0.08 f
+  sub_9_n245 (net)               2                   0.00       0.08 f
+  sub_9_U89/ZN (NAND4_X1)                  0.02      0.04       0.11 r
+  sub_9_n79 (net)                3                   0.00       0.11 r
+  sub_9_U34/ZN (AND4_X1)                   0.01      0.07       0.18 r
+  sub_9_n25 (net)                1                   0.00       0.18 r
+  sub_9_U30/ZN (OR2_X1)                    0.01      0.03       0.21 r
+  sub_9_n21 (net)                1                   0.00       0.21 r
+  sub_9_U31/ZN (NAND2_X1)                  0.01      0.03       0.24 f
+  sub_9_n77 (net)                1                   0.00       0.24 f
+  sub_9_U218/ZN (XNOR2_X1)                 0.01      0.05       0.29 f
+  diff_8_ (net)                  1                   0.00       0.29 f
+  U12/ZN (OR3_X2)                          0.01      0.09       0.38 f
+  n10 (net)                      1                   0.00       0.38 f
+  U16/ZN (NOR4_X1)                         0.04      0.05       0.43 r
+  n11 (net)                      1                   0.00       0.43 r
+  U10/ZN (AND3_X1)                         0.01      0.06       0.49 r
+  eq (net)                       2                   0.00       0.49 r
+  eq (out)                                 0.01      0.00       0.49 r
+  data arrival time                                             0.49
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.49
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.39
+
+
+  Startpoint: A[2] (input port)
+  Endpoint: lt (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  comparator_16bit_ds 5K_hvratio_1_1       NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  A[2] (in)                                0.00      0.00       0.00 r
+  A[2] (net)                     3                   0.00       0.00 r
+  sub_9_U165/ZN (INV_X1)                   0.00      0.02       0.02 f
+  sub_9_n54 (net)                1                   0.00       0.02 f
+  sub_9_U195/ZN (NAND2_X1)                 0.01      0.02       0.04 r
+  sub_9_n118 (net)               1                   0.00       0.04 r
+  sub_9_U3/ZN (NAND3_X1)                   0.01      0.04       0.08 f
+  sub_9_n240 (net)               2                   0.00       0.08 f
+  sub_9_U225/ZN (NOR2_X1)                  0.03      0.05       0.13 r
+  sub_9_n171 (net)               2                   0.00       0.13 r
+  sub_9_U226/ZN (NOR2_X1)                  0.01      0.03       0.16 f
+  sub_9_n169 (net)               1                   0.00       0.16 f
+  sub_9_U258/ZN (NAND3_X1)                 0.01      0.03       0.18 r
+  sub_9_n158 (net)               1                   0.00       0.18 r
+  sub_9_U257/ZN (NAND2_X1)                 0.01      0.03       0.21 f
+  sub_9_n162 (net)               3                   0.00       0.21 f
+  sub_9_U47/ZN (OR2_X1)                    0.01      0.06       0.27 f
+  sub_9_n131 (net)               1                   0.00       0.27 f
+  sub_9_U241/ZN (NAND3_X1)                 0.01      0.03       0.30 r
+  sub_9_n129 (net)               1                   0.00       0.30 r
+  sub_9_U240/ZN (XNOR2_X1)                 0.03      0.06       0.36 r
+  n15 (net)                      2                   0.00       0.36 r
+  U8/Z (CLKBUF_X1)                         0.01      0.05       0.40 r
+  lt (net)                       2                   0.00       0.40 r
+  lt (out)                                 0.01      0.00       0.41 r
+  data arrival time                                             0.41
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.41
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.31
+
+
+1

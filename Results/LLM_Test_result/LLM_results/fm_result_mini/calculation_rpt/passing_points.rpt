@@ -1,0 +1,180 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/calculation_ref
+Implementation : i:/WORK/calculation_mini
+Version        : V-2023.12
+Date           : Mon May 12 15:05:28 2025
+**************************************************
+
+48 Passing compare points:
+
+  Ref  Port       r:/WORK/calculation_ref/s1[0]
+  Impl Port       i:/WORK/calculation_mini/s1[0]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[1]
+  Impl Port       i:/WORK/calculation_mini/s1[1]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[2]
+  Impl Port       i:/WORK/calculation_mini/s1[2]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[3]
+  Impl Port       i:/WORK/calculation_mini/s1[3]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[4]
+  Impl Port       i:/WORK/calculation_mini/s1[4]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[5]
+  Impl Port       i:/WORK/calculation_mini/s1[5]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[6]
+  Impl Port       i:/WORK/calculation_mini/s1[6]
+
+  Ref  Port       r:/WORK/calculation_ref/s1[7]
+  Impl Port       i:/WORK/calculation_mini/s1[7]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[0]
+  Impl Port       i:/WORK/calculation_mini/s2[0]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[1]
+  Impl Port       i:/WORK/calculation_mini/s2[1]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[2]
+  Impl Port       i:/WORK/calculation_mini/s2[2]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[3]
+  Impl Port       i:/WORK/calculation_mini/s2[3]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[4]
+  Impl Port       i:/WORK/calculation_mini/s2[4]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[5]
+  Impl Port       i:/WORK/calculation_mini/s2[5]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[6]
+  Impl Port       i:/WORK/calculation_mini/s2[6]
+
+  Ref  Port       r:/WORK/calculation_ref/s2[7]
+  Impl Port       i:/WORK/calculation_mini/s2[7]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[0]
+  Impl Port       i:/WORK/calculation_mini/s3[0]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[1]
+  Impl Port       i:/WORK/calculation_mini/s3[1]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[2]
+  Impl Port       i:/WORK/calculation_mini/s3[2]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[3]
+  Impl Port       i:/WORK/calculation_mini/s3[3]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[4]
+  Impl Port       i:/WORK/calculation_mini/s3[4]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[5]
+  Impl Port       i:/WORK/calculation_mini/s3[5]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[6]
+  Impl Port       i:/WORK/calculation_mini/s3[6]
+
+  Ref  Port       r:/WORK/calculation_ref/s3[7]
+  Impl Port       i:/WORK/calculation_mini/s3[7]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[0]
+  Impl Port       i:/WORK/calculation_mini/s4[0]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[1]
+  Impl Port       i:/WORK/calculation_mini/s4[1]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[2]
+  Impl Port       i:/WORK/calculation_mini/s4[2]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[3]
+  Impl Port       i:/WORK/calculation_mini/s4[3]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[4]
+  Impl Port       i:/WORK/calculation_mini/s4[4]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[5]
+  Impl Port       i:/WORK/calculation_mini/s4[5]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[6]
+  Impl Port       i:/WORK/calculation_mini/s4[6]
+
+  Ref  Port       r:/WORK/calculation_ref/s4[7]
+  Impl Port       i:/WORK/calculation_mini/s4[7]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[0]
+  Impl Port       i:/WORK/calculation_mini/s5[0]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[1]
+  Impl Port       i:/WORK/calculation_mini/s5[1]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[2]
+  Impl Port       i:/WORK/calculation_mini/s5[2]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[3]
+  Impl Port       i:/WORK/calculation_mini/s5[3]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[4]
+  Impl Port       i:/WORK/calculation_mini/s5[4]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[5]
+  Impl Port       i:/WORK/calculation_mini/s5[5]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[6]
+  Impl Port       i:/WORK/calculation_mini/s5[6]
+
+  Ref  Port       r:/WORK/calculation_ref/s5[7]
+  Impl Port       i:/WORK/calculation_mini/s5[7]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[0]
+  Impl Port       i:/WORK/calculation_mini/s6[0]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[1]
+  Impl Port       i:/WORK/calculation_mini/s6[1]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[2]
+  Impl Port       i:/WORK/calculation_mini/s6[2]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[3]
+  Impl Port       i:/WORK/calculation_mini/s6[3]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[4]
+  Impl Port       i:/WORK/calculation_mini/s6[4]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[5]
+  Impl Port       i:/WORK/calculation_mini/s6[5]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[6]
+  Impl Port       i:/WORK/calculation_mini/s6[6]
+
+  Ref  Port       r:/WORK/calculation_ref/s6[7]
+  Impl Port       i:/WORK/calculation_mini/s6[7]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

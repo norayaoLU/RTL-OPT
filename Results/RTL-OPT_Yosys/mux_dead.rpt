@@ -1,0 +1,82 @@
+
+13. Printing statistics.
+
+=== and_bitwise ===
+
+   Number of wires:                 27
+   Number of wire bits:             48
+   Number of public wires:           3
+   Number of public wire bits:      24
+   Number of ports:                  3
+   Number of port bits:             24
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     AND2_X1                         8
+
+   Chip area for module '\and_bitwise': 8.512000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== mux_dead ===
+
+   Number of wires:                 32
+   Number of wire bits:             67
+   Number of public wires:           7
+   Number of public wire bits:      42
+   Number of ports:                  5
+   Number of port bits:             26
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 10
+     MUX2_X1                         8
+     and_bitwise                     1
+     or_bitwise                      1
+
+   Area for cell type \and_bitwise is unknown!
+   Area for cell type \or_bitwise is unknown!
+
+   Chip area for module '\mux_dead': 14.896000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== or_bitwise ===
+
+   Number of wires:                 27
+   Number of wire bits:             48
+   Number of public wires:           3
+   Number of public wire bits:      24
+   Number of ports:                  3
+   Number of port bits:             24
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  8
+     OR2_X1                          8
+
+   Chip area for module '\or_bitwise': 8.512000
+     of which used for sequential elements: 0.000000 (0.00%)
+
+=== design hierarchy ===
+
+   mux_dead                          1
+     and_bitwise                     1
+     or_bitwise                      1
+
+   Number of wires:                 86
+   Number of wire bits:            163
+   Number of public wires:          13
+   Number of public wire bits:      90
+   Number of ports:                 11
+   Number of port bits:             74
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 24
+     AND2_X1                         8
+     MUX2_X1                         8
+     OR2_X1                          8
+
+   Chip area for top module '\mux_dead': 31.920000
+     of which used for sequential elements: 0.000000 (0.00%)
+

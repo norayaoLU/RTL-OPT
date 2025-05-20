@@ -1,0 +1,29 @@
+Found 2 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/calculation_gpt/d[1]
+    Fans out to 7 failing and 14 passing points and has
+    logic value '0' for 4 compare point(s):
+        i:/WORK/calculation_gpt/s6[1]
+        i:/WORK/calculation_gpt/s6[2]
+        i:/WORK/calculation_gpt/s6[3]
+        i:/WORK/calculation_gpt/s6[4]
+
+-----------
+i:/WORK/calculation_gpt/c[1]
+    Fans out to 7 failing and 7 passing points and has
+    logic value '0' for 3 compare point(s):
+        i:/WORK/calculation_gpt/s6[2]
+        i:/WORK/calculation_gpt/s6[3]
+        i:/WORK/calculation_gpt/s6[4]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

@@ -1,0 +1,84 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/mul_subexpression_ref
+Implementation : i:/WORK/mul_subexpression_mini
+Version        : V-2023.12
+Date           : Mon May 12 15:05:48 2025
+**************************************************
+
+16 Passing compare points:
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[0]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[0]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[10]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[10]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[11]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[11]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[12]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[12]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[13]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[13]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[14]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[14]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[15]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[15]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[1]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[1]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[2]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[2]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[3]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[3]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[4]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[4]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[5]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[5]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[6]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[6]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[7]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[7]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[8]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[8]
+
+  Ref  Port       r:/WORK/mul_subexpression_ref/product[9]
+  Impl Port       i:/WORK/mul_subexpression_mini/product[9]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

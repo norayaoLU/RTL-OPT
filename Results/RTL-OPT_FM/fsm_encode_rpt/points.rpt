@@ -1,0 +1,193 @@
+Found 5 Unmatched Cone Inputs
+--------------------------------
+Unmatched cone inputs result either from mismatched compare points
+or from differences in the logic within the cones. Only unmatched
+inputs that are suspected of contributing to verification failures
+are included in the report.
+The source of the matching or logical differences may be determined
+using the schematic, cone and source views.
+--------------------------------
+r:/WORK/fsm_encode_ref/current_state_reg[3]
+    Is globally unmatched affecting 1 compare point(s):
+        i:/WORK/fsm_encode/out_reg_reg[6]
+
+-----------
+r:/WORK/fsm_encode_ref/current_state_reg[4]
+    Is globally unmatched affecting 1 compare point(s):
+        i:/WORK/fsm_encode/out_reg_reg[6]
+
+-----------
+r:/WORK/fsm_encode_ref/current_state_reg[5]
+    Is globally unmatched affecting 1 compare point(s):
+        i:/WORK/fsm_encode/out_reg_reg[6]
+
+-----------
+r:/WORK/fsm_encode_ref/current_state_reg[6]
+    Is globally unmatched affecting 1 compare point(s):
+        i:/WORK/fsm_encode/out_reg_reg[6]
+
+-----------
+r:/WORK/fsm_encode_ref/current_state_reg[7]
+    Is globally unmatched affecting 1 compare point(s):
+        i:/WORK/fsm_encode/out_reg_reg[6]
+
+-----------
+--------------------------------
+Found 3 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/fsm_encode/clk
+    Fans out to 20 failing and 0 passing points and has
+    logic value '1' for 19 compare point(s):
+        i:/WORK/fsm_encode/current_state_reg[1]
+        i:/WORK/fsm_encode/current_state_reg[2]
+        i:/WORK/fsm_encode/done_reg
+        i:/WORK/fsm_encode/out_reg_reg[0]
+        i:/WORK/fsm_encode/out_reg_reg[1]
+        i:/WORK/fsm_encode/out_reg_reg[2]
+        i:/WORK/fsm_encode/out_reg_reg[3]
+        i:/WORK/fsm_encode/out_reg_reg[4]
+        i:/WORK/fsm_encode/out_reg_reg[5]
+        i:/WORK/fsm_encode/out_reg_reg[6]
+        i:/WORK/fsm_encode/out_reg_reg[7]
+        i:/WORK/fsm_encode/reg1_reg[0]
+        i:/WORK/fsm_encode/reg1_reg[1]
+        i:/WORK/fsm_encode/reg1_reg[2]
+        i:/WORK/fsm_encode/reg1_reg[3]
+        i:/WORK/fsm_encode/reg1_reg[4]
+        i:/WORK/fsm_encode/reg1_reg[5]
+        i:/WORK/fsm_encode/reg1_reg[6]
+        i:/WORK/fsm_encode/reg1_reg[7]
+
+-----------
+i:/WORK/fsm_encode/rst_n
+    Fans out to 20 failing and 0 passing points and has
+    logic value '1' for 19 compare point(s):
+        i:/WORK/fsm_encode/current_state_reg[1]
+        i:/WORK/fsm_encode/current_state_reg[2]
+        i:/WORK/fsm_encode/done_reg
+        i:/WORK/fsm_encode/out_reg_reg[0]
+        i:/WORK/fsm_encode/out_reg_reg[1]
+        i:/WORK/fsm_encode/out_reg_reg[2]
+        i:/WORK/fsm_encode/out_reg_reg[3]
+        i:/WORK/fsm_encode/out_reg_reg[4]
+        i:/WORK/fsm_encode/out_reg_reg[5]
+        i:/WORK/fsm_encode/out_reg_reg[6]
+        i:/WORK/fsm_encode/out_reg_reg[7]
+        i:/WORK/fsm_encode/reg1_reg[0]
+        i:/WORK/fsm_encode/reg1_reg[1]
+        i:/WORK/fsm_encode/reg1_reg[2]
+        i:/WORK/fsm_encode/reg1_reg[3]
+        i:/WORK/fsm_encode/reg1_reg[4]
+        i:/WORK/fsm_encode/reg1_reg[5]
+        i:/WORK/fsm_encode/reg1_reg[6]
+        i:/WORK/fsm_encode/reg1_reg[7]
+
+-----------
+i:/WORK/fsm_encode/reg2_reg[1]
+    Fans out to 8 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/fsm_encode/reg1_reg[1]
+
+-----------
+--------------------------------
+Found 17 X Sources
+--------------------------------
+X sources are objects in the implementation design that are the source
+of unknown logic values that propagate to failing compare points. The
+most common types are undriven nets, tristates and power-off X corruption cells.
+--------------------------------
+i:/WORK/fsm_encode/fm_mux_I84/C1
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/done_reg
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C1
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[0]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C5
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[1]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C9
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[2]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C13
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[3]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C17
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[4]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C21
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[5]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C25
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[6]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I83/C29
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/out_reg_reg[7]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C1
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[0]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C9
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[1]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C17
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[2]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C25
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[3]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C33
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[4]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C41
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[5]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C49
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[6]
+
+-----------
+i:/WORK/fsm_encode/fm_mux_I74/C57
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_encode_ref/reg1_reg[7]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

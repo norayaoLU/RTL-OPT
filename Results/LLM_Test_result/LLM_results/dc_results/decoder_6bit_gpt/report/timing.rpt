@@ -1,0 +1,425 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : decoder_6bit_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:29:07 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: in[3] (input port)
+  Endpoint: out[1] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[3] (in)                               0.00      0.00       0.00 f
+  in[3] (net)                   11                   0.00       0.00 f
+  U131/ZN (OR3_X2)                         0.01      0.09       0.09 f
+  n11 (net)                      3                   0.00       0.09 f
+  U150/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[1] (net)                   1                   0.00       0.13 r
+  out[1] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[5] (input port)
+  Endpoint: out[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[5] (in)                               0.00      0.00       0.00 f
+  in[5] (net)                   12                   0.00       0.00 f
+  U145/ZN (INV_X1)                         0.01      0.03       0.03 r
+  n62 (net)                      2                   0.00       0.03 r
+  U91/ZN (NAND3_X1)                        0.03      0.06       0.09 f
+  n47 (net)                      5                   0.00       0.09 f
+  U155/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[6] (net)                   1                   0.00       0.13 r
+  out[6] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[5] (input port)
+  Endpoint: out[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[5] (in)                               0.00      0.00       0.00 f
+  in[5] (net)                   12                   0.00       0.00 f
+  U145/ZN (INV_X1)                         0.01      0.03       0.03 r
+  n62 (net)                      2                   0.00       0.03 r
+  U91/ZN (NAND3_X1)                        0.03      0.06       0.09 f
+  n47 (net)                      5                   0.00       0.09 f
+  U156/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[5] (net)                   1                   0.00       0.13 r
+  out[5] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[5] (input port)
+  Endpoint: out[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[5] (in)                               0.00      0.00       0.00 f
+  in[5] (net)                   12                   0.00       0.00 f
+  U145/ZN (INV_X1)                         0.01      0.03       0.03 r
+  n62 (net)                      2                   0.00       0.03 r
+  U91/ZN (NAND3_X1)                        0.03      0.06       0.09 f
+  n47 (net)                      5                   0.00       0.09 f
+  U142/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[4] (net)                   1                   0.00       0.13 r
+  out[4] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[5] (input port)
+  Endpoint: out[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[5] (in)                               0.00      0.00       0.00 f
+  in[5] (net)                   12                   0.00       0.00 f
+  U145/ZN (INV_X1)                         0.01      0.03       0.03 r
+  n62 (net)                      2                   0.00       0.03 r
+  U91/ZN (NAND3_X1)                        0.03      0.06       0.09 f
+  n47 (net)                      5                   0.00       0.09 f
+  U158/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[3] (net)                   1                   0.00       0.13 r
+  out[3] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[5] (input port)
+  Endpoint: out[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[5] (in)                               0.00      0.00       0.00 f
+  in[5] (net)                   12                   0.00       0.00 f
+  U145/ZN (INV_X1)                         0.01      0.03       0.03 r
+  n62 (net)                      2                   0.00       0.03 r
+  U91/ZN (NAND3_X1)                        0.03      0.06       0.09 f
+  n47 (net)                      5                   0.00       0.09 f
+  U161/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[2] (net)                   1                   0.00       0.13 r
+  out[2] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[2] (input port)
+  Endpoint: out[35] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[2] (in)                               0.00      0.00       0.00 f
+  in[2] (net)                   13                   0.00       0.00 f
+  U134/ZN (INV_X1)                         0.02      0.04       0.04 r
+  n57 (net)                      3                   0.00       0.04 r
+  U115/ZN (NAND3_X1)                       0.02      0.05       0.09 f
+  n41 (net)                      3                   0.00       0.09 f
+  U177/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[35] (net)                  1                   0.00       0.13 r
+  out[35] (out)                            0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[1] (input port)
+  Endpoint: out[37] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[1] (in)                               0.00      0.00       0.00 f
+  in[1] (net)                   13                   0.00       0.00 f
+  U152/ZN (INV_X1)                         0.02      0.04       0.04 r
+  n5 (net)                       3                   0.00       0.04 r
+  U118/ZN (NAND3_X1)                       0.02      0.05       0.09 f
+  n44 (net)                      3                   0.00       0.09 f
+  U175/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[37] (net)                  1                   0.00       0.13 r
+  out[37] (out)                            0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[1] (input port)
+  Endpoint: out[17] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[1] (in)                               0.00      0.00       0.00 f
+  in[1] (net)                   13                   0.00       0.00 f
+  U152/ZN (INV_X1)                         0.02      0.04       0.04 r
+  n5 (net)                       3                   0.00       0.04 r
+  U100/ZN (NAND3_X1)                       0.02      0.05       0.09 f
+  n33 (net)                      4                   0.00       0.09 f
+  U203/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[17] (net)                  1                   0.00       0.13 r
+  out[17] (out)                            0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+  Startpoint: in[1] (input port)
+  Endpoint: out[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  decoder_6bit_gpt   5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  in[1] (in)                               0.00      0.00       0.00 f
+  in[1] (net)                   13                   0.00       0.00 f
+  U152/ZN (INV_X1)                         0.02      0.04       0.04 r
+  n5 (net)                       3                   0.00       0.04 r
+  U101/ZN (NAND3_X1)                       0.02      0.05       0.09 f
+  n7 (net)                       4                   0.00       0.09 f
+  U162/ZN (NOR2_X1)                        0.01      0.04       0.13 r
+  out[9] (net)                   1                   0.00       0.13 r
+  out[9] (out)                             0.01      0.00       0.13 r
+  data arrival time                                             0.13
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.13
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.03
+
+
+1

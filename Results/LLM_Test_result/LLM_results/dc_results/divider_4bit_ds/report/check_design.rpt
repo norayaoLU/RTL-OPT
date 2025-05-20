@@ -1,0 +1,32 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 14:05:37 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      4
+    Unconnected ports (LINT-28)                                     1
+    Feedthrough (LINT-29)                                           2
+    Constant outputs (LINT-52)                                      1
+
+Cells                                                               9
+    Cells do not drive (LINT-1)                                     9
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_4bit_ds', cell 'B_8' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_9' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_10' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_11' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_12' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_13' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_14' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'B_15' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', cell 'C88' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_ds', port 'A[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_4bit_ds', input port 'A[1]' is connected directly to output port 'result[2]'. (LINT-29)
+Warning: In design 'divider_4bit_ds', input port 'A[0]' is connected directly to output port 'result[1]'. (LINT-29)
+Warning: In design 'divider_4bit_ds', output port 'result[0]' is connected directly to 'logic 0'. (LINT-52)
+1

@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : divider_32bit_ds
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:25:22 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                          112
+Number of nets:                         15318
+Number of cells:                        15482
+Number of combinational cells:          15263
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                       5026
+Number of references:                      50
+
+Combinational area:              14183.651913
+Buf/Inv area:                     3050.754000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                 14183.651913
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area            Local cell area
+                                  -------------------  ----------------------------- 
+Hierarchical cell                 Absolute    Percent  Combi-      Noncombi-  Black-
+                                  Total       Total    national    national   boxes   Design
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+divider_32bit_ds                  14183.6519    100.0  14183.6519     0.0000  0.0000  divider_32bit_ds
+--------------------------------  ----------  -------  ----------  ---------  ------  ---------
+Total                                                  14183.6519     0.0000  0.0000
+
+1

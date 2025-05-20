@@ -1,0 +1,44 @@
+Found 4 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/gray_ds/state_reg[3]
+    Fans out to 12 failing and 0 passing points and has
+    logic value '1' for 3 compare point(s):
+        i:/WORK/gray_ds/out[0]
+        i:/WORK/gray_ds/out[1]
+        i:/WORK/gray_ds/state_reg[3]
+
+-----------
+i:/WORK/gray_ds/state_reg[0]
+    Fans out to 12 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/gray_ds/out[1]
+
+-----------
+i:/WORK/gray_ds/clk
+    Fans out to 4 failing and 0 passing points and has
+    logic value '1' for 4 compare point(s):
+        i:/WORK/gray_ds/state_reg[0]
+        i:/WORK/gray_ds/state_reg[1]
+        i:/WORK/gray_ds/state_reg[2]
+        i:/WORK/gray_ds/state_reg[3]
+
+-----------
+i:/WORK/gray_ds/rst_n
+    Fans out to 4 failing and 0 passing points and has
+    logic value '1' for 4 compare point(s):
+        i:/WORK/gray_ds/state_reg[0]
+        i:/WORK/gray_ds/state_reg[1]
+        i:/WORK/gray_ds/state_reg[2]
+        i:/WORK/gray_ds/state_reg[3]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

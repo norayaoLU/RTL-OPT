@@ -1,0 +1,22 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 02:40:09 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               8
+    Cells do not drive (LINT-1)                                     8
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_8bit_ref', cell 'B_8' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_9' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_10' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_11' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_12' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_13' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_14' does not drive any nets. (LINT-1)
+Warning: In design 'divider_8bit_ref', cell 'B_15' does not drive any nets. (LINT-1)
+1

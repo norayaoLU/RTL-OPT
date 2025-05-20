@@ -1,0 +1,62 @@
+Loading db file '/temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : mac
+Version: T-2022.03-SP2
+Date   : Mon May 12 01:45:13 2025
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+mac                    5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   6.0416 mW   (71%)
+  Net Switching Power  =   2.4157 mW   (29%)
+                         ---------
+Total Dynamic Power    =   8.4573 mW  (100%)
+
+Cell Leakage Power     =  18.1030 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  2.6360e+03            0.0000            0.0000            0.0000  (   0.00%)  i
+register       1.2827e+03          340.9694        5.1584e+03        4.2648e+03  (  50.32%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational  2.1230e+03        2.0747e+03        1.2945e+04        4.2106e+03  (  49.68%)
+--------------------------------------------------------------------------------------------------
+Total          6.0416e+03 uW     2.4157e+03 uW     1.8103e+04 nW     8.4754e+03 uW
+1

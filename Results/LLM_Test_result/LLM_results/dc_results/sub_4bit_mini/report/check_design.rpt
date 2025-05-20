@@ -1,0 +1,18 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 15:09:43 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      4
+    Unconnected ports (LINT-28)                                     4
+--------------------------------------------------------------------------------
+
+Warning: In design 'sub_4bit_mini', port 'diff[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'sub_4bit_mini', port 'diff[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'sub_4bit_mini', port 'diff[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'sub_4bit_mini', port 'diff[0]' is not connected to any nets. (LINT-28)
+1

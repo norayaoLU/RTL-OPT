@@ -1,0 +1,139 @@
+Found 10 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/divider_16bit_ds/A[0]
+    Fans out to 0 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[0]
+
+-----------
+i:/WORK/divider_16bit_ds/B[1]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 8 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[0]
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[2]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 10 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[0]
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[1]
+        i:/WORK/divider_16bit_ds/odd[3]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[4]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 16 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[0]
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[1]
+        i:/WORK/divider_16bit_ds/odd[2]
+        i:/WORK/divider_16bit_ds/odd[3]
+        i:/WORK/divider_16bit_ds/odd[4]
+        i:/WORK/divider_16bit_ds/odd[5]
+        i:/WORK/divider_16bit_ds/odd[6]
+        i:/WORK/divider_16bit_ds/odd[7]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+        i:/WORK/divider_16bit_ds/result[0]
+
+-----------
+i:/WORK/divider_16bit_ds/A[15]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 7 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[0]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 7 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[3]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 7 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[5]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 7 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[6]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 7 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+i:/WORK/divider_16bit_ds/B[7]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 7 compare point(s):
+        i:/WORK/divider_16bit_ds/odd[10]
+        i:/WORK/divider_16bit_ds/odd[11]
+        i:/WORK/divider_16bit_ds/odd[12]
+        i:/WORK/divider_16bit_ds/odd[13]
+        i:/WORK/divider_16bit_ds/odd[14]
+        i:/WORK/divider_16bit_ds/odd[8]
+        i:/WORK/divider_16bit_ds/odd[9]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

@@ -1,0 +1,124 @@
+Found 9 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/adder_gpt/SEL_0
+    Fans out to 20 failing and 0 passing points and has
+    logic value '1' for 20 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[0]
+        i:/WORK/adder_gpt/reg_0_reg[10]
+        i:/WORK/adder_gpt/reg_0_reg[11]
+        i:/WORK/adder_gpt/reg_0_reg[12]
+        i:/WORK/adder_gpt/reg_0_reg[13]
+        i:/WORK/adder_gpt/reg_0_reg[14]
+        i:/WORK/adder_gpt/reg_0_reg[15]
+        i:/WORK/adder_gpt/reg_0_reg[16]
+        i:/WORK/adder_gpt/reg_0_reg[17]
+        i:/WORK/adder_gpt/reg_0_reg[18]
+        i:/WORK/adder_gpt/reg_0_reg[19]
+        i:/WORK/adder_gpt/reg_0_reg[1]
+        i:/WORK/adder_gpt/reg_0_reg[20]
+        i:/WORK/adder_gpt/reg_0_reg[21]
+        i:/WORK/adder_gpt/reg_0_reg[22]
+        i:/WORK/adder_gpt/reg_0_reg[23]
+        i:/WORK/adder_gpt/reg_0_reg[24]
+        i:/WORK/adder_gpt/reg_0_reg[25]
+        i:/WORK/adder_gpt/reg_0_reg[26]
+        i:/WORK/adder_gpt/reg_0_reg[27]
+
+-----------
+i:/WORK/adder_gpt/SEL_1
+    Fans out to 20 failing and 0 passing points and has
+    logic value '0' for 20 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[0]
+        i:/WORK/adder_gpt/reg_0_reg[10]
+        i:/WORK/adder_gpt/reg_0_reg[11]
+        i:/WORK/adder_gpt/reg_0_reg[12]
+        i:/WORK/adder_gpt/reg_0_reg[13]
+        i:/WORK/adder_gpt/reg_0_reg[14]
+        i:/WORK/adder_gpt/reg_0_reg[15]
+        i:/WORK/adder_gpt/reg_0_reg[16]
+        i:/WORK/adder_gpt/reg_0_reg[17]
+        i:/WORK/adder_gpt/reg_0_reg[18]
+        i:/WORK/adder_gpt/reg_0_reg[19]
+        i:/WORK/adder_gpt/reg_0_reg[1]
+        i:/WORK/adder_gpt/reg_0_reg[20]
+        i:/WORK/adder_gpt/reg_0_reg[21]
+        i:/WORK/adder_gpt/reg_0_reg[22]
+        i:/WORK/adder_gpt/reg_0_reg[23]
+        i:/WORK/adder_gpt/reg_0_reg[24]
+        i:/WORK/adder_gpt/reg_0_reg[25]
+        i:/WORK/adder_gpt/reg_0_reg[26]
+        i:/WORK/adder_gpt/reg_0_reg[27]
+
+-----------
+i:/WORK/adder_gpt/clk
+    Fans out to 20 failing and 0 passing points and has
+    logic value '1' for 20 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[0]
+        i:/WORK/adder_gpt/reg_0_reg[10]
+        i:/WORK/adder_gpt/reg_0_reg[11]
+        i:/WORK/adder_gpt/reg_0_reg[12]
+        i:/WORK/adder_gpt/reg_0_reg[13]
+        i:/WORK/adder_gpt/reg_0_reg[14]
+        i:/WORK/adder_gpt/reg_0_reg[15]
+        i:/WORK/adder_gpt/reg_0_reg[16]
+        i:/WORK/adder_gpt/reg_0_reg[17]
+        i:/WORK/adder_gpt/reg_0_reg[18]
+        i:/WORK/adder_gpt/reg_0_reg[19]
+        i:/WORK/adder_gpt/reg_0_reg[1]
+        i:/WORK/adder_gpt/reg_0_reg[20]
+        i:/WORK/adder_gpt/reg_0_reg[21]
+        i:/WORK/adder_gpt/reg_0_reg[22]
+        i:/WORK/adder_gpt/reg_0_reg[23]
+        i:/WORK/adder_gpt/reg_0_reg[24]
+        i:/WORK/adder_gpt/reg_0_reg[25]
+        i:/WORK/adder_gpt/reg_0_reg[26]
+        i:/WORK/adder_gpt/reg_0_reg[27]
+
+-----------
+i:/WORK/adder_gpt/DATA_1[10]
+    Fans out to 18 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[10]
+
+-----------
+i:/WORK/adder_gpt/DATA_2[12]
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[13]
+
+-----------
+i:/WORK/adder_gpt/DATA_1[14]
+    Fans out to 14 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[14]
+
+-----------
+i:/WORK/adder_gpt/DATA_2[20]
+    Fans out to 8 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[20]
+
+-----------
+i:/WORK/adder_gpt/DATA_1[22]
+    Fans out to 6 failing and 0 passing points and has
+    logic value '0' for 2 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[22]
+        i:/WORK/adder_gpt/reg_0_reg[23]
+
+-----------
+i:/WORK/adder_gpt/DATA_1[24]
+    Fans out to 4 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/adder_gpt/reg_0_reg[24]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

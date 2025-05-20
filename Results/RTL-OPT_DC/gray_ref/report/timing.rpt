@@ -1,0 +1,547 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : gray_ref
+Version: T-2022.03-SP2
+Date   : Mon May 12 03:07:53 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: state_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: state_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  state_reg_2_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_2_/Q (DFFR_X1)                 0.02      0.11       0.11 r
+  state[2] (net)                 3                   0.00       0.11 r
+  U93/ZN (NAND2_X1)                        0.01      0.04       0.14 f
+  n117 (net)                     3                   0.00       0.14 f
+  U94/ZN (OAI33_X1)                        0.06      0.08       0.23 r
+  n92 (net)                      1                   0.00       0.23 r
+  U115/ZN (AOI21_X1)                       0.02      0.03       0.26 f
+  n93 (net)                      1                   0.00       0.26 f
+  U116/ZN (NAND3_X1)                       0.01      0.03       0.29 r
+  next_state[2] (net)            1                   0.00       0.29 r
+  state_reg_2_/D (DFFR_X1)                 0.01      0.01       0.30 r
+  data arrival time                                             0.30
+
+  clock clk (rise edge)                              0.10       0.10
+  clock network delay (ideal)                        0.00       0.10
+  state_reg_2_/CK (DFFR_X1)                          0.00       0.10 r
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -0.30
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: state_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: state_reg_1_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  state_reg_3_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_3_/Q (DFFR_X1)                 0.01      0.10       0.10 f
+  state[3] (net)                 4                   0.00       0.10 f
+  U100/ZN (AOI21_X1)                       0.02      0.06       0.15 r
+  n80 (net)                      1                   0.00       0.15 r
+  U101/ZN (OAI33_X1)                       0.02      0.04       0.19 f
+  n87 (net)                      1                   0.00       0.19 f
+  U108/ZN (NOR4_X1)                        0.04      0.06       0.25 r
+  n88 (net)                      1                   0.00       0.25 r
+  U109/ZN (NAND2_X1)                       0.01      0.03       0.28 f
+  next_state[1] (net)            1                   0.00       0.28 f
+  state_reg_1_/D (DFFR_X1)                 0.01      0.01       0.29 f
+  data arrival time                                             0.29
+
+  clock clk (rise edge)                              0.10       0.10
+  clock network delay (ideal)                        0.00       0.10
+  state_reg_1_/CK (DFFR_X1)                          0.00       0.10 r
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: state_reg_3_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: state_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  state_reg_3_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_3_/QN (DFFR_X1)                0.02      0.08       0.08 f
+  n75 (net)                      4                   0.00       0.08 f
+  U80/Z (BUF_X1)                           0.01      0.05       0.13 f
+  n64 (net)                      5                   0.00       0.13 f
+  U121/ZN (OAI33_X1)                       0.06      0.10       0.23 r
+  n98 (net)                      1                   0.00       0.23 r
+  U122/ZN (NOR2_X1)                        0.01      0.02       0.26 f
+  n100 (net)                     1                   0.00       0.26 f
+  U123/ZN (NAND4_X1)                       0.01      0.03       0.29 r
+  next_state[0] (net)            1                   0.00       0.29 r
+  state_reg_0_/D (DFFR_X1)                 0.01      0.01       0.30 r
+  data arrival time                                             0.30
+
+  clock clk (rise edge)                              0.10       0.10
+  clock network delay (ideal)                        0.00       0.10
+  state_reg_0_/CK (DFFR_X1)                          0.00       0.10 r
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -0.30
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: state_reg_3_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.03      0.10       0.10 f
+  n77 (net)                     10                   0.00       0.10 f
+  U79/Z (CLKBUF_X1)                        0.01      0.05       0.15 f
+  n62 (net)                      2                   0.00       0.15 f
+  U126/ZN (AOI221_X1)                      0.04      0.09       0.24 r
+  n106 (net)                     1                   0.00       0.24 r
+  U127/ZN (NAND2_X1)                       0.01      0.03       0.27 f
+  next_state[3] (net)            1                   0.00       0.27 f
+  state_reg_3_/D (DFFR_X1)                 0.01      0.01       0.28 f
+  data arrival time                                             0.28
+
+  clock clk (rise edge)                              0.10       0.10
+  clock network delay (ideal)                        0.00       0.10
+  state_reg_3_/CK (DFFR_X1)                          0.00       0.10 r
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.22
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U132/ZN (INV_X1)                         0.01      0.04       0.23 f
+  n119 (net)                     4                   0.00       0.23 f
+  U139/ZN (AOI21_X1)                       0.01      0.05       0.28 r
+  out[4] (net)                   1                   0.00       0.28 r
+  out[4] (out)                             0.01      0.00       0.28 r
+  data arrival time                                             0.28
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.18
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[0] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U132/ZN (INV_X1)                         0.01      0.04       0.23 f
+  n119 (net)                     4                   0.00       0.23 f
+  U133/ZN (AOI21_X1)                       0.01      0.05       0.28 r
+  out[0] (net)                   1                   0.00       0.28 r
+  out[0] (out)                             0.01      0.00       0.28 r
+  data arrival time                                             0.28
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.18
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U84/Z (BUF_X1)                           0.02      0.05       0.25 r
+  n68 (net)                      4                   0.00       0.25 r
+  U142/ZN (NOR3_X1)                        0.01      0.03       0.28 f
+  out[7] (net)                   1                   0.00       0.28 f
+  out[7] (out)                             0.01      0.00       0.28 f
+  data arrival time                                             0.28
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.18
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U84/Z (BUF_X1)                           0.02      0.05       0.25 r
+  n68 (net)                      4                   0.00       0.25 r
+  U140/ZN (NOR2_X1)                        0.01      0.02       0.27 f
+  out[5] (net)                   1                   0.00       0.27 f
+  out[5] (out)                             0.01      0.00       0.28 f
+  data arrival time                                             0.28
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.18
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U84/Z (BUF_X1)                           0.02      0.05       0.25 r
+  n68 (net)                      4                   0.00       0.25 r
+  U137/ZN (NOR2_X1)                        0.01      0.02       0.27 f
+  out[3] (net)                   1                   0.00       0.27 f
+  out[3] (out)                             0.01      0.00       0.28 f
+  data arrival time                                             0.28
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.18
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[1] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U84/Z (BUF_X1)                           0.02      0.05       0.25 r
+  n68 (net)                      4                   0.00       0.25 r
+  U134/ZN (NOR2_X1)                        0.01      0.02       0.27 f
+  out[1] (net)                   1                   0.00       0.27 f
+  out[1] (out)                             0.01      0.00       0.28 f
+  data arrival time                                             0.28
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.28
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.18
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U132/ZN (INV_X1)                         0.01      0.04       0.23 f
+  n119 (net)                     4                   0.00       0.23 f
+  U141/ZN (NOR3_X1)                        0.02      0.04       0.27 r
+  out[6] (net)                   1                   0.00       0.27 r
+  out[6] (out)                             0.02      0.00       0.27 r
+  data arrival time                                             0.27
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.27
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.17
+
+
+  Startpoint: state_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: out[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  gray_ref           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  state_reg_0_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  state_reg_0_/QN (DFFR_X1)                0.05      0.11       0.11 r
+  n77 (net)                     10                   0.00       0.11 r
+  U131/Z (XOR2_X1)                         0.03      0.09       0.20 r
+  n120 (net)                     2                   0.00       0.20 r
+  U132/ZN (INV_X1)                         0.01      0.04       0.23 f
+  n119 (net)                     4                   0.00       0.23 f
+  U136/ZN (NOR3_X1)                        0.02      0.04       0.27 r
+  out[2] (net)                   1                   0.00       0.27 r
+  out[2] (out)                             0.02      0.00       0.27 r
+  data arrival time                                             0.27
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.27
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.17
+
+
+1

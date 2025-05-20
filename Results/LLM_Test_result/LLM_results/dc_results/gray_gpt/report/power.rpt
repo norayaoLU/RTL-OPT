@@ -1,0 +1,62 @@
+Loading db file '/temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : gray_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:30:08 2025
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+gray_gpt               5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 532.7777 uW   (67%)
+  Net Switching Power  = 261.8444 uW   (33%)
+                         ---------
+Total Dynamic Power    = 794.6221 uW  (100%)
+
+Cell Leakage Power     =   2.1109 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network    273.1522            0.0000            0.0000            0.0000  (   0.00%)  i
+register          77.0786           79.5734          337.4457          430.1416  (  53.99%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    182.5469          182.2711        1.7735e+03          366.5915  (  46.01%)
+--------------------------------------------------------------------------------------------------
+Total            532.7777 uW       261.8444 uW     2.1109e+03 nW       796.7331 uW
+1

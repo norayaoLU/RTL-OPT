@@ -1,0 +1,25 @@
+Found 1 Required Input
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/saturating_add/clk
+    Fans out to 8 failing and 0 passing points and has
+    logic value '1' for 8 compare point(s):
+        i:/WORK/saturating_add/z_reg[0]
+        i:/WORK/saturating_add/z_reg[1]
+        i:/WORK/saturating_add/z_reg[2]
+        i:/WORK/saturating_add/z_reg[3]
+        i:/WORK/saturating_add/z_reg[4]
+        i:/WORK/saturating_add/z_reg[5]
+        i:/WORK/saturating_add/z_reg[6]
+        i:/WORK/saturating_add/z_reg[7]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

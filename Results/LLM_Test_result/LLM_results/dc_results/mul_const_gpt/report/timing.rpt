@@ -1,0 +1,447 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : mul_const_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:30:32 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b[2] (input port)
+  Endpoint: s2[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[2] (in)                                0.00      0.00       0.00 r
+  b[2] (net)                    10                   0.00       0.00 r
+  U96/ZN (OAI211_X1)                       0.01      0.04       0.04 f
+  n83 (net)                      1                   0.00       0.04 f
+  U97/ZN (INV_X1)                          0.01      0.03       0.08 r
+  n101 (net)                     2                   0.00       0.08 r
+  U100/ZN (NOR2_X1)                        0.01      0.02       0.10 f
+  n89 (net)                      1                   0.00       0.10 f
+  U105/ZN (AOI22_X1)                       0.03      0.05       0.15 r
+  n90 (net)                      1                   0.00       0.15 r
+  U59/ZN (XNOR2_X1)                        0.01      0.06       0.20 r
+  s2[6] (net)                    1                   0.00       0.20 r
+  s2[6] (out)                              0.01      0.00       0.21 r
+  data arrival time                                             0.21
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.21
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.11
+
+
+  Startpoint: b[3] (input port)
+  Endpoint: s2[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[3] (in)                                0.00      0.00       0.00 f
+  b[3] (net)                    11                   0.00       0.00 f
+  U96/ZN (OAI211_X1)                       0.02      0.05       0.05 r
+  n83 (net)                      1                   0.00       0.05 r
+  U97/ZN (INV_X1)                          0.01      0.03       0.08 f
+  n101 (net)                     2                   0.00       0.08 f
+  U117/ZN (OAI21_X1)                       0.03      0.05       0.13 r
+  n105 (net)                     2                   0.00       0.13 r
+  U119/ZN (INV_X1)                         0.01      0.02       0.15 f
+  n106 (net)                     1                   0.00       0.15 f
+  U120/ZN (NAND3_X1)                       0.01      0.03       0.18 r
+  n109 (net)                     1                   0.00       0.18 r
+  U121/ZN (NAND3_X1)                       0.01      0.03       0.20 f
+  s2[7] (net)                    1                   0.00       0.20 f
+  s2[7] (out)                              0.01      0.00       0.21 f
+  data arrival time                                             0.21
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.21
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.11
+
+
+  Startpoint: c[5] (input port)
+  Endpoint: s3[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  c[5] (in)                                0.00      0.00       0.00 f
+  c[5] (net)                     5                   0.00       0.00 f
+  U81/ZN (INV_X1)                          0.01      0.02       0.02 r
+  n66 (net)                      1                   0.00       0.02 r
+  U65/ZN (AND2_X1)                         0.01      0.04       0.06 r
+  n41 (net)                      1                   0.00       0.06 r
+  U82/ZN (NOR3_X1)                         0.01      0.02       0.08 f
+  n55 (net)                      1                   0.00       0.08 f
+  U22/ZN (INV_X1)                          0.01      0.02       0.11 r
+  n20 (net)                      1                   0.00       0.11 r
+  U23/ZN (AND3_X1)                         0.01      0.05       0.15 r
+  n58 (net)                      1                   0.00       0.15 r
+  U83/ZN (OAI211_X1)                       0.01      0.03       0.19 f
+  s3[6] (net)                    1                   0.00       0.19 f
+  s3[6] (out)                              0.01      0.00       0.19 f
+  data arrival time                                             0.19
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.19
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.09
+
+
+  Startpoint: c[3] (input port)
+  Endpoint: s3[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  c[3] (in)                                0.00      0.00       0.00 f
+  c[3] (net)                    11                   0.00       0.00 f
+  U63/ZN (AOI22_X1)                        0.03      0.06       0.06 r
+  n65 (net)                      1                   0.00       0.06 r
+  U62/ZN (NAND2_X1)                        0.01      0.03       0.09 f
+  n68 (net)                      1                   0.00       0.09 f
+  U29/ZN (AOI21_X1)                        0.03      0.04       0.13 r
+  n72 (net)                      1                   0.00       0.13 r
+  U27/ZN (XNOR2_X1)                        0.01      0.05       0.18 r
+  s3[7] (net)                    1                   0.00       0.18 r
+  s3[7] (out)                              0.01      0.00       0.19 r
+  data arrival time                                             0.19
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.19
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.09
+
+
+  Startpoint: b[4] (input port)
+  Endpoint: s2[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[4] (in)                                0.00      0.00       0.00 f
+  b[4] (net)                     7                   0.00       0.00 f
+  U13/Z (BUF_X2)                           0.01      0.05       0.05 f
+  n34 (net)                      4                   0.00       0.05 f
+  U92/ZN (NAND2_X1)                        0.01      0.04       0.08 r
+  n78 (net)                      2                   0.00       0.08 r
+  U93/ZN (NAND3_X1)                        0.01      0.03       0.11 f
+  n75 (net)                      1                   0.00       0.11 f
+  U55/ZN (AND3_X1)                         0.01      0.04       0.15 f
+  n37 (net)                      1                   0.00       0.15 f
+  U26/ZN (NOR2_X1)                         0.01      0.03       0.18 r
+  s2[5] (net)                    1                   0.00       0.18 r
+  s2[5] (out)                              0.01      0.00       0.18 r
+  data arrival time                                             0.18
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.18
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.08
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: s2[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[2] (in)                                0.00      0.00       0.00 r
+  b[2] (net)                    10                   0.00       0.00 r
+  U19/ZN (AND2_X1)                         0.01      0.04       0.04 r
+  n17 (net)                      1                   0.00       0.04 r
+  U69/ZN (OAI21_X1)                        0.01      0.03       0.07 f
+  n47 (net)                      1                   0.00       0.07 f
+  U88/ZN (NAND2_X1)                        0.01      0.03       0.10 r
+  n74 (net)                      1                   0.00       0.10 r
+  U36/ZN (XNOR2_X1)                        0.01      0.05       0.15 r
+  s2[4] (net)                    1                   0.00       0.15 r
+  s2[4] (out)                              0.01      0.00       0.16 r
+  data arrival time                                             0.16
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.16
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.06
+
+
+  Startpoint: b[3] (input port)
+  Endpoint: s2[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[3] (in)                                0.00      0.00       0.00 f
+  b[3] (net)                    11                   0.00       0.00 f
+  U84/Z (XOR2_X1)                          0.01      0.08       0.08 f
+  n73 (net)                      1                   0.00       0.08 f
+  U85/Z (XOR2_X1)                          0.01      0.07       0.15 f
+  s2[3] (net)                    1                   0.00       0.15 f
+  s2[3] (out)                              0.01      0.00       0.15 f
+  data arrival time                                             0.15
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.15
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.05
+
+
+  Startpoint: c[3] (input port)
+  Endpoint: s3[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  c[3] (in)                                0.00      0.00       0.00 f
+  c[3] (net)                    11                   0.00       0.00 f
+  U57/ZN (OAI211_X1)                       0.03      0.06       0.06 r
+  n39 (net)                      2                   0.00       0.06 r
+  U76/ZN (NAND2_X1)                        0.01      0.03       0.09 f
+  n51 (net)                      1                   0.00       0.09 f
+  U39/ZN (XNOR2_X1)                        0.01      0.05       0.14 f
+  s3[5] (net)                    1                   0.00       0.14 f
+  s3[5] (out)                              0.01      0.00       0.15 f
+  data arrival time                                             0.15
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.15
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.05
+
+
+  Startpoint: c[0] (input port)
+  Endpoint: s3[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  c[0] (in)                                0.00      0.00       0.00 r
+  c[0] (net)                     6                   0.00       0.00 r
+  U72/ZN (INV_X1)                          0.00      0.02       0.02 f
+  n49 (net)                      1                   0.00       0.02 f
+  U73/ZN (NOR2_X1)                         0.02      0.04       0.07 r
+  n50 (net)                      1                   0.00       0.07 r
+  U41/ZN (XNOR2_X1)                        0.01      0.06       0.12 r
+  s3[4] (net)                    1                   0.00       0.12 r
+  s3[4] (out)                              0.01      0.00       0.12 r
+  data arrival time                                             0.12
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.12
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.02
+
+
+  Startpoint: b[0] (input port)
+  Endpoint: s2[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_const_gpt      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[0] (in)                                0.00      0.00       0.00 f
+  b[0] (net)                     5                   0.00       0.00 f
+  U14/Z (BUF_X1)                           0.01      0.04       0.04 f
+  s2[0] (net)                    2                   0.00       0.04 f
+  U123/Z (XOR2_X1)                         0.01      0.06       0.10 f
+  s2[2] (net)                    1                   0.00       0.10 f
+  s2[2] (out)                              0.01      0.00       0.10 f
+  data arrival time                                             0.10
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.10
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED: increase significant digits)                 0.00
+
+
+1

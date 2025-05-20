@@ -1,0 +1,21 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Tue May 13 12:38:51 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               7
+    Cells do not drive (LINT-1)                                     7
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_4bit_dsr', cell 'B_3' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_dsr', cell 'B_4' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_dsr', cell 'B_5' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_dsr', cell 'B_6' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_dsr', cell 'B_7' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_dsr', cell 'B_8' does not drive any nets. (LINT-1)
+Warning: In design 'divider_4bit_dsr', cell 'C72' does not drive any nets. (LINT-1)
+1

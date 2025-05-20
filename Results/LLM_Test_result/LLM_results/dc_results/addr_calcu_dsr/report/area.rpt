@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : addr_calcu_dsr
+Version: T-2022.03-SP2
+Date   : Thu May 15 22:34:37 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           49
+Number of nets:                           353
+Number of cells:                          323
+Number of combinational cells:            313
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         92
+Number of references:                      21
+
+Combinational area:                304.037998
+Buf/Inv area:                       52.934000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   304.037998
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+addr_calcu_dsr                     304.0380    100.0  304.0380     0.0000  0.0000  addr_calcu_dsr
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 304.0380     0.0000  0.0000
+
+1

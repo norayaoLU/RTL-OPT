@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : ticket_machine_ds
+Version: T-2022.03-SP2
+Date   : Thu May 15 22:32:36 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                            8
+Number of nets:                            33
+Number of cells:                           26
+Number of combinational cells:             23
+Number of sequential cells:                 3
+Number of macros/black boxes:               0
+Number of buf/inv:                          5
+Number of references:                      14
+
+Combinational area:                 22.876000
+Buf/Inv area:                        2.926000
+Noncombinational area:              13.566000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    36.442000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+ticket_machine_ds                   36.4420    100.0   22.8760    13.5660  0.0000  ticket_machine_ds
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  22.8760    13.5660  0.0000
+
+1

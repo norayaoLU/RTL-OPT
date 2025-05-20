@@ -1,0 +1,28 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Thu May 15 22:34:34 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     13
+    Shorted outputs (LINT-31)                                       6
+    Constant outputs (LINT-52)                                      7
+--------------------------------------------------------------------------------
+
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to output port 'count[9]'. (LINT-31)
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to output port 'count[10]'. (LINT-31)
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to output port 'count[11]'. (LINT-31)
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to output port 'count[12]'. (LINT-31)
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to output port 'count[13]'. (LINT-31)
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to output port 'count[14]'. (LINT-31)
+Warning: In design 'addr_calcu_dsr', output port 'count[15]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'addr_calcu_dsr', output port 'count[14]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'addr_calcu_dsr', output port 'count[13]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'addr_calcu_dsr', output port 'count[12]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'addr_calcu_dsr', output port 'count[11]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'addr_calcu_dsr', output port 'count[10]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'addr_calcu_dsr', output port 'count[9]' is connected directly to 'logic 0'. (LINT-52)
+1

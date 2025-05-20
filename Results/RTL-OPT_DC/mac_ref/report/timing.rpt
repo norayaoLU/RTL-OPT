@@ -1,0 +1,1101 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : mac_ref
+Version: T-2022.03-SP2
+Date   : Mon May 12 02:41:05 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b[6] (input port)
+  Endpoint: acc_reg_14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[6] (in)                                0.00      0.00       0.00 f
+  b[6] (net)                     5                   0.00       0.00 f
+  mult_11_U23/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_11_ab_1__6_ (net)         1                   0.00       0.04 f
+  mult_11_S0_6/S (FA_X1)                   0.01      0.14       0.18 r    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.18 r
+  mult_11_U51/ZN (XNOR2_X1)                0.03      0.06       0.24 r
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.24 r
+  mult_11_S2_3_4/S (FA_X1)                 0.02      0.12       0.35 f    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.35 f
+  mult_11_S2_4_3/S (FA_X1)                 0.01      0.13       0.49 r    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.49 r
+  mult_11_S2_5_2/S (FA_X1)                 0.02      0.11       0.60 f    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.60 f
+  mult_11_S2_6_1/CO (FA_X1)                0.02      0.09       0.69 f    mo 
+  mult_11_CARRYB_6__1_ (net)     1                   0.00       0.69 f
+  mult_11_S4_1/CO (FA_X1)                  0.02      0.11       0.80 f    mo 
+  mult_11_CARRYB_7__1_ (net)     1                   0.00       0.80 f
+  mult_11_S14_9/S (FA_X1)                  0.02      0.15       0.95 r    mo 
+  mult_11_A1_7_ (net)            4                   0.00       0.95 r
+  mult_11_FS_1_U68/ZN (NAND2_X1)           0.01      0.04       0.99 f
+  mult_11_FS_1_n42 (net)         4                   0.00       0.99 f
+  mult_11_FS_1_U87/ZN (INV_X1)             0.02      0.05       1.04 r
+  mult_11_FS_1_n38 (net)         4                   0.00       1.04 r
+  mult_11_FS_1_U76/ZN (NAND2_X1)           0.01      0.03       1.07 f
+  mult_11_FS_1_n36 (net)         1                   0.00       1.07 f
+  mult_11_FS_1_U21/ZN (NAND3_X1)           0.01      0.03       1.10 r
+  mult_11_FS_1_n16 (net)         1                   0.00       1.10 r
+  mult_11_FS_1_U20/ZN (XNOR2_X1)           0.03      0.06       1.16 r
+  N14 (net)                      3                   0.00       1.16 r
+  add_11_U21/ZN (NOR2_X1)                  0.01      0.03       1.19 f
+  add_11_n12 (net)               1                   0.00       1.19 f
+  add_11_U102/ZN (NOR2_X1)                 0.02      0.05       1.24 r
+  add_11_n108 (net)              2                   0.00       1.24 r
+  add_11_U23/ZN (AND2_X1)                  0.01      0.05       1.28 r
+  add_11_n15 (net)               1                   0.00       1.28 r
+  add_11_U130/ZN (NOR2_X1)                 0.01      0.02       1.30 f
+  add_11_n90 (net)               1                   0.00       1.30 f
+  add_11_U108/ZN (OAI21_X1)                0.02      0.04       1.35 r
+  add_11_n88 (net)               1                   0.00       1.35 r
+  add_11_U128/ZN (XNOR2_X1)                0.02      0.06       1.40 r
+  N33 (net)                      1                   0.00       1.40 r
+  U22/ZN (AND2_X1)                         0.01      0.04       1.44 r
+  N49 (net)                      1                   0.00       1.44 r
+  acc_reg_14_/D (DFF_X2)                   0.01      0.01       1.45 r
+  data arrival time                                             1.45
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -1.45
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.38
+
+
+  Startpoint: b[6] (input port)
+  Endpoint: acc_reg_13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[6] (in)                                0.00      0.00       0.00 f
+  b[6] (net)                     5                   0.00       0.00 f
+  mult_11_U23/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_11_ab_1__6_ (net)         1                   0.00       0.04 f
+  mult_11_S0_6/S (FA_X1)                   0.01      0.14       0.18 r    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.18 r
+  mult_11_U51/ZN (XNOR2_X1)                0.03      0.06       0.24 r
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.24 r
+  mult_11_S2_3_4/S (FA_X1)                 0.02      0.12       0.35 f    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.35 f
+  mult_11_S2_4_3/S (FA_X1)                 0.01      0.13       0.49 r    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.49 r
+  mult_11_S2_5_2/S (FA_X1)                 0.02      0.11       0.60 f    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.60 f
+  mult_11_S2_6_1/CO (FA_X1)                0.02      0.09       0.69 f    mo 
+  mult_11_CARRYB_6__1_ (net)     1                   0.00       0.69 f
+  mult_11_S4_1/CO (FA_X1)                  0.02      0.11       0.80 f    mo 
+  mult_11_CARRYB_7__1_ (net)     1                   0.00       0.80 f
+  mult_11_S14_9/S (FA_X1)                  0.02      0.15       0.95 r    mo 
+  mult_11_A1_7_ (net)            4                   0.00       0.95 r
+  mult_11_FS_1_U68/ZN (NAND2_X1)           0.01      0.04       0.99 f
+  mult_11_FS_1_n42 (net)         4                   0.00       0.99 f
+  mult_11_FS_1_U87/ZN (INV_X1)             0.02      0.05       1.04 r
+  mult_11_FS_1_n38 (net)         4                   0.00       1.04 r
+  mult_11_FS_1_U76/ZN (NAND2_X1)           0.01      0.03       1.07 f
+  mult_11_FS_1_n36 (net)         1                   0.00       1.07 f
+  mult_11_FS_1_U21/ZN (NAND3_X1)           0.01      0.03       1.10 r
+  mult_11_FS_1_n16 (net)         1                   0.00       1.10 r
+  mult_11_FS_1_U20/ZN (XNOR2_X1)           0.03      0.06       1.16 r
+  N14 (net)                      3                   0.00       1.16 r
+  add_11_U21/ZN (NOR2_X1)                  0.01      0.03       1.19 f
+  add_11_n12 (net)               1                   0.00       1.19 f
+  add_11_U102/ZN (NOR2_X1)                 0.02      0.05       1.24 r
+  add_11_n108 (net)              2                   0.00       1.24 r
+  add_11_U117/ZN (NAND2_X1)                0.01      0.03       1.27 f
+  add_11_n101 (net)              1                   0.00       1.27 f
+  add_11_U116/ZN (OAI211_X1)               0.03      0.04       1.31 r
+  add_11_n105 (net)              2                   0.00       1.31 r
+  add_11_U115/ZN (AOI21_X1)                0.01      0.04       1.34 f
+  add_11_n102 (net)              1                   0.00       1.34 f
+  add_11_U109/ZN (XNOR2_X1)                0.01      0.05       1.40 f
+  N32 (net)                      1                   0.00       1.40 f
+  U23/ZN (AND2_X1)                         0.01      0.04       1.43 f
+  N48 (net)                      1                   0.00       1.43 f
+  acc_reg_13_/D (DFF_X1)                   0.01      0.01       1.44 f
+  data arrival time                                             1.44
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -1.44
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.38
+
+
+  Startpoint: b[6] (input port)
+  Endpoint: acc_reg_15_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[6] (in)                                0.00      0.00       0.00 f
+  b[6] (net)                     5                   0.00       0.00 f
+  mult_11_U23/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_11_ab_1__6_ (net)         1                   0.00       0.04 f
+  mult_11_S0_6/S (FA_X1)                   0.01      0.14       0.18 r    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.18 r
+  mult_11_U51/ZN (XNOR2_X1)                0.03      0.06       0.24 r
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.24 r
+  mult_11_S2_3_4/S (FA_X1)                 0.02      0.12       0.35 f    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.35 f
+  mult_11_S2_4_3/S (FA_X1)                 0.01      0.13       0.49 r    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.49 r
+  mult_11_S2_5_2/S (FA_X1)                 0.02      0.11       0.60 f    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.60 f
+  mult_11_S2_6_1/CO (FA_X1)                0.02      0.09       0.69 f    mo 
+  mult_11_CARRYB_6__1_ (net)     1                   0.00       0.69 f
+  mult_11_S4_1/CO (FA_X1)                  0.02      0.11       0.80 f    mo 
+  mult_11_CARRYB_7__1_ (net)     1                   0.00       0.80 f
+  mult_11_S14_9/S (FA_X1)                  0.02      0.15       0.95 r    mo 
+  mult_11_A1_7_ (net)            4                   0.00       0.95 r
+  mult_11_FS_1_U14/ZN (OR2_X1)             0.01      0.04       0.99 r
+  mult_11_FS_1_n12 (net)         2                   0.00       0.99 r
+  mult_11_FS_1_U90/ZN (INV_X1)             0.00      0.02       1.02 f
+  mult_11_FS_1_n81 (net)         1                   0.00       1.02 f
+  mult_11_FS_1_U89/ZN (NOR2_X1)            0.02      0.03       1.05 r
+  mult_11_FS_1_n84 (net)         1                   0.00       1.05 r
+  mult_11_FS_1_U88/ZN (NAND3_X1)           0.01      0.03       1.08 f
+  mult_11_FS_1_n77 (net)         1                   0.00       1.08 f
+  mult_11_FS_1_U64/ZN (NAND3_X1)           0.01      0.03       1.11 r
+  mult_11_FS_1_n75 (net)         1                   0.00       1.11 r
+  mult_11_FS_1_U86/ZN (XNOR2_X1)           0.03      0.06       1.18 r
+  N15 (net)                      3                   0.00       1.18 r
+  add_11_U7/ZN (AND2_X1)                   0.02      0.06       1.23 r
+  add_11_n21 (net)               3                   0.00       1.23 r
+  add_11_U112/ZN (OAI211_X1)               0.02      0.04       1.28 f
+  add_11_n86 (net)               1                   0.00       1.28 f
+  add_11_U107/ZN (AND3_X1)                 0.01      0.04       1.32 f
+  add_11_n68 (net)               1                   0.00       1.32 f
+  add_11_U113/ZN (NAND2_X1)                0.01      0.03       1.35 r
+  add_11_n66 (net)               1                   0.00       1.35 r
+  add_11_U101/ZN (XNOR2_X1)                0.02      0.05       1.40 r
+  N34 (net)                      1                   0.00       1.40 r
+  U21/ZN (AND2_X1)                         0.01      0.04       1.44 r
+  N50 (net)                      1                   0.00       1.44 r
+  acc_reg_15_/D (DFF_X1)                   0.01      0.01       1.45 r
+  data arrival time                                             1.45
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -1.45
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.38
+
+
+  Startpoint: b[7] (input port)
+  Endpoint: acc_reg_11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[7] (in)                                0.00      0.00       0.00 r
+  b[7] (net)                     3                   0.00       0.00 r
+  mult_11_U39/ZN (INV_X1)                  0.00      0.02       0.02 f
+  mult_11_n24 (net)              1                   0.00       0.02 f
+  mult_11_U26/ZN (NOR2_X1)                 0.02      0.04       0.06 r
+  mult_11_ab_0__7_ (net)         1                   0.00       0.06 r
+  mult_11_S0_6/S (FA_X1)                   0.02      0.11       0.17 f    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.17 f
+  mult_11_U51/ZN (XNOR2_X1)                0.01      0.06       0.23 f
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.23 f
+  mult_11_S2_3_4/S (FA_X1)                 0.01      0.13       0.36 r    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.36 r
+  mult_11_S2_4_3/S (FA_X1)                 0.02      0.11       0.47 f    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.47 f
+  mult_11_S2_5_2/S (FA_X1)                 0.01      0.13       0.61 r    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.61 r
+  mult_11_S2_6_1/S (FA_X1)                 0.02      0.11       0.72 f    mo 
+  mult_11_SUMB_6__1_ (net)       1                   0.00       0.72 f
+  mult_11_S4_0/S (FA_X1)                   0.01      0.13       0.85 r    mo 
+  mult_11_SUMB_7__0_ (net)       1                   0.00       0.85 r
+  mult_11_S14_7_0/S (FA_X1)                0.01      0.11       0.96 f    mo 
+  mult_11_A1_5_ (net)            1                   0.00       0.96 f
+  mult_11_FS_1_U61/Z (BUF_X1)              0.01      0.04       1.00 f
+  N10 (net)                      2                   0.00       1.00 f
+  add_11_U69/ZN (NAND2_X1)                 0.01      0.03       1.03 r
+  add_11_n33 (net)               2                   0.00       1.03 r
+  add_11_U140/ZN (INV_X1)                  0.01      0.02       1.06 f
+  add_11_n123 (net)              1                   0.00       1.06 f
+  add_11_U37/ZN (AOI21_X1)                 0.02      0.05       1.11 r
+  add_11_n116 (net)              1                   0.00       1.11 r
+  add_11_U36/ZN (NAND2_X1)                 0.02      0.04       1.15 f
+  add_11_n26 (net)               3                   0.00       1.15 f
+  add_11_U40/ZN (NAND2_X1)                 0.01      0.04       1.18 r
+  add_11_n79 (net)               2                   0.00       1.18 r
+  add_11_U99/ZN (NAND2_X1)                 0.01      0.03       1.22 f
+  add_11_n23 (net)               2                   0.00       1.22 f
+  add_11_U95/ZN (NAND2_X1)                 0.01      0.03       1.25 r
+  add_11_n115 (net)              2                   0.00       1.25 r
+  add_11_U4/ZN (AND2_X1)                   0.01      0.04       1.29 r
+  add_11_n3 (net)                1                   0.00       1.29 r
+  add_11_U105/ZN (OAI21_X1)                0.01      0.03       1.32 f
+  add_11_n111 (net)              1                   0.00       1.32 f
+  add_11_U135/ZN (XNOR2_X1)                0.01      0.05       1.37 f
+  N30 (net)                      1                   0.00       1.37 f
+  U25/ZN (AND2_X1)                         0.01      0.04       1.41 f
+  N46 (net)                      1                   0.00       1.41 f
+  acc_reg_11_/D (DFF_X1)                   0.01      0.01       1.41 f
+  data arrival time                                             1.41
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -1.41
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.35
+
+
+  Startpoint: b[6] (input port)
+  Endpoint: acc_reg_12_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[6] (in)                                0.00      0.00       0.00 f
+  b[6] (net)                     5                   0.00       0.00 f
+  mult_11_U23/ZN (AND2_X1)                 0.01      0.04       0.04 f
+  mult_11_ab_1__6_ (net)         1                   0.00       0.04 f
+  mult_11_S0_6/S (FA_X1)                   0.01      0.14       0.18 r    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.18 r
+  mult_11_U51/ZN (XNOR2_X1)                0.03      0.06       0.24 r
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.24 r
+  mult_11_S2_3_4/S (FA_X1)                 0.02      0.12       0.35 f    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.35 f
+  mult_11_S2_4_3/S (FA_X1)                 0.01      0.13       0.49 r    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.49 r
+  mult_11_S2_5_2/S (FA_X1)                 0.02      0.11       0.60 f    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.60 f
+  mult_11_S2_6_1/CO (FA_X1)                0.02      0.09       0.69 f    mo 
+  mult_11_CARRYB_6__1_ (net)     1                   0.00       0.69 f
+  mult_11_S4_1/CO (FA_X1)                  0.02      0.11       0.80 f    mo 
+  mult_11_CARRYB_7__1_ (net)     1                   0.00       0.80 f
+  mult_11_S14_9/S (FA_X1)                  0.02      0.15       0.95 r    mo 
+  mult_11_A1_7_ (net)            4                   0.00       0.95 r
+  mult_11_FS_1_U68/ZN (NAND2_X1)           0.01      0.04       0.99 f
+  mult_11_FS_1_n42 (net)         4                   0.00       0.99 f
+  mult_11_FS_1_U87/ZN (INV_X1)             0.02      0.05       1.04 r
+  mult_11_FS_1_n38 (net)         4                   0.00       1.04 r
+  mult_11_FS_1_U76/ZN (NAND2_X1)           0.01      0.03       1.07 f
+  mult_11_FS_1_n36 (net)         1                   0.00       1.07 f
+  mult_11_FS_1_U21/ZN (NAND3_X1)           0.01      0.03       1.10 r
+  mult_11_FS_1_n16 (net)         1                   0.00       1.10 r
+  mult_11_FS_1_U20/ZN (XNOR2_X1)           0.03      0.06       1.16 r
+  N14 (net)                      3                   0.00       1.16 r
+  add_11_U21/ZN (NOR2_X1)                  0.01      0.03       1.19 f
+  add_11_n12 (net)               1                   0.00       1.19 f
+  add_11_U102/ZN (NOR2_X1)                 0.02      0.05       1.24 r
+  add_11_n108 (net)              2                   0.00       1.24 r
+  add_11_U117/ZN (NAND2_X1)                0.01      0.03       1.27 f
+  add_11_n101 (net)              1                   0.00       1.27 f
+  add_11_U116/ZN (OAI211_X1)               0.03      0.04       1.31 r
+  add_11_n105 (net)              2                   0.00       1.31 r
+  add_11_U10/ZN (XNOR2_X1)                 0.02      0.06       1.37 r
+  N31 (net)                      1                   0.00       1.37 r
+  U24/ZN (AND2_X1)                         0.01      0.04       1.41 r
+  N47 (net)                      1                   0.00       1.41 r
+  acc_reg_12_/D (DFF_X1)                   0.01      0.01       1.42 r
+  data arrival time                                             1.42
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -1.42
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.35
+
+
+  Startpoint: b[7] (input port)
+  Endpoint: acc_reg_10_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[7] (in)                                0.00      0.00       0.00 r
+  b[7] (net)                     3                   0.00       0.00 r
+  mult_11_U39/ZN (INV_X1)                  0.00      0.02       0.02 f
+  mult_11_n24 (net)              1                   0.00       0.02 f
+  mult_11_U26/ZN (NOR2_X1)                 0.02      0.04       0.06 r
+  mult_11_ab_0__7_ (net)         1                   0.00       0.06 r
+  mult_11_S0_6/S (FA_X1)                   0.02      0.11       0.17 f    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.17 f
+  mult_11_U51/ZN (XNOR2_X1)                0.01      0.06       0.23 f
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.23 f
+  mult_11_S2_3_4/S (FA_X1)                 0.01      0.13       0.36 r    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.36 r
+  mult_11_S2_4_3/S (FA_X1)                 0.02      0.11       0.47 f    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.47 f
+  mult_11_S2_5_2/S (FA_X1)                 0.01      0.13       0.61 r    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.61 r
+  mult_11_S2_6_1/S (FA_X1)                 0.02      0.11       0.72 f    mo 
+  mult_11_SUMB_6__1_ (net)       1                   0.00       0.72 f
+  mult_11_S4_0/S (FA_X1)                   0.01      0.13       0.85 r    mo 
+  mult_11_SUMB_7__0_ (net)       1                   0.00       0.85 r
+  mult_11_S14_7_0/S (FA_X1)                0.01      0.11       0.96 f    mo 
+  mult_11_A1_5_ (net)            1                   0.00       0.96 f
+  mult_11_FS_1_U61/Z (BUF_X1)              0.01      0.04       1.00 f
+  N10 (net)                      2                   0.00       1.00 f
+  add_11_U69/ZN (NAND2_X1)                 0.01      0.03       1.03 r
+  add_11_n33 (net)               2                   0.00       1.03 r
+  add_11_U140/ZN (INV_X1)                  0.01      0.02       1.06 f
+  add_11_n123 (net)              1                   0.00       1.06 f
+  add_11_U37/ZN (AOI21_X1)                 0.02      0.05       1.11 r
+  add_11_n116 (net)              1                   0.00       1.11 r
+  add_11_U36/ZN (NAND2_X1)                 0.02      0.04       1.15 f
+  add_11_n26 (net)               3                   0.00       1.15 f
+  add_11_U40/ZN (NAND2_X1)                 0.01      0.04       1.18 r
+  add_11_n79 (net)               2                   0.00       1.18 r
+  add_11_U99/ZN (NAND2_X1)                 0.01      0.03       1.22 f
+  add_11_n23 (net)               2                   0.00       1.22 f
+  add_11_U95/ZN (NAND2_X1)                 0.01      0.03       1.25 r
+  add_11_n115 (net)              2                   0.00       1.25 r
+  add_11_U39/ZN (NAND2_X1)                 0.01      0.03       1.28 f
+  add_11_n113 (net)              1                   0.00       1.28 f
+  add_11_U42/ZN (XNOR2_X1)                 0.01      0.05       1.33 f
+  N29 (net)                      1                   0.00       1.33 f
+  U26/ZN (AND2_X1)                         0.01      0.04       1.37 f
+  N45 (net)                      1                   0.00       1.37 f
+  acc_reg_10_/D (DFF_X1)                   0.01      0.01       1.37 f
+  data arrival time                                             1.37
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -1.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.31
+
+
+  Startpoint: b[7] (input port)
+  Endpoint: acc_reg_9_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[7] (in)                                0.00      0.00       0.00 r
+  b[7] (net)                     3                   0.00       0.00 r
+  mult_11_U39/ZN (INV_X1)                  0.00      0.02       0.02 f
+  mult_11_n24 (net)              1                   0.00       0.02 f
+  mult_11_U26/ZN (NOR2_X1)                 0.02      0.04       0.06 r
+  mult_11_ab_0__7_ (net)         1                   0.00       0.06 r
+  mult_11_S0_6/S (FA_X1)                   0.02      0.11       0.17 f    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.17 f
+  mult_11_U51/ZN (XNOR2_X1)                0.01      0.06       0.23 f
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.23 f
+  mult_11_S2_3_4/S (FA_X1)                 0.01      0.13       0.36 r    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.36 r
+  mult_11_S2_4_3/S (FA_X1)                 0.02      0.11       0.47 f    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.47 f
+  mult_11_S2_5_2/S (FA_X1)                 0.01      0.13       0.61 r    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.61 r
+  mult_11_S2_6_1/S (FA_X1)                 0.02      0.11       0.72 f    mo 
+  mult_11_SUMB_6__1_ (net)       1                   0.00       0.72 f
+  mult_11_S4_0/S (FA_X1)                   0.01      0.13       0.85 r    mo 
+  mult_11_SUMB_7__0_ (net)       1                   0.00       0.85 r
+  mult_11_S14_7_0/S (FA_X1)                0.01      0.11       0.96 f    mo 
+  mult_11_A1_5_ (net)            1                   0.00       0.96 f
+  mult_11_FS_1_U61/Z (BUF_X1)              0.01      0.04       1.00 f
+  N10 (net)                      2                   0.00       1.00 f
+  add_11_U69/ZN (NAND2_X1)                 0.01      0.03       1.03 r
+  add_11_n33 (net)               2                   0.00       1.03 r
+  add_11_U140/ZN (INV_X1)                  0.01      0.02       1.06 f
+  add_11_n123 (net)              1                   0.00       1.06 f
+  add_11_U37/ZN (AOI21_X1)                 0.02      0.05       1.11 r
+  add_11_n116 (net)              1                   0.00       1.11 r
+  add_11_U36/ZN (NAND2_X1)                 0.02      0.04       1.15 f
+  add_11_n26 (net)               3                   0.00       1.15 f
+  add_11_U40/ZN (NAND2_X1)                 0.01      0.04       1.18 r
+  add_11_n79 (net)               2                   0.00       1.18 r
+  add_11_U99/ZN (NAND2_X1)                 0.01      0.03       1.22 f
+  add_11_n23 (net)               2                   0.00       1.22 f
+  add_11_U24/Z (XOR2_X1)                   0.01      0.07       1.29 f
+  N28 (net)                      1                   0.00       1.29 f
+  U27/ZN (AND2_X1)                         0.01      0.04       1.33 f
+  N44 (net)                      1                   0.00       1.33 f
+  acc_reg_9_/D (DFF_X1)                    0.01      0.01       1.34 f
+  data arrival time                                             1.34
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -1.34
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.27
+
+
+  Startpoint: b[7] (input port)
+  Endpoint: acc_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[7] (in)                                0.00      0.00       0.00 r
+  b[7] (net)                     3                   0.00       0.00 r
+  mult_11_U39/ZN (INV_X1)                  0.00      0.02       0.02 f
+  mult_11_n24 (net)              1                   0.00       0.02 f
+  mult_11_U26/ZN (NOR2_X1)                 0.02      0.04       0.06 r
+  mult_11_ab_0__7_ (net)         1                   0.00       0.06 r
+  mult_11_S0_6/S (FA_X1)                   0.02      0.11       0.17 f    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.17 f
+  mult_11_U51/ZN (XNOR2_X1)                0.01      0.06       0.23 f
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.23 f
+  mult_11_S2_3_4/S (FA_X1)                 0.01      0.13       0.36 r    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.36 r
+  mult_11_S2_4_3/S (FA_X1)                 0.02      0.11       0.47 f    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.47 f
+  mult_11_S2_5_2/S (FA_X1)                 0.01      0.13       0.61 r    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.61 r
+  mult_11_S2_6_1/S (FA_X1)                 0.02      0.11       0.72 f    mo 
+  mult_11_SUMB_6__1_ (net)       1                   0.00       0.72 f
+  mult_11_S4_0/S (FA_X1)                   0.01      0.13       0.85 r    mo 
+  mult_11_SUMB_7__0_ (net)       1                   0.00       0.85 r
+  mult_11_S14_7_0/S (FA_X1)                0.01      0.11       0.96 f    mo 
+  mult_11_A1_5_ (net)            1                   0.00       0.96 f
+  mult_11_FS_1_U61/Z (BUF_X1)              0.01      0.04       1.00 f
+  N10 (net)                      2                   0.00       1.00 f
+  add_11_U69/ZN (NAND2_X1)                 0.01      0.03       1.03 r
+  add_11_n33 (net)               2                   0.00       1.03 r
+  add_11_U140/ZN (INV_X1)                  0.01      0.02       1.06 f
+  add_11_n123 (net)              1                   0.00       1.06 f
+  add_11_U37/ZN (AOI21_X1)                 0.02      0.05       1.11 r
+  add_11_n116 (net)              1                   0.00       1.11 r
+  add_11_U36/ZN (NAND2_X1)                 0.02      0.04       1.15 f
+  add_11_n26 (net)               3                   0.00       1.15 f
+  add_11_U43/ZN (XNOR2_X1)                 0.01      0.06       1.20 f
+  N27 (net)                      1                   0.00       1.20 f
+  U28/ZN (AND2_X1)                         0.01      0.04       1.24 f
+  N43 (net)                      1                   0.00       1.24 f
+  acc_reg_8_/D (DFF_X1)                    0.01      0.01       1.25 f
+  data arrival time                                             1.25
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -1.25
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.19
+
+
+  Startpoint: b[7] (input port)
+  Endpoint: acc_reg_7_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[7] (in)                                0.00      0.00       0.00 r
+  b[7] (net)                     3                   0.00       0.00 r
+  mult_11_U39/ZN (INV_X1)                  0.00      0.02       0.02 f
+  mult_11_n24 (net)              1                   0.00       0.02 f
+  mult_11_U26/ZN (NOR2_X1)                 0.02      0.04       0.06 r
+  mult_11_ab_0__7_ (net)         1                   0.00       0.06 r
+  mult_11_S0_6/S (FA_X1)                   0.02      0.11       0.17 f    mo 
+  mult_11_SUMB_1__6_ (net)       1                   0.00       0.17 f
+  mult_11_U51/ZN (XNOR2_X1)                0.01      0.06       0.23 f
+  mult_11_SUMB_2__5_ (net)       1                   0.00       0.23 f
+  mult_11_S2_3_4/S (FA_X1)                 0.01      0.13       0.36 r    mo 
+  mult_11_SUMB_3__4_ (net)       1                   0.00       0.36 r
+  mult_11_S2_4_3/S (FA_X1)                 0.02      0.11       0.47 f    mo 
+  mult_11_SUMB_4__3_ (net)       1                   0.00       0.47 f
+  mult_11_S2_5_2/S (FA_X1)                 0.01      0.13       0.61 r    mo 
+  mult_11_SUMB_5__2_ (net)       1                   0.00       0.61 r
+  mult_11_S2_6_1/S (FA_X1)                 0.02      0.11       0.72 f    mo 
+  mult_11_SUMB_6__1_ (net)       1                   0.00       0.72 f
+  mult_11_S4_0/S (FA_X1)                   0.01      0.13       0.85 r    mo 
+  mult_11_SUMB_7__0_ (net)       1                   0.00       0.85 r
+  mult_11_S14_7_0/S (FA_X1)                0.01      0.11       0.96 f    mo 
+  mult_11_A1_5_ (net)            1                   0.00       0.96 f
+  mult_11_FS_1_U61/Z (BUF_X1)              0.01      0.04       1.00 f
+  N10 (net)                      2                   0.00       1.00 f
+  add_11_U12/ZN (OR2_X2)                   0.01      0.06       1.06 f
+  add_11_n32 (net)               3                   0.00       1.06 f
+  add_11_U45/ZN (NAND2_X1)                 0.01      0.03       1.09 r
+  add_11_n31 (net)               1                   0.00       1.09 r
+  add_11_U118/ZN (XNOR2_X1)                0.02      0.05       1.14 r
+  N26 (net)                      1                   0.00       1.14 r
+  U29/ZN (AND2_X1)                         0.01      0.04       1.18 r
+  N42 (net)                      1                   0.00       1.18 r
+  acc_reg_7_/D (DFF_X2)                    0.01      0.01       1.19 r
+  data arrival time                                             1.19
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -1.19
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -1.12
+
+
+  Startpoint: a[1] (input port)
+  Endpoint: acc_reg_6_ (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  a[1] (in)                                0.00      0.00       0.00 r
+  a[1] (net)                     7                   0.00       0.00 r
+  mult_11_U4/ZN (AND2_X1)                  0.01      0.05       0.05 r
+  mult_11_ab_1__5_ (net)         2                   0.00       0.05 r
+  mult_11_U20/Z (XOR2_X1)                  0.03      0.07       0.12 r
+  mult_11_n14 (net)              1                   0.00       0.12 r
+  mult_11_S2_2_4/S (FA_X1)                 0.02      0.12       0.24 f    mo 
+  mult_11_SUMB_2__4_ (net)       1                   0.00       0.24 f
+  mult_11_S2_3_3/S (FA_X1)                 0.01      0.13       0.37 r    mo 
+  mult_11_SUMB_3__3_ (net)       1                   0.00       0.37 r
+  mult_11_S2_4_2/S (FA_X1)                 0.02      0.11       0.49 f    mo 
+  mult_11_SUMB_4__2_ (net)       1                   0.00       0.49 f
+  mult_11_S2_5_1/S (FA_X1)                 0.01      0.13       0.62 r    mo 
+  mult_11_SUMB_5__1_ (net)       1                   0.00       0.62 r
+  mult_11_S1_6_0/S (FA_X1)                 0.01      0.11       0.73 f    mo 
+  mult_11_A1_4_ (net)            1                   0.00       0.73 f
+  mult_11_FS_1_U51/Z (BUF_X1)              0.01      0.04       0.77 f
+  N9 (net)                       2                   0.00       0.77 f
+  add_11_U29/ZN (OR2_X1)                   0.01      0.06       0.83 f
+  add_11_n39 (net)               3                   0.00       0.83 f
+  add_11_U51/ZN (NAND2_X1)                 0.01      0.03       0.86 r
+  add_11_n38 (net)               1                   0.00       0.86 r
+  add_11_U50/ZN (XNOR2_X1)                 0.02      0.06       0.92 r
+  N25 (net)                      1                   0.00       0.92 r
+  U30/ZN (AND2_X1)                         0.01      0.04       0.96 r
+  N41 (net)                      1                   0.00       0.96 r
+  acc_reg_6_/D (DFF_X1)                    0.01      0.01       0.97 r
+  data arrival time                                             0.97
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.03       0.07
+  data required time                                            0.07
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.07
+  data arrival time                                            -0.97
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.90
+
+
+  Startpoint: z_reg_9_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_9_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_9_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[9] (net)                     1                   0.00       0.08 r
+  z[9] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_8_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_8_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_8_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[8] (net)                     1                   0.00       0.08 r
+  z[8] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_7_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_7_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_7_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[7] (net)                     1                   0.00       0.08 r
+  z[7] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_6_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_6_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_6_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[6] (net)                     1                   0.00       0.08 r
+  z[6] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_5_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_5_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_5_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[5] (net)                     1                   0.00       0.08 r
+  z[5] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_4_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_4_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_4_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[4] (net)                     1                   0.00       0.08 r
+  z[4] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_3_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_3_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_3_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[3] (net)                     1                   0.00       0.08 r
+  z[3] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_2_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_2_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_2_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[2] (net)                     1                   0.00       0.08 r
+  z[2] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_1_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[1] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_1_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_1_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[1] (net)                     1                   0.00       0.08 r
+  z[1] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+  Startpoint: z_reg_0_ (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: z[0] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mac_ref            5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  z_reg_0_/CK (DFF_X1)                     0.00      0.00       0.00 r
+  z_reg_0_/Q (DFF_X1)                      0.01      0.08       0.08 r
+  z[0] (net)                     1                   0.00       0.08 r
+  z[0] (out)                               0.01      0.00       0.08 r
+  data arrival time                                             0.08
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.08
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                   0.02
+
+
+1

@@ -1,0 +1,94 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 14:07:40 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     44
+    Unconnected ports (LINT-28)                                    15
+    Shorted outputs (LINT-31)                                      14
+    Constant outputs (LINT-52)                                     15
+
+Cells                                                              31
+    Cells do not drive (LINT-1)                                    31
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_16bit_ds', cell 'B_15' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_16' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_17' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_18' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_19' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_20' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_21' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_27' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_28' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_29' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_30' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_31' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_32' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_33' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_34' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_35' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_36' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_37' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_38' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_39' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_40' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_41' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_42' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_43' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'B_44' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', cell 'C441' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_ds', port 'A[14]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[13]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[12]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[11]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[10]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[9]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[8]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[5]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[4]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[3]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[2]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[1]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', port 'A[0]' is not connected to any nets. (LINT-28)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[1]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[2]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[3]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[4]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[5]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[6]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[7]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[8]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[9]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[10]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[11]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[12]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[13]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to output port 'result[14]'. (LINT-31)
+Warning: In design 'divider_16bit_ds', output port 'result[15]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[14]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[13]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[12]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[11]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[10]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[9]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[8]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[7]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[6]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[5]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[4]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[3]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[2]' is connected directly to 'logic 1'. (LINT-52)
+Warning: In design 'divider_16bit_ds', output port 'result[1]' is connected directly to 'logic 1'. (LINT-52)
+1

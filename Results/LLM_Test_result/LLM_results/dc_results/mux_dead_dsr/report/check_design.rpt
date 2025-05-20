@@ -1,0 +1,15 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Tue May 13 12:39:51 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      1
+    Unconnected ports (LINT-28)                                     1
+--------------------------------------------------------------------------------
+
+Warning: In design 'mux_dead_dsr', port 'sel' is not connected to any nets. (LINT-28)
+1

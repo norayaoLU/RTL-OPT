@@ -1,0 +1,30 @@
+Found 4 X Sources
+--------------------------------
+X sources are objects in the implementation design that are the source
+of unknown logic values that propagate to failing compare points. The
+most common types are undriven nets, tristates and power-off X corruption cells.
+--------------------------------
+i:/WORK/sub_4bit_mini/diff[0]
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/sub_4bit_ref/diff[0]
+
+-----------
+i:/WORK/sub_4bit_mini/diff[1]
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/sub_4bit_ref/diff[1]
+
+-----------
+i:/WORK/sub_4bit_mini/diff[2]
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/sub_4bit_ref/diff[2]
+
+-----------
+i:/WORK/sub_4bit_mini/diff[3]
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/sub_4bit_ref/diff[3]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

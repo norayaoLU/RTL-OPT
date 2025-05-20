@@ -1,0 +1,1535 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : calculation_ref
+Version: T-2022.03-SP2
+Date   : Mon May 12 02:39:22 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[5] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U194/ZN (NAND3_X1)                               0.01      0.04       2.82 f
+  rem_18_u_div_CryTmp_0__6_ (net)               1                   0.00       2.82 f
+  rem_18_U179/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n142 (net)                             2                   0.00       2.85 r
+  rem_18_U70/ZN (NAND3_X1)                                0.01      0.04       2.89 f
+  rem_18_n56 (net)                              1                   0.00       2.89 f
+  rem_18_U174/CO (FA_X1)                                  0.02      0.10       2.99 f
+  rem_18_n139 (net)                             4                   0.00       2.99 f
+  rem_18_U76/Z (MUX2_X1)                                  0.01      0.07       3.07 f
+  N1 (net)                                      2                   0.00       3.07 f
+  add_18_U59/ZN (NAND2_X1)                                0.01      0.03       3.10 r
+  add_18_n58 (net)                              2                   0.00       3.10 r
+  add_18_U62/ZN (NAND2_X1)                                0.01      0.03       3.13 f
+  add_18_n28 (net)                              3                   0.00       3.13 f
+  add_18_U19/ZN (AND4_X1)                                 0.01      0.04       3.18 f
+  add_18_n56 (net)                              1                   0.00       3.18 f
+  add_18_U57/ZN (NOR2_X1)                                 0.02      0.03       3.21 r
+  add_18_n55 (net)                              1                   0.00       3.21 r
+  add_18_U58/ZN (NAND2_X1)                                0.01      0.03       3.24 f
+  add_18_n46 (net)                              2                   0.00       3.24 f
+  add_18_U61/ZN (AOI21_X1)                                0.03      0.04       3.28 r
+  add_18_n47 (net)                              1                   0.00       3.28 r
+  add_18_U56/ZN (XNOR2_X1)                                0.01      0.05       3.34 r
+  s3[5] (net)                                   1                   0.00       3.34 r
+  s3[5] (out)                                             0.01      0.00       3.34 r
+  data arrival time                                                            3.34
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.34
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.24
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U92/ZN (NAND3_X1)                                0.01      0.04       2.82 f
+  rem_18_n73 (net)                              1                   0.00       2.82 f
+  rem_18_U178/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n141 (net)                             2                   0.00       2.85 r
+  rem_18_U181/ZN (NAND3_X1)                               0.02      0.05       2.90 f
+  rem_18_u_div_CryTmp_0__7_ (net)               2                   0.00       2.90 f
+  rem_18_U66/CO (FA_X1)                                   0.02      0.10       3.00 f
+  rem_18_n51 (net)                              2                   0.00       3.00 f
+  rem_18_U278/Z (MUX2_X1)                                 0.01      0.07       3.07 f
+  N6 (net)                                      2                   0.00       3.07 f
+  add_18_U40/ZN (OR2_X2)                                  0.01      0.07       3.14 f
+  add_18_n33 (net)                              4                   0.00       3.14 f
+  add_18_U34/ZN (NAND2_X1)                                0.01      0.03       3.17 r
+  add_18_n38 (net)                              1                   0.00       3.17 r
+  add_18_U52/ZN (NOR2_X1)                                 0.01      0.02       3.20 f
+  add_18_n37 (net)                              1                   0.00       3.20 f
+  add_18_U54/ZN (AOI21_X1)                                0.02      0.05       3.25 r
+  add_18_n23 (net)                              1                   0.00       3.25 r
+  add_18_U46/ZN (NAND3_X1)                                0.01      0.04       3.28 f
+  add_18_n21 (net)                              1                   0.00       3.28 f
+  add_18_U64/ZN (XNOR2_X1)                                0.01      0.05       3.34 f
+  s3[7] (net)                                   1                   0.00       3.34 f
+  s3[7] (out)                                             0.01      0.00       3.34 f
+  data arrival time                                                            3.34
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.34
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.24
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[4] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U194/ZN (NAND3_X1)                               0.01      0.04       2.82 f
+  rem_18_u_div_CryTmp_0__6_ (net)               1                   0.00       2.82 f
+  rem_18_U179/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n142 (net)                             2                   0.00       2.85 r
+  rem_18_U70/ZN (NAND3_X1)                                0.01      0.04       2.89 f
+  rem_18_n56 (net)                              1                   0.00       2.89 f
+  rem_18_U174/CO (FA_X1)                                  0.02      0.10       2.99 f
+  rem_18_n139 (net)                             4                   0.00       2.99 f
+  rem_18_U76/Z (MUX2_X1)                                  0.01      0.08       3.07 r
+  N1 (net)                                      2                   0.00       3.07 r
+  add_18_U59/ZN (NAND2_X1)                                0.01      0.03       3.10 f
+  add_18_n58 (net)                              2                   0.00       3.10 f
+  add_18_U62/ZN (NAND2_X1)                                0.01      0.03       3.13 r
+  add_18_n28 (net)                              3                   0.00       3.13 r
+  add_18_U19/ZN (AND4_X1)                                 0.01      0.06       3.20 r
+  add_18_n56 (net)                              1                   0.00       3.20 r
+  add_18_U57/ZN (NOR2_X1)                                 0.01      0.02       3.22 f
+  add_18_n55 (net)                              1                   0.00       3.22 f
+  add_18_U58/ZN (NAND2_X1)                                0.01      0.03       3.25 r
+  add_18_n46 (net)                              2                   0.00       3.25 r
+  add_18_U16/Z (BUF_X1)                                   0.01      0.03       3.28 r
+  add_18_n14 (net)                              1                   0.00       3.28 r
+  add_18_U60/ZN (XNOR2_X1)                                0.01      0.05       3.33 r
+  s3[4] (net)                                   1                   0.00       3.33 r
+  s3[4] (out)                                             0.01      0.00       3.33 r
+  data arrival time                                                            3.33
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.33
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.23
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U194/ZN (NAND3_X1)                               0.01      0.04       2.82 f
+  rem_18_u_div_CryTmp_0__6_ (net)               1                   0.00       2.82 f
+  rem_18_U179/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n142 (net)                             2                   0.00       2.85 r
+  rem_18_U70/ZN (NAND3_X1)                                0.01      0.04       2.89 f
+  rem_18_n56 (net)                              1                   0.00       2.89 f
+  rem_18_U174/CO (FA_X1)                                  0.02      0.10       2.99 f
+  rem_18_n139 (net)                             4                   0.00       2.99 f
+  rem_18_U76/Z (MUX2_X1)                                  0.01      0.07       3.07 f
+  N1 (net)                                      2                   0.00       3.07 f
+  add_18_U59/ZN (NAND2_X1)                                0.01      0.03       3.10 r
+  add_18_n58 (net)                              2                   0.00       3.10 r
+  add_18_U62/ZN (NAND2_X1)                                0.01      0.03       3.13 f
+  add_18_n28 (net)                              3                   0.00       3.13 f
+  add_18_U2/ZN (AND4_X1)                                  0.01      0.04       3.18 f
+  add_18_n1 (net)                               1                   0.00       3.18 f
+  add_18_U17/ZN (NOR3_X1)                                 0.03      0.06       3.24 r
+  add_18_n18 (net)                              1                   0.00       3.24 r
+  add_18_U50/ZN (OAI21_X1)                                0.01      0.03       3.27 f
+  add_18_n40 (net)                              1                   0.00       3.27 f
+  add_18_U70/ZN (XNOR2_X1)                                0.01      0.05       3.32 f
+  s3[6] (net)                                   1                   0.00       3.32 f
+  s3[6] (out)                                             0.01      0.00       3.32 f
+  data arrival time                                                            3.32
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.32
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.22
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[3] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U194/ZN (NAND3_X1)                               0.01      0.04       2.82 f
+  rem_18_u_div_CryTmp_0__6_ (net)               1                   0.00       2.82 f
+  rem_18_U179/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n142 (net)                             2                   0.00       2.85 r
+  rem_18_U70/ZN (NAND3_X1)                                0.01      0.04       2.89 f
+  rem_18_n56 (net)                              1                   0.00       2.89 f
+  rem_18_U174/CO (FA_X1)                                  0.02      0.10       2.99 f
+  rem_18_n139 (net)                             4                   0.00       2.99 f
+  rem_18_U76/Z (MUX2_X1)                                  0.01      0.07       3.07 f
+  N1 (net)                                      2                   0.00       3.07 f
+  add_18_U29/ZN (OR2_X1)                                  0.01      0.06       3.13 f
+  add_18_n57 (net)                              3                   0.00       3.13 f
+  add_18_U75/ZN (INV_X1)                                  0.02      0.04       3.17 r
+  add_18_n29 (net)                              4                   0.00       3.17 r
+  add_18_U15/ZN (OAI21_X1)                                0.01      0.04       3.21 f
+  add_18_n64 (net)                              1                   0.00       3.21 f
+  add_18_U18/ZN (AOI21_X1)                                0.03      0.05       3.26 r
+  add_18_n9 (net)                               1                   0.00       3.26 r
+  add_18_U13/ZN (XNOR2_X1)                                0.01      0.05       3.31 r
+  s3[3] (net)                                   1                   0.00       3.31 r
+  s3[3] (out)                                             0.01      0.00       3.31 r
+  data arrival time                                                            3.31
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.31
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.21
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[1] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U194/ZN (NAND3_X1)                               0.01      0.04       2.82 f
+  rem_18_u_div_CryTmp_0__6_ (net)               1                   0.00       2.82 f
+  rem_18_U179/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n142 (net)                             2                   0.00       2.85 r
+  rem_18_U70/ZN (NAND3_X1)                                0.01      0.04       2.89 f
+  rem_18_n56 (net)                              1                   0.00       2.89 f
+  rem_18_U174/CO (FA_X1)                                  0.02      0.10       2.99 f
+  rem_18_n139 (net)                             4                   0.00       2.99 f
+  rem_18_U76/Z (MUX2_X1)                                  0.01      0.07       3.07 f
+  N1 (net)                                      2                   0.00       3.07 f
+  add_18_U29/ZN (OR2_X1)                                  0.01      0.06       3.13 f
+  add_18_n57 (net)                              3                   0.00       3.13 f
+  add_18_U75/ZN (INV_X1)                                  0.02      0.04       3.17 r
+  add_18_n29 (net)                              4                   0.00       3.17 r
+  add_18_U22/ZN (INV_X1)                                  0.01      0.03       3.20 f
+  add_18_n11 (net)                              1                   0.00       3.20 f
+  add_18_U47/ZN (NAND2_X1)                                0.01      0.03       3.23 r
+  add_18_n66 (net)                              1                   0.00       3.23 r
+  add_18_U39/ZN (XNOR2_X1)                                0.01      0.05       3.28 r
+  s3[1] (net)                                   1                   0.00       3.28 r
+  s3[1] (out)                                             0.01      0.00       3.28 r
+  data arrival time                                                            3.28
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.28
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.18
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[2] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U194/ZN (NAND3_X1)                               0.01      0.04       2.82 f
+  rem_18_u_div_CryTmp_0__6_ (net)               1                   0.00       2.82 f
+  rem_18_U179/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n142 (net)                             2                   0.00       2.85 r
+  rem_18_U70/ZN (NAND3_X1)                                0.01      0.04       2.89 f
+  rem_18_n56 (net)                              1                   0.00       2.89 f
+  rem_18_U174/CO (FA_X1)                                  0.02      0.10       2.99 f
+  rem_18_n139 (net)                             4                   0.00       2.99 f
+  rem_18_U76/Z (MUX2_X1)                                  0.01      0.07       3.07 f
+  N1 (net)                                      2                   0.00       3.07 f
+  add_18_U29/ZN (OR2_X1)                                  0.01      0.06       3.13 f
+  add_18_n57 (net)                              3                   0.00       3.13 f
+  add_18_U75/ZN (INV_X1)                                  0.02      0.04       3.17 r
+  add_18_n29 (net)                              4                   0.00       3.17 r
+  add_18_U12/ZN (OAI21_X1)                                0.01      0.04       3.21 f
+  add_18_n7 (net)                               1                   0.00       3.21 f
+  add_18_U38/ZN (XNOR2_X1)                                0.01      0.05       3.26 f
+  s3[2] (net)                                   1                   0.00       3.26 f
+  s3[2] (out)                                             0.01      0.00       3.26 f
+  data arrival time                                                            3.26
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.26
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.16
+
+
+  Startpoint: a[7] (input port)
+  Endpoint: s3[0] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[7] (in)                                               0.00      0.00       0.00 f
+  a[7] (net)                                    3                   0.00       0.00 f
+  rem_18_U245/ZN (INV_X1)                                 0.01      0.02       0.02 r
+  rem_18_n177 (net)                             1                   0.00       0.02 r
+  rem_18_U244/ZN (NAND2_X1)                               0.01      0.02       0.05 f
+  rem_18_u_div_CryTmp_7__1_ (net)               1                   0.00       0.05 f
+  rem_18_U27/ZN (AND3_X1)                                 0.01      0.04       0.08 f
+  rem_18_n79 (net)                              1                   0.00       0.08 f
+  rem_18_U40/ZN (NAND2_X1)                                0.01      0.03       0.11 r
+  rem_18_n30 (net)                              1                   0.00       0.11 r
+  rem_18_U39/Z (MUX2_X1)                                  0.01      0.08       0.19 f
+  rem_18_n29 (net)                              2                   0.00       0.19 f
+  rem_18_u_div_u_fa_PartRem_0_6_1/CO (FA_X1)              0.01      0.09       0.28 f    mo 
+  rem_18_u_div_CryTmp_6__2_ (net)               2                   0.00       0.28 f
+  rem_18_U30/ZN (AND2_X1)                                 0.01      0.04       0.32 f
+  rem_18_n216 (net)                             1                   0.00       0.32 f
+  rem_18_U36/Z (MUX2_X1)                                  0.01      0.07       0.38 f
+  rem_18_n27 (net)                              2                   0.00       0.38 f
+  rem_18_u_div_u_fa_PartRem_0_5_1/CO (FA_X1)              0.01      0.09       0.48 f    mo 
+  rem_18_u_div_CryTmp_5__2_ (net)               1                   0.00       0.48 f
+  rem_18_u_div_u_fa_PartRem_0_5_2/CO (FA_X1)              0.02      0.09       0.57 f    mo 
+  rem_18_u_div_CryTmp_5__3_ (net)               3                   0.00       0.57 f
+  rem_18_U34/ZN (AND2_X1)                                 0.01      0.04       0.61 f
+  rem_18_n25 (net)                              1                   0.00       0.61 f
+  rem_18_U32/Z (MUX2_X2)                                  0.01      0.06       0.67 f
+  rem_18_n23 (net)                              2                   0.00       0.67 f
+  rem_18_u_div_u_fa_PartRem_0_4_1/CO (FA_X1)              0.01      0.09       0.76 f    mo 
+  rem_18_u_div_CryTmp_4__2_ (net)               1                   0.00       0.76 f
+  rem_18_U166/ZN (NAND2_X1)                               0.01      0.03       0.79 r
+  rem_18_n132 (net)                             1                   0.00       0.79 r
+  rem_18_U169/ZN (NAND3_X1)                               0.01      0.04       0.82 f
+  rem_18_u_div_CryTmp_4__3_ (net)               1                   0.00       0.82 f
+  rem_18_u_div_u_fa_PartRem_0_4_3/CO (FA_X1)              0.02      0.09       0.91 f    mo 
+  rem_18_u_div_CryTmp_4__4_ (net)               2                   0.00       0.91 f
+  rem_18_U101/ZN (NAND2_X1)                               0.01      0.03       0.95 r
+  rem_18_n80 (net)                              1                   0.00       0.95 r
+  rem_18_U100/Z (MUX2_X1)                                 0.01      0.08       1.02 f
+  rem_18_n148 (net)                             2                   0.00       1.02 f
+  rem_18_U109/ZN (NAND2_X1)                               0.02      0.04       1.06 r
+  rem_18_n86 (net)                              3                   0.00       1.06 r
+  rem_18_U112/ZN (NAND3_X1)                               0.02      0.04       1.11 f
+  rem_18_u_div_CryTmp_3__2_ (net)               2                   0.00       1.11 f
+  rem_18_U1/ZN (NAND2_X1)                                 0.01      0.03       1.14 r
+  rem_18_n1 (net)                               2                   0.00       1.14 r
+  rem_18_U171/ZN (NAND3_X1)                               0.01      0.04       1.18 f
+  rem_18_n136 (net)                             1                   0.00       1.18 f
+  rem_18_U184/ZN (NAND2_X1)                               0.01      0.03       1.21 r
+  rem_18_n146 (net)                             2                   0.00       1.21 r
+  rem_18_U118/ZN (NAND3_X1)                               0.01      0.04       1.24 f
+  rem_18_n95 (net)                              2                   0.00       1.24 f
+  rem_18_U127/ZN (NAND2_X1)                               0.01      0.03       1.28 r
+  rem_18_n102 (net)                             1                   0.00       1.28 r
+  rem_18_U130/ZN (NAND3_X1)                               0.01      0.03       1.31 f
+  rem_18_u_div_CryTmp_3__5_ (net)               2                   0.00       1.31 f
+  rem_18_U25/ZN (AND2_X1)                                 0.01      0.04       1.35 f
+  rem_18_n172 (net)                             1                   0.00       1.35 f
+  rem_18_U216/Z (MUX2_X2)                                 0.01      0.06       1.41 f
+  rem_18_n171 (net)                             2                   0.00       1.41 f
+  rem_18_U211/ZN (NAND2_X1)                               0.01      0.03       1.43 r
+  rem_18_n168 (net)                             1                   0.00       1.43 r
+  rem_18_U214/ZN (NAND3_X1)                               0.01      0.04       1.47 f
+  rem_18_u_div_CryTmp_2__2_ (net)               1                   0.00       1.47 f
+  rem_18_u_div_u_fa_PartRem_0_2_2/CO (FA_X1)              0.02      0.10       1.57 f    mo 
+  rem_18_u_div_CryTmp_2__3_ (net)               3                   0.00       1.57 f
+  rem_18_U82/ZN (NAND2_X1)                                0.01      0.04       1.61 r
+  rem_18_n66 (net)                              2                   0.00       1.61 r
+  rem_18_U67/ZN (NAND3_X1)                                0.01      0.04       1.64 f
+  rem_18_n52 (net)                              2                   0.00       1.64 f
+  rem_18_U103/ZN (NAND2_X1)                               0.01      0.04       1.68 r
+  rem_18_n82 (net)                              2                   0.00       1.68 r
+  rem_18_U106/ZN (NAND3_X1)                               0.01      0.04       1.72 f
+  rem_18_u_div_CryTmp_2__5_ (net)               2                   0.00       1.72 f
+  rem_18_U123/ZN (NAND2_X1)                               0.01      0.03       1.75 r
+  rem_18_n99 (net)                              1                   0.00       1.75 r
+  rem_18_U125/ZN (NAND3_X1)                               0.01      0.03       1.78 f
+  rem_18_u_div_CryTmp_2__6_ (net)               2                   0.00       1.78 f
+  rem_18_U217/ZN (AND2_X1)                                0.01      0.04       1.82 f
+  rem_18_n223 (net)                             2                   0.00       1.82 f
+  rem_18_U42/Z (MUX2_X1)                                  0.01      0.07       1.89 f
+  rem_18_n32 (net)                              3                   0.00       1.89 f
+  rem_18_U89/ZN (NAND2_X1)                                0.01      0.03       1.92 r
+  rem_18_n71 (net)                              1                   0.00       1.92 r
+  rem_18_U63/ZN (NAND3_X1)                                0.02      0.04       1.96 f
+  rem_18_n48 (net)                              3                   0.00       1.96 f
+  rem_18_U54/ZN (NAND2_X1)                                0.01      0.04       2.00 r
+  rem_18_n42 (net)                              2                   0.00       2.00 r
+  rem_18_U164/ZN (NAND3_X1)                               0.01      0.03       2.03 f
+  rem_18_u_div_CryTmp_1__3_ (net)               1                   0.00       2.03 f
+  rem_18_U133/ZN (NAND2_X1)                               0.01      0.03       2.06 r
+  rem_18_n107 (net)                             1                   0.00       2.06 r
+  rem_18_U135/ZN (NAND3_X1)                               0.01      0.03       2.09 f
+  rem_18_u_div_CryTmp_1__4_ (net)               1                   0.00       2.09 f
+  rem_18_u_div_u_fa_PartRem_0_1_4/CO (FA_X1)              0.02      0.10       2.19 f    mo 
+  rem_18_u_div_CryTmp_1__5_ (net)               3                   0.00       2.19 f
+  rem_18_U197/ZN (NAND2_X1)                               0.02      0.04       2.23 r
+  rem_18_n157 (net)                             3                   0.00       2.23 r
+  rem_18_U199/ZN (NAND3_X1)                               0.01      0.04       2.27 f
+  rem_18_u_div_CryTmp_1__6_ (net)               1                   0.00       2.27 f
+  rem_18_U202/ZN (NAND2_X1)                               0.01      0.03       2.30 r
+  rem_18_n161 (net)                             1                   0.00       2.30 r
+  rem_18_U204/ZN (NAND3_X1)                               0.01      0.03       2.33 f
+  rem_18_u_div_CryTmp_1__7_ (net)               2                   0.00       2.33 f
+  rem_18_U218/ZN (AND2_X1)                                0.01      0.04       2.37 f
+  rem_18_n224 (net)                             1                   0.00       2.37 f
+  rem_18_U255/Z (MUX2_X2)                                 0.01      0.06       2.43 f
+  rem_18_u_div_PartRem_1__1_ (net)              3                   0.00       2.43 f
+  rem_18_U151/ZN (NAND2_X1)                               0.01      0.03       2.46 r
+  rem_18_n120 (net)                             1                   0.00       2.46 r
+  rem_18_U154/ZN (NAND3_X1)                               0.01      0.04       2.50 f
+  rem_18_u_div_CryTmp_0__2_ (net)               1                   0.00       2.50 f
+  rem_18_u_div_u_fa_PartRem_0_0_2/CO (FA_X1)              0.02      0.10       2.59 f    mo 
+  rem_18_u_div_CryTmp_0__3_ (net)               3                   0.00       2.59 f
+  rem_18_U157/ZN (NAND2_X1)                               0.01      0.04       2.63 r
+  rem_18_n124 (net)                             2                   0.00       2.63 r
+  rem_18_U68/ZN (NAND3_X1)                                0.01      0.04       2.67 f
+  rem_18_n53 (net)                              2                   0.00       2.67 f
+  rem_18_U140/ZN (NAND2_X1)                               0.02      0.04       2.71 r
+  rem_18_n112 (net)                             3                   0.00       2.71 r
+  rem_18_U143/ZN (NAND3_X1)                               0.01      0.04       2.75 f
+  rem_18_u_div_CryTmp_0__5_ (net)               1                   0.00       2.75 f
+  rem_18_U191/ZN (NAND2_X1)                               0.02      0.04       2.78 r
+  rem_18_n152 (net)                             3                   0.00       2.78 r
+  rem_18_U92/ZN (NAND3_X1)                                0.01      0.04       2.82 f
+  rem_18_n73 (net)                              1                   0.00       2.82 f
+  rem_18_U178/ZN (NAND2_X1)                               0.01      0.03       2.85 r
+  rem_18_n141 (net)                             2                   0.00       2.85 r
+  rem_18_U181/ZN (NAND3_X1)                               0.02      0.05       2.90 f
+  rem_18_u_div_CryTmp_0__7_ (net)               2                   0.00       2.90 f
+  rem_18_U66/CO (FA_X1)                                   0.02      0.10       3.00 f
+  rem_18_n51 (net)                              2                   0.00       3.00 f
+  rem_18_U300/Z (MUX2_X1)                                 0.01      0.07       3.07 f
+  N0 (net)                                      2                   0.00       3.07 f
+  add_18_U24/Z (CLKBUF_X1)                                0.01      0.05       3.12 f
+  add_18_n13 (net)                              3                   0.00       3.12 f
+  add_18_U6/ZN (OR2_X1)                                   0.01      0.05       3.17 f
+  add_18_n67 (net)                              1                   0.00       3.17 f
+  add_18_U7/ZN (AND2_X1)                                  0.00      0.03       3.20 f
+  s3[0] (net)                                   1                   0.00       3.20 f
+  s3[0] (out)                                             0.00      0.00       3.20 f
+  data arrival time                                                            3.20
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -3.20
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -3.10
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: s6[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[0] (in)                                               0.00      0.00       0.00 f
+  a[0] (net)                                    9                   0.00       0.00 f
+  mult_17_U19/ZN (INV_X1)                                 0.04      0.06       0.06 r
+  mult_17_n29 (net)                             7                   0.00       0.06 r
+  mult_17_U20/ZN (NOR2_X1)                                0.01      0.04       0.10 f
+  mult_17_ab_0__6_ (net)                        2                   0.00       0.10 f
+  mult_17_U2/Z (XOR2_X1)                                  0.01      0.08       0.18 f
+  mult_17_n2 (net)                              1                   0.00       0.18 f
+  mult_17_S2_2_4/S (FA_X1)                                0.01      0.13       0.31 r    mo 
+  mult_17_SUMB_2__4_ (net)                      1                   0.00       0.31 r
+  mult_17_S2_3_3/S (FA_X1)                                0.02      0.11       0.42 f    mo 
+  mult_17_SUMB_3__3_ (net)                      1                   0.00       0.42 f
+  mult_17_S2_4_2/S (FA_X1)                                0.01      0.13       0.56 r    mo 
+  mult_17_SUMB_4__2_ (net)                      1                   0.00       0.56 r
+  mult_17_S2_5_1/S (FA_X1)                                0.02      0.11       0.67 f    mo 
+  mult_17_SUMB_5__1_ (net)                      1                   0.00       0.67 f
+  mult_17_S1_6_0/CO (FA_X1)                               0.02      0.09       0.76 f    mo 
+  mult_17_CARRYB_6__0_ (net)                    1                   0.00       0.76 f
+  mult_17_S4_0/S (FA_X1)                                  0.02      0.15       0.92 r    mo 
+  s2[7] (net)                                   2                   0.00       0.92 r
+  add_0_root_add_0_root_add_19_2_U1_7/S (FA_X1)           0.02      0.13       1.04 f    mo 
+  s4[7] (net)                                   2                   0.00       1.04 f
+  add_21_U1_7/S (FA_X1)                                   0.01      0.14       1.18 r    mo 
+  s6[7] (net)                                   1                   0.00       1.18 r
+  s6[7] (out)                                             0.01      0.00       1.18 r
+  data arrival time                                                            1.18
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -1.18
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -1.08
+
+
+  Startpoint: a[0] (input port)
+  Endpoint: s6[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  calculation_ref    5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  a[0] (in)                                               0.00      0.00       0.00 f
+  a[0] (net)                                    9                   0.00       0.00 f
+  mult_17_U19/ZN (INV_X1)                                 0.04      0.06       0.06 r
+  mult_17_n29 (net)                             7                   0.00       0.06 r
+  mult_17_U20/ZN (NOR2_X1)                                0.01      0.04       0.10 f
+  mult_17_ab_0__6_ (net)                        2                   0.00       0.10 f
+  mult_17_U2/Z (XOR2_X1)                                  0.01      0.08       0.18 f
+  mult_17_n2 (net)                              1                   0.00       0.18 f
+  mult_17_S2_2_4/S (FA_X1)                                0.01      0.13       0.31 r    mo 
+  mult_17_SUMB_2__4_ (net)                      1                   0.00       0.31 r
+  mult_17_S2_3_3/S (FA_X1)                                0.02      0.11       0.42 f    mo 
+  mult_17_SUMB_3__3_ (net)                      1                   0.00       0.42 f
+  mult_17_S2_4_2/S (FA_X1)                                0.01      0.13       0.56 r    mo 
+  mult_17_SUMB_4__2_ (net)                      1                   0.00       0.56 r
+  mult_17_S2_5_1/S (FA_X1)                                0.02      0.11       0.67 f    mo 
+  mult_17_SUMB_5__1_ (net)                      1                   0.00       0.67 f
+  mult_17_S1_6_0/S (FA_X1)                                0.02      0.14       0.81 r    mo 
+  s2[6] (net)                                   2                   0.00       0.81 r
+  add_0_root_add_0_root_add_19_2_U1_6/S (FA_X1)           0.02      0.13       0.94 f    mo 
+  s4[6] (net)                                   2                   0.00       0.94 f
+  add_21_U1_6/S (FA_X1)                                   0.01      0.14       1.07 r    mo 
+  s6[6] (net)                                   1                   0.00       1.07 r
+  s6[6] (out)                                             0.01      0.00       1.08 r
+  data arrival time                                                            1.08
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -1.08
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.98
+
+
+1

@@ -1,0 +1,177 @@
+Found 4 Unmatched Cone Inputs
+--------------------------------
+Unmatched cone inputs result either from mismatched compare points
+or from differences in the logic within the cones. Only unmatched
+inputs that are suspected of contributing to verification failures
+are included in the report.
+The source of the matching or logical differences may be determined
+using the schematic, cone and source views.
+--------------------------------
+r:/WORK/fsm_ref/data_in[4]
+    Matched with port i:/WORK/fsm_mini/data_in[4]
+    Exists in the ref cone but not in the impl cone for 1 compare point(s):
+        i:/WORK/fsm_mini/data_out[4]
+
+-----------
+i:/WORK/fsm_mini/data_in[4]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/fsm_ref/data_out[4]
+
+-----------
+i:/WORK/fsm_mini/data_in[5]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/fsm_ref/data_out[5]
+
+-----------
+r:/WORK/fsm_ref/state_reg[3]
+    Is globally unmatched affecting 1 compare point(s):
+        i:/WORK/fsm_mini/state_reg[1]
+
+-----------
+--------------------------------
+Found 4 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/fsm_mini/state_reg[0]
+    Fans out to 12 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/fsm_mini/done
+
+-----------
+i:/WORK/fsm_mini/state_reg[2]
+    Fans out to 12 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/fsm_mini/done
+
+-----------
+i:/WORK/fsm_mini/clk
+    Fans out to 3 failing and 0 passing points and has
+    logic value '1' for 3 compare point(s):
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+-----------
+i:/WORK/fsm_mini/rst_n
+    Fans out to 3 failing and 0 passing points and has
+    logic value '1' for 3 compare point(s):
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+-----------
+--------------------------------
+Found 5 Unmatched Blackbox Nets
+--------------------------------
+Nets may be converted to blackboxes either because the resolution method
+is set to 'blackbox' or because they have more than one driver and at
+least one driver is a port, cutpoint or black-box pin.
+
+An unmatched blackbox net in the ref (impl) implies that their was either no
+corresponding net in the impl (ref) or the corresponding net was not blackboxed.
+Note that Formality currently doesn't attempt to locate corresponding nets.
+That requires examining net names or locating equivalent drivers in the
+corresponding design.
+
+A corresponding net might not have been blackboxed because
+1) There is a difference in the net resolution methods:
+   Locate the corresponding net and change the resolution to 'blackbox'.
+2) The blackbox net is driven by a loop, net or pin cutpoint and the
+    corresponding net is not:
+    Either remove the cutpoint or create a matching cutpoint.
+3) The blackbox net is driven by an input or I/O port and the corresponding
+   net is not:
+   If there is a matching port determine why it it not driving the corresponding net.
+   If the port is unmatched determine if it is supposed to be constrained.
+4) The corresponding net is either not multiply driven or all but one of the
+   drivers are constant disabled. This is a common issue with pad cells connected
+   to I/O ports:
+   Check for tristate drivers on the nets and try setting cutpoints on the
+   enable signals to isolate the difference
+--------------------------------
+i:/WORK/fsm_mini/data_in[3]
+    Unmatched in the cones for 8 compare point(s):
+        i:/WORK/fsm_mini/data_out[3]
+        i:/WORK/fsm_mini/data_out[4]
+        i:/WORK/fsm_mini/data_out[5]
+        i:/WORK/fsm_mini/data_out[6]
+        i:/WORK/fsm_mini/data_out[7]
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+    Blackboxed because of the following driver(s):
+        Primary Port i:/WORK/fsm_mini/data_in[3] (matched with input r:/WORK/fsm_ref/data_in[3])
+-----------
+i:/WORK/fsm_mini/data_in[4]
+    Unmatched in the cones for 7 compare point(s):
+        i:/WORK/fsm_mini/data_out[4]
+        i:/WORK/fsm_mini/data_out[5]
+        i:/WORK/fsm_mini/data_out[6]
+        i:/WORK/fsm_mini/data_out[7]
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+    Blackboxed because of the following driver(s):
+        Primary Port i:/WORK/fsm_mini/data_in[4] (matched with input r:/WORK/fsm_ref/data_in[4])
+-----------
+i:/WORK/fsm_mini/data_in[5]
+    Unmatched in the cones for 6 compare point(s):
+        i:/WORK/fsm_mini/data_out[5]
+        i:/WORK/fsm_mini/data_out[6]
+        i:/WORK/fsm_mini/data_out[7]
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+    Blackboxed because of the following driver(s):
+        Primary Port i:/WORK/fsm_mini/data_in[5] (matched with input r:/WORK/fsm_ref/data_in[5])
+-----------
+i:/WORK/fsm_mini/data_in[6]
+    Unmatched in the cones for 5 compare point(s):
+        i:/WORK/fsm_mini/data_out[6]
+        i:/WORK/fsm_mini/data_out[7]
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+    Blackboxed because of the following driver(s):
+        Primary Port i:/WORK/fsm_mini/data_in[6] (matched with input r:/WORK/fsm_ref/data_in[6])
+-----------
+i:/WORK/fsm_mini/data_in[7]
+    Unmatched in the cones for 4 compare point(s):
+        i:/WORK/fsm_mini/data_out[7]
+        i:/WORK/fsm_mini/state_reg[0]
+        i:/WORK/fsm_mini/state_reg[1]
+        i:/WORK/fsm_mini/state_reg[2]
+
+    Blackboxed because of the following driver(s):
+        Primary Port i:/WORK/fsm_mini/data_in[7] (matched with input r:/WORK/fsm_ref/data_in[7])
+-----------
+--------------------------------
+Found 2 X Sources
+--------------------------------
+X sources are objects in the implementation design that are the source
+of unknown logic values that propagate to failing compare points. The
+most common types are undriven nets, tristates and power-off X corruption cells.
+--------------------------------
+i:/WORK/fsm_mini/fm_mux_Ie2/C7
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_ref/state_reg[1]
+
+-----------
+i:/WORK/fsm_mini/fm_mux_Ie7/C9
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/fsm_ref/state_reg[2]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

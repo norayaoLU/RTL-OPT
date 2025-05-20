@@ -1,0 +1,399 @@
+Found 32 Unmatched Cone Inputs
+--------------------------------
+Unmatched cone inputs result either from mismatched compare points
+or from differences in the logic within the cones. Only unmatched
+inputs that are suspected of contributing to verification failures
+are included in the report.
+The source of the matching or logical differences may be determined
+using the schematic, cone and source views.
+--------------------------------
+r:/WORK/mac_ref/a[0]
+    Matched with port i:/WORK/mac/a[0]
+    Exists in the ref cone but not in the impl cone for 12 compare point(s):
+        i:/WORK/mac/acc_reg[0]
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[2]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[0]
+    Matched with port i:/WORK/mac/b[0]
+    Exists in the ref cone but not in the impl cone for 11 compare point(s):
+        i:/WORK/mac/acc_reg[0]
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[1]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+i:/WORK/mac/product_reg_reg[0]
+    Is globally unmatched affecting 3 compare point(s):
+        r:/WORK/mac_ref/acc_reg[0]
+        r:/WORK/mac_ref/acc_reg[1]
+        r:/WORK/mac_ref/acc_reg[2]
+
+-----------
+r:/WORK/mac_ref/a[1]
+    Matched with port i:/WORK/mac/a[1]
+    Exists in the ref cone but not in the impl cone for 10 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/a[2]
+    Matched with port i:/WORK/mac/a[2]
+    Exists in the ref cone but not in the impl cone for 11 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[2]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/a[3]
+    Matched with port i:/WORK/mac/a[3]
+    Exists in the ref cone but not in the impl cone for 12 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/a[4]
+    Matched with port i:/WORK/mac/a[4]
+    Exists in the ref cone but not in the impl cone for 10 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/a[5]
+    Matched with port i:/WORK/mac/a[5]
+    Exists in the ref cone but not in the impl cone for 9 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/a[6]
+    Matched with port i:/WORK/mac/a[6]
+    Exists in the ref cone but not in the impl cone for 8 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/a[7]
+    Matched with port i:/WORK/mac/a[7]
+    Exists in the ref cone but not in the impl cone for 8 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[1]
+    Matched with port i:/WORK/mac/b[1]
+    Exists in the ref cone but not in the impl cone for 11 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[1]
+        i:/WORK/mac/acc_reg[2]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[2]
+    Matched with port i:/WORK/mac/b[2]
+    Exists in the ref cone but not in the impl cone for 10 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[3]
+    Matched with port i:/WORK/mac/b[3]
+    Exists in the ref cone but not in the impl cone for 11 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[4]
+    Matched with port i:/WORK/mac/b[4]
+    Exists in the ref cone but not in the impl cone for 10 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[5]
+    Matched with port i:/WORK/mac/b[5]
+    Exists in the ref cone but not in the impl cone for 9 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[6]
+    Matched with port i:/WORK/mac/b[6]
+    Exists in the ref cone but not in the impl cone for 9 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+r:/WORK/mac_ref/b[7]
+    Matched with port i:/WORK/mac/b[7]
+    Exists in the ref cone but not in the impl cone for 7 compare point(s):
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[8]
+
+-----------
+i:/WORK/mac/product_reg_reg[10]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[10]
+        r:/WORK/mac_ref/acc_reg[11]
+
+-----------
+i:/WORK/mac/product_reg_reg[9]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[10]
+        r:/WORK/mac_ref/acc_reg[9]
+
+-----------
+i:/WORK/mac/product_reg_reg[11]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[11]
+        r:/WORK/mac_ref/acc_reg[12]
+
+-----------
+i:/WORK/mac/product_reg_reg[12]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/mac_ref/acc_reg[12]
+
+-----------
+i:/WORK/mac/product_reg_reg[13]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[13]
+        r:/WORK/mac_ref/acc_reg[14]
+
+-----------
+i:/WORK/mac/product_reg_reg[14]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[14]
+        r:/WORK/mac_ref/acc_reg[15]
+
+-----------
+i:/WORK/mac/product_reg_reg[15]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/mac_ref/acc_reg[15]
+
+-----------
+i:/WORK/mac/product_reg_reg[1]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/mac_ref/acc_reg[1]
+
+-----------
+i:/WORK/mac/product_reg_reg[2]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[2]
+        r:/WORK/mac_ref/acc_reg[3]
+
+-----------
+i:/WORK/mac/product_reg_reg[3]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[3]
+        r:/WORK/mac_ref/acc_reg[5]
+
+-----------
+i:/WORK/mac/product_reg_reg[4]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/mac_ref/acc_reg[4]
+
+-----------
+i:/WORK/mac/product_reg_reg[5]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[5]
+        r:/WORK/mac_ref/acc_reg[6]
+
+-----------
+i:/WORK/mac/product_reg_reg[6]
+    Is globally unmatched affecting 2 compare point(s):
+        r:/WORK/mac_ref/acc_reg[6]
+        r:/WORK/mac_ref/acc_reg[7]
+
+-----------
+i:/WORK/mac/product_reg_reg[7]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/mac_ref/acc_reg[7]
+
+-----------
+i:/WORK/mac/product_reg_reg[8]
+    Is globally unmatched affecting 1 compare point(s):
+        r:/WORK/mac_ref/acc_reg[8]
+
+-----------
+--------------------------------
+Found 3 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/mac/clk
+    Fans out to 16 failing and 16 passing points and has
+    logic value '1' for 16 compare point(s):
+        i:/WORK/mac/acc_reg[0]
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[1]
+        i:/WORK/mac/acc_reg[2]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+i:/WORK/mac/reset
+    Fans out to 16 failing and 0 passing points and has
+    logic value '0' for 16 compare point(s):
+        i:/WORK/mac/acc_reg[0]
+        i:/WORK/mac/acc_reg[10]
+        i:/WORK/mac/acc_reg[11]
+        i:/WORK/mac/acc_reg[12]
+        i:/WORK/mac/acc_reg[13]
+        i:/WORK/mac/acc_reg[14]
+        i:/WORK/mac/acc_reg[15]
+        i:/WORK/mac/acc_reg[1]
+        i:/WORK/mac/acc_reg[2]
+        i:/WORK/mac/acc_reg[3]
+        i:/WORK/mac/acc_reg[4]
+        i:/WORK/mac/acc_reg[5]
+        i:/WORK/mac/acc_reg[6]
+        i:/WORK/mac/acc_reg[7]
+        i:/WORK/mac/acc_reg[8]
+        i:/WORK/mac/acc_reg[9]
+
+-----------
+i:/WORK/mac/acc_reg[2]
+    Fans out to 14 failing and 1 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/mac/acc_reg[2]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

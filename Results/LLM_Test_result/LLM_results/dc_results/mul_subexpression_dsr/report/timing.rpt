@@ -1,0 +1,729 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : mul_subexpression_dsr
+Version: T-2022.03-SP2
+Date   : Tue May 13 12:39:33 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: multiplier[0]
+              (input port)
+  Endpoint: product[14]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 r
+  multiplier[0] (in)                                      0.00      0.00       0.00 r
+  multiplier[0] (net)                          11                   0.00       0.00 r
+  U311/ZN (INV_X1)                                        0.01      0.03       0.03 f
+  n517 (net)                                    3                   0.00       0.03 f
+  U546/ZN (NOR3_X1)                                       0.03      0.07       0.09 r
+  n393 (net)                                    1                   0.00       0.09 r
+  U279/ZN (XNOR2_X1)                                      0.03      0.07       0.16 r
+  n146 (net)                                    2                   0.00       0.16 r
+  U156/ZN (XNOR2_X1)                                      0.04      0.08       0.24 r
+  n69 (net)                                     3                   0.00       0.24 r
+  U105/ZN (OR2_X2)                                        0.01      0.05       0.29 r
+  n500 (net)                                    3                   0.00       0.29 r
+  U552/ZN (OAI211_X1)                                     0.02      0.04       0.33 f
+  n455 (net)                                    1                   0.00       0.33 f
+  U586/ZN (NAND3_X1)                                      0.02      0.04       0.37 r
+  n467 (net)                                    2                   0.00       0.37 r
+  U589/ZN (NAND3_X1)                                      0.01      0.03       0.41 f
+  n469 (net)                                    1                   0.00       0.41 f
+  U290/ZN (NAND2_X1)                                      0.01      0.03       0.44 r
+  n474 (net)                                    1                   0.00       0.44 r
+  U200/ZN (XNOR2_X1)                                      0.03      0.06       0.50 r
+  add_1_root_add_0_root_add_32_SUM_9_ (net)     3                   0.00       0.50 r
+  add_0_root_add_0_root_add_32_U115/ZN (NOR2_X1)          0.01      0.03       0.52 f
+  add_0_root_add_0_root_add_32_n117 (net)       1                   0.00       0.52 f
+  add_0_root_add_0_root_add_32_U110/ZN (NOR2_X1)          0.02      0.04       0.57 r
+  add_0_root_add_0_root_add_32_n112 (net)       1                   0.00       0.57 r
+  add_0_root_add_0_root_add_32_U114/ZN (NAND2_X1)         0.01      0.03       0.60 f
+  add_0_root_add_0_root_add_32_n98 (net)        2                   0.00       0.60 f
+  add_0_root_add_0_root_add_32_U121/ZN (NOR2_X1)          0.02      0.04       0.63 r
+  add_0_root_add_0_root_add_32_n111 (net)       1                   0.00       0.63 r
+  add_0_root_add_0_root_add_32_U144/ZN (OAI21_X1)         0.01      0.04       0.67 f
+  add_0_root_add_0_root_add_32_n106 (net)       2                   0.00       0.67 f
+  add_0_root_add_0_root_add_32_U58/ZN (AND2_X1)           0.01      0.04       0.71 f
+  add_0_root_add_0_root_add_32_n43 (net)        1                   0.00       0.71 f
+  add_0_root_add_0_root_add_32_U102/ZN (OAI21_X1)         0.02      0.04       0.75 r
+  add_0_root_add_0_root_add_32_n99 (net)        1                   0.00       0.75 r
+  add_0_root_add_0_root_add_32_U123/ZN (XNOR2_X1)         0.01      0.05       0.80 r
+  product[14] (net)                             1                   0.00       0.80 r
+  product[14] (out)                                       0.01      0.00       0.80 r
+  data arrival time                                                            0.80
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.80
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.70
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[13]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U553/ZN (INV_X1)                                        0.01      0.04       0.27 r
+  n408 (net)                                    2                   0.00       0.27 r
+  U555/ZN (NAND2_X1)                                      0.01      0.03       0.30 f
+  n497 (net)                                    1                   0.00       0.30 f
+  U556/ZN (NAND2_X1)                                      0.01      0.03       0.33 r
+  n456 (net)                                    2                   0.00       0.33 r
+  U586/ZN (NAND3_X1)                                      0.02      0.04       0.37 f
+  n467 (net)                                    2                   0.00       0.37 f
+  U587/ZN (NAND4_X1)                                      0.01      0.04       0.41 r
+  n459 (net)                                    1                   0.00       0.41 r
+  U588/ZN (NAND3_X1)                                      0.01      0.03       0.44 f
+  n463 (net)                                    1                   0.00       0.44 f
+  U190/ZN (XNOR2_X1)                                      0.02      0.06       0.51 f
+  add_1_root_add_0_root_add_32_SUM_10_ (net)     4                  0.00       0.51 f
+  add_0_root_add_0_root_add_32_U30/ZN (OR2_X1)            0.01      0.06       0.57 f
+  add_0_root_add_0_root_add_32_n20 (net)        1                   0.00       0.57 f
+  add_0_root_add_0_root_add_32_U143/ZN (NAND3_X1)         0.02      0.03       0.60 r
+  add_0_root_add_0_root_add_32_n85 (net)        2                   0.00       0.60 r
+  add_0_root_add_0_root_add_32_U17/ZN (AND4_X1)           0.02      0.07       0.67 r
+  add_0_root_add_0_root_add_32_n42 (net)        2                   0.00       0.67 r
+  add_0_root_add_0_root_add_32_U33/ZN (NAND2_X1)          0.01      0.03       0.70 f
+  add_0_root_add_0_root_add_32_n103 (net)       2                   0.00       0.70 f
+  add_0_root_add_0_root_add_32_U119/ZN (AOI21_X1)         0.03      0.04       0.75 r
+  add_0_root_add_0_root_add_32_n104 (net)       1                   0.00       0.75 r
+  add_0_root_add_0_root_add_32_U59/ZN (XNOR2_X1)          0.01      0.05       0.80 r
+  product[13] (net)                             1                   0.00       0.80 r
+  product[13] (out)                                       0.01      0.00       0.80 r
+  data arrival time                                                            0.80
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.80
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.70
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[15]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U553/ZN (INV_X1)                                        0.01      0.04       0.27 r
+  n408 (net)                                    2                   0.00       0.27 r
+  U555/ZN (NAND2_X1)                                      0.01      0.03       0.30 f
+  n497 (net)                                    1                   0.00       0.30 f
+  U556/ZN (NAND2_X1)                                      0.01      0.03       0.33 r
+  n456 (net)                                    2                   0.00       0.33 r
+  U586/ZN (NAND3_X1)                                      0.02      0.04       0.37 f
+  n467 (net)                                    2                   0.00       0.37 f
+  U587/ZN (NAND4_X1)                                      0.01      0.04       0.41 r
+  n459 (net)                                    1                   0.00       0.41 r
+  U588/ZN (NAND3_X1)                                      0.01      0.03       0.44 f
+  n463 (net)                                    1                   0.00       0.44 f
+  U190/ZN (XNOR2_X1)                                      0.02      0.06       0.51 f
+  add_1_root_add_0_root_add_32_SUM_10_ (net)     4                  0.00       0.51 f
+  add_0_root_add_0_root_add_32_U30/ZN (OR2_X1)            0.01      0.06       0.57 f
+  add_0_root_add_0_root_add_32_n20 (net)        1                   0.00       0.57 f
+  add_0_root_add_0_root_add_32_U143/ZN (NAND3_X1)         0.02      0.03       0.60 r
+  add_0_root_add_0_root_add_32_n85 (net)        2                   0.00       0.60 r
+  add_0_root_add_0_root_add_32_U134/ZN (NAND3_X1)         0.01      0.04       0.63 f
+  add_0_root_add_0_root_add_32_n82 (net)        1                   0.00       0.63 f
+  add_0_root_add_0_root_add_32_U111/ZN (AOI211_X1)        0.04      0.08       0.71 r
+  add_0_root_add_0_root_add_32_n74 (net)        1                   0.00       0.71 r
+  add_0_root_add_0_root_add_32_U120/ZN (OAI21_X1)         0.01      0.03       0.75 f
+  add_0_root_add_0_root_add_32_n72 (net)        1                   0.00       0.75 f
+  add_0_root_add_0_root_add_32_U122/ZN (XNOR2_X1)         0.01      0.05       0.80 f
+  product[15] (net)                             1                   0.00       0.80 f
+  product[15] (out)                                       0.01      0.00       0.80 f
+  data arrival time                                                            0.80
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.80
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.70
+
+
+  Startpoint: multiplier[3]
+              (input port)
+  Endpoint: product[11]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 r
+  multiplier[3] (in)                                      0.00      0.00       0.00 r
+  multiplier[3] (net)                          15                   0.00       0.00 r
+  U345/ZN (INV_X1)                                        0.01      0.04       0.04 f
+  n377 (net)                                    4                   0.00       0.04 f
+  U496/ZN (OAI21_X1)                                      0.02      0.04       0.08 r
+  n355 (net)                                    1                   0.00       0.08 r
+  U225/ZN (AND3_X1)                                       0.02      0.07       0.14 r
+  n113 (net)                                    3                   0.00       0.14 r
+  U564/ZN (OAI221_X1)                                     0.01      0.04       0.18 f
+  n441 (net)                                    1                   0.00       0.18 f
+  U230/ZN (AND2_X1)                                       0.01      0.04       0.22 f
+  n115 (net)                                    2                   0.00       0.22 f
+  U229/ZN (XNOR2_X1)                                      0.01      0.06       0.28 f
+  n452 (net)                                    1                   0.00       0.28 f
+  U574/ZN (INV_X1)                                        0.02      0.04       0.32 r
+  n454 (net)                                    3                   0.00       0.32 r
+  U575/ZN (NAND2_X1)                                      0.01      0.04       0.36 f
+  n468 (net)                                    3                   0.00       0.36 f
+  U201/ZN (AOI21_X1)                                      0.02      0.05       0.40 r
+  n470 (net)                                    1                   0.00       0.40 r
+  U290/ZN (NAND2_X1)                                      0.01      0.03       0.43 f
+  n474 (net)                                    1                   0.00       0.43 f
+  U200/ZN (XNOR2_X1)                                      0.02      0.06       0.49 f
+  add_1_root_add_0_root_add_32_SUM_9_ (net)     3                   0.00       0.49 f
+  add_0_root_add_0_root_add_32_U16/ZN (OR2_X1)            0.01      0.07       0.56 f
+  add_0_root_add_0_root_add_32_n47 (net)        2                   0.00       0.56 f
+  add_0_root_add_0_root_add_32_U15/Z (BUF_X1)             0.01      0.04       0.60 f
+  add_0_root_add_0_root_add_32_n9 (net)         3                   0.00       0.60 f
+  add_0_root_add_0_root_add_32_U113/ZN (AOI21_X1)         0.03      0.06       0.66 r
+  add_0_root_add_0_root_add_32_n127 (net)       2                   0.00       0.66 r
+  add_0_root_add_0_root_add_32_U101/ZN (OAI21_X1)         0.01      0.04       0.69 f
+  add_0_root_add_0_root_add_32_n124 (net)       1                   0.00       0.69 f
+  add_0_root_add_0_root_add_32_U125/ZN (AOI21_X1)         0.03      0.04       0.74 r
+  add_0_root_add_0_root_add_32_n121 (net)       1                   0.00       0.74 r
+  add_0_root_add_0_root_add_32_U116/ZN (XNOR2_X1)         0.01      0.05       0.79 r
+  product[11] (net)                             1                   0.00       0.79 r
+  product[11] (out)                                       0.01      0.00       0.79 r
+  data arrival time                                                            0.79
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.79
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.69
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[12]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U553/ZN (INV_X1)                                        0.01      0.04       0.27 r
+  n408 (net)                                    2                   0.00       0.27 r
+  U555/ZN (NAND2_X1)                                      0.01      0.03       0.30 f
+  n497 (net)                                    1                   0.00       0.30 f
+  U556/ZN (NAND2_X1)                                      0.01      0.03       0.33 r
+  n456 (net)                                    2                   0.00       0.33 r
+  U586/ZN (NAND3_X1)                                      0.02      0.04       0.37 f
+  n467 (net)                                    2                   0.00       0.37 f
+  U587/ZN (NAND4_X1)                                      0.01      0.04       0.41 r
+  n459 (net)                                    1                   0.00       0.41 r
+  U588/ZN (NAND3_X1)                                      0.01      0.03       0.44 f
+  n463 (net)                                    1                   0.00       0.44 f
+  U190/ZN (XNOR2_X1)                                      0.02      0.06       0.51 f
+  add_1_root_add_0_root_add_32_SUM_10_ (net)     4                  0.00       0.51 f
+  add_0_root_add_0_root_add_32_U30/ZN (OR2_X1)            0.01      0.06       0.57 f
+  add_0_root_add_0_root_add_32_n20 (net)        1                   0.00       0.57 f
+  add_0_root_add_0_root_add_32_U143/ZN (NAND3_X1)         0.02      0.03       0.60 r
+  add_0_root_add_0_root_add_32_n85 (net)        2                   0.00       0.60 r
+  add_0_root_add_0_root_add_32_U17/ZN (AND4_X1)           0.02      0.07       0.67 r
+  add_0_root_add_0_root_add_32_n42 (net)        2                   0.00       0.67 r
+  add_0_root_add_0_root_add_32_U33/ZN (NAND2_X1)          0.01      0.03       0.70 f
+  add_0_root_add_0_root_add_32_n103 (net)       2                   0.00       0.70 f
+  add_0_root_add_0_root_add_32_U11/Z (BUF_X1)             0.01      0.04       0.74 f
+  add_0_root_add_0_root_add_32_n32 (net)        1                   0.00       0.74 f
+  add_0_root_add_0_root_add_32_U118/ZN (XNOR2_X1)         0.01      0.05       0.79 f
+  product[12] (net)                             1                   0.00       0.79 f
+  product[12] (out)                                       0.01      0.00       0.79 f
+  data arrival time                                                            0.79
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.79
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.69
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[10]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U540/ZN (NAND2_X1)                                      0.01      0.04       0.27 r
+  n498 (net)                                    2                   0.00       0.27 r
+  U601/ZN (INV_X1)                                        0.01      0.03       0.30 f
+  n499 (net)                                    2                   0.00       0.30 f
+  U602/ZN (AOI211_X1)                                     0.03      0.07       0.37 r
+  n501 (net)                                    1                   0.00       0.37 r
+  U159/ZN (OR2_X1)                                        0.01      0.04       0.41 r
+  n70 (net)                                     1                   0.00       0.41 r
+  U158/ZN (XNOR2_X1)                                      0.05      0.07       0.48 r
+  add_1_root_add_0_root_add_32_SUM_6_ (net)     5                   0.00       0.48 r
+  add_0_root_add_0_root_add_32_U50/ZN (OR2_X1)            0.02      0.05       0.53 r
+  add_0_root_add_0_root_add_32_n34 (net)        3                   0.00       0.53 r
+  add_0_root_add_0_root_add_32_U149/ZN (NAND3_X1)         0.01      0.04       0.57 f
+  add_0_root_add_0_root_add_32_n119 (net)       2                   0.00       0.57 f
+  add_0_root_add_0_root_add_32_U28/ZN (AND2_X1)           0.01      0.04       0.61 f
+  add_0_root_add_0_root_add_32_n129 (net)       2                   0.00       0.61 f
+  add_0_root_add_0_root_add_32_U52/ZN (AND2_X1)           0.01      0.05       0.66 f
+  add_0_root_add_0_root_add_32_n35 (net)        3                   0.00       0.66 f
+  add_0_root_add_0_root_add_32_U99/ZN (OAI21_X1)          0.02      0.05       0.70 r
+  add_0_root_add_0_root_add_32_n46 (net)        1                   0.00       0.70 r
+  add_0_root_add_0_root_add_32_U147/ZN (XNOR2_X1)         0.01      0.05       0.76 r
+  product[10] (net)                             1                   0.00       0.76 r
+  product[10] (out)                                       0.01      0.00       0.76 r
+  data arrival time                                                            0.76
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.76
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.66
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U540/ZN (NAND2_X1)                                      0.01      0.04       0.27 r
+  n498 (net)                                    2                   0.00       0.27 r
+  U601/ZN (INV_X1)                                        0.01      0.03       0.30 f
+  n499 (net)                                    2                   0.00       0.30 f
+  U602/ZN (AOI211_X1)                                     0.03      0.07       0.37 r
+  n501 (net)                                    1                   0.00       0.37 r
+  U159/ZN (OR2_X1)                                        0.01      0.04       0.41 r
+  n70 (net)                                     1                   0.00       0.41 r
+  U158/ZN (XNOR2_X1)                                      0.05      0.07       0.48 r
+  add_1_root_add_0_root_add_32_SUM_6_ (net)     5                   0.00       0.48 r
+  add_0_root_add_0_root_add_32_U51/ZN (OR2_X1)            0.01      0.05       0.53 r
+  add_0_root_add_0_root_add_32_n62 (net)        2                   0.00       0.53 r
+  add_0_root_add_0_root_add_32_U32/ZN (NAND3_X1)          0.01      0.04       0.56 f
+  add_0_root_add_0_root_add_32_n120 (net)       1                   0.00       0.56 f
+  add_0_root_add_0_root_add_32_U53/ZN (AND2_X2)           0.01      0.04       0.60 f
+  add_0_root_add_0_root_add_32_n128 (net)       3                   0.00       0.60 f
+  add_0_root_add_0_root_add_32_U10/ZN (AND2_X1)           0.01      0.04       0.64 f
+  add_0_root_add_0_root_add_32_n7 (net)         1                   0.00       0.64 f
+  add_0_root_add_0_root_add_32_U6/ZN (NAND2_X1)           0.01      0.03       0.67 r
+  add_0_root_add_0_root_add_32_n4 (net)         1                   0.00       0.67 r
+  add_0_root_add_0_root_add_32_U7/ZN (NAND2_X1)           0.01      0.03       0.69 f
+  add_0_root_add_0_root_add_32_n15 (net)        1                   0.00       0.69 f
+  add_0_root_add_0_root_add_32_U23/ZN (XNOR2_X1)          0.01      0.05       0.74 f
+  product[9] (net)                              1                   0.00       0.74 f
+  product[9] (out)                                        0.01      0.00       0.74 f
+  data arrival time                                                            0.74
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.74
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.64
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U540/ZN (NAND2_X1)                                      0.01      0.04       0.27 r
+  n498 (net)                                    2                   0.00       0.27 r
+  U601/ZN (INV_X1)                                        0.01      0.03       0.30 f
+  n499 (net)                                    2                   0.00       0.30 f
+  U602/ZN (AOI211_X1)                                     0.03      0.07       0.37 r
+  n501 (net)                                    1                   0.00       0.37 r
+  U159/ZN (OR2_X1)                                        0.01      0.04       0.41 r
+  n70 (net)                                     1                   0.00       0.41 r
+  U158/ZN (XNOR2_X1)                                      0.02      0.04       0.45 f
+  add_1_root_add_0_root_add_32_SUM_6_ (net)     5                   0.00       0.45 f
+  add_0_root_add_0_root_add_32_U50/ZN (OR2_X1)            0.01      0.07       0.52 f
+  add_0_root_add_0_root_add_32_n34 (net)        3                   0.00       0.52 f
+  add_0_root_add_0_root_add_32_U149/ZN (NAND3_X1)         0.02      0.04       0.56 r
+  add_0_root_add_0_root_add_32_n119 (net)       2                   0.00       0.56 r
+  add_0_root_add_0_root_add_32_U28/ZN (AND2_X1)           0.01      0.05       0.60 r
+  add_0_root_add_0_root_add_32_n129 (net)       2                   0.00       0.60 r
+  add_0_root_add_0_root_add_32_U52/ZN (AND2_X1)           0.02      0.05       0.66 r
+  add_0_root_add_0_root_add_32_n35 (net)        3                   0.00       0.66 r
+  add_0_root_add_0_root_add_32_U127/ZN (XNOR2_X1)         0.01      0.06       0.71 r
+  product[8] (net)                              1                   0.00       0.71 r
+  product[8] (out)                                        0.01      0.00       0.72 r
+  data arrival time                                                            0.72
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.72
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.62
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U269/ZN (OR2_X1)                                        0.01      0.06       0.12 f
+  n141 (net)                                    1                   0.00       0.12 f
+  U270/ZN (NAND2_X1)                                      0.01      0.03       0.15 r
+  n372 (net)                                    1                   0.00       0.15 r
+  U530/ZN (OAI211_X1)                                     0.01      0.03       0.18 f
+  n374 (net)                                    1                   0.00       0.18 f
+  U271/ZN (OAI211_X1)                                     0.04      0.05       0.22 r
+  n507 (net)                                    3                   0.00       0.22 r
+  U157/Z (BUF_X1)                                         0.02      0.05       0.28 r
+  n142 (net)                                    3                   0.00       0.28 r
+  U194/Z (XOR2_X1)                                        0.03      0.07       0.35 r
+  n92 (net)                                     1                   0.00       0.35 r
+  U193/Z (XOR2_X1)                                        0.02      0.07       0.42 r
+  add_1_root_add_0_root_add_32_SUM_5_ (net)     2                   0.00       0.42 r
+  add_0_root_add_0_root_add_32_U4/ZN (OR2_X1)             0.02      0.05       0.47 r
+  add_0_root_add_0_root_add_32_n66 (net)        3                   0.00       0.47 r
+  add_0_root_add_0_root_add_32_U142/ZN (INV_X1)           0.01      0.03       0.49 f
+  add_0_root_add_0_root_add_32_n64 (net)        2                   0.00       0.49 f
+  add_0_root_add_0_root_add_32_U73/ZN (OAI21_X1)          0.02      0.05       0.54 r
+  add_0_root_add_0_root_add_32_n60 (net)        1                   0.00       0.54 r
+  add_0_root_add_0_root_add_32_U129/ZN (INV_X1)           0.01      0.03       0.57 f
+  add_0_root_add_0_root_add_32_n57 (net)        2                   0.00       0.57 f
+  add_0_root_add_0_root_add_32_U76/ZN (OAI21_X1)          0.02      0.04       0.61 r
+  add_0_root_add_0_root_add_32_n53 (net)        1                   0.00       0.61 r
+  add_0_root_add_0_root_add_32_U74/ZN (XNOR2_X1)          0.01      0.05       0.66 r
+  product[7] (net)                              1                   0.00       0.66 r
+  product[7] (out)                                        0.01      0.00       0.67 r
+  data arrival time                                                            0.67
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.67
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.57
+
+
+  Startpoint: multiplicand[0]
+              (input port)
+  Endpoint: product[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  mul_subexpression_dsr 5K_hvratio_1_1     NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  input external delay                                              0.00       0.00 f
+  multiplicand[0] (in)                                    0.00      0.00       0.00 f
+  multiplicand[0] (net)                        11                   0.00       0.00 f
+  U518/ZN (NAND2_X1)                                      0.01      0.03       0.03 r
+  n367 (net)                                    2                   0.00       0.03 r
+  U522/ZN (INV_X1)                                        0.01      0.03       0.06 f
+  n386 (net)                                    3                   0.00       0.06 f
+  U93/ZN (OR2_X1)                                         0.01      0.06       0.12 f
+  n26 (net)                                     1                   0.00       0.12 f
+  U172/ZN (AND2_X1)                                       0.01      0.04       0.16 f
+  n78 (net)                                     1                   0.00       0.16 f
+  U529/ZN (NAND3_X1)                                      0.01      0.03       0.18 r
+  n375 (net)                                    1                   0.00       0.18 r
+  U271/ZN (OAI211_X1)                                     0.02      0.05       0.23 f
+  n507 (net)                                    3                   0.00       0.23 f
+  U157/Z (BUF_X1)                                         0.01      0.05       0.28 f
+  n142 (net)                                    3                   0.00       0.28 f
+  U194/Z (XOR2_X1)                                        0.01      0.07       0.35 f
+  n92 (net)                                     1                   0.00       0.35 f
+  U193/Z (XOR2_X1)                                        0.01      0.07       0.42 f
+  add_1_root_add_0_root_add_32_SUM_5_ (net)     2                   0.00       0.42 f
+  add_0_root_add_0_root_add_32_U4/ZN (OR2_X1)             0.01      0.06       0.48 f
+  add_0_root_add_0_root_add_32_n66 (net)        3                   0.00       0.48 f
+  add_0_root_add_0_root_add_32_U142/ZN (INV_X1)           0.01      0.04       0.52 r
+  add_0_root_add_0_root_add_32_n64 (net)        2                   0.00       0.52 r
+  add_0_root_add_0_root_add_32_U73/ZN (OAI21_X1)          0.01      0.03       0.55 f
+  add_0_root_add_0_root_add_32_n60 (net)        1                   0.00       0.55 f
+  add_0_root_add_0_root_add_32_U129/ZN (INV_X1)           0.01      0.03       0.58 r
+  add_0_root_add_0_root_add_32_n57 (net)        2                   0.00       0.58 r
+  add_0_root_add_0_root_add_32_U22/ZN (INV_X1)            0.01      0.02       0.60 f
+  add_0_root_add_0_root_add_32_n14 (net)        1                   0.00       0.60 f
+  add_0_root_add_0_root_add_32_U130/ZN (XNOR2_X1)         0.01      0.05       0.65 f
+  product[6] (net)                              1                   0.00       0.65 f
+  product[6] (out)                                        0.01      0.00       0.65 f
+  data arrival time                                                            0.65
+
+  max_delay                                                         0.10       0.10
+  output external delay                                             0.00       0.10
+  data required time                                                           0.10
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                           0.10
+  data arrival time                                                           -0.65
+  ---------------------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                                            -0.55
+
+
+1

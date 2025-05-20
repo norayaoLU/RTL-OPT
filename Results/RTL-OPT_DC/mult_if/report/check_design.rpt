@@ -1,0 +1,16 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Wed May 14 19:02:41 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                      2
+    Unconnected ports (LINT-28)                                     2
+--------------------------------------------------------------------------------
+
+Warning: In design 'mult_if', port 'A[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'mult_if', port 'A[6]' is not connected to any nets. (LINT-28)
+1

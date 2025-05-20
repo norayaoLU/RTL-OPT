@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : saturating_add_mini
+Version: T-2022.03-SP2
+Date   : Mon May 12 15:09:25 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           25
+Number of nets:                           143
+Number of cells:                          127
+Number of combinational cells:            118
+Number of sequential cells:                 8
+Number of macros/black boxes:               0
+Number of buf/inv:                         31
+Number of references:                      15
+
+Combinational area:                104.803999
+Buf/Inv area:                       17.024000
+Noncombinational area:              36.175999
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   140.979998
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+saturating_add_mini                140.9800    100.0  104.8040    36.1760  0.0000  saturating_add_mini
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 104.8040    36.1760  0.0000
+
+1

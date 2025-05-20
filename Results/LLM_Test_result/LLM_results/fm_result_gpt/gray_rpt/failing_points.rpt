@@ -1,0 +1,12 @@
+{{r:/WORK/gray_ref/state_reg[0]} {i:/WORK/gray_gpt/state_reg[0]}}
+{{r:/WORK/gray_ref/state_reg[1]} {i:/WORK/gray_gpt/state_reg[1]}}
+{{r:/WORK/gray_ref/state_reg[2]} {i:/WORK/gray_gpt/state_reg[2]}}
+{{r:/WORK/gray_ref/state_reg[3]} {i:/WORK/gray_gpt/state_reg[3]}}
+{{r:/WORK/gray_ref/out[0]} {i:/WORK/gray_gpt/out[0]}}
+{{r:/WORK/gray_ref/out[1]} {i:/WORK/gray_gpt/out[1]}}
+{{r:/WORK/gray_ref/out[2]} {i:/WORK/gray_gpt/out[2]}}
+{{r:/WORK/gray_ref/out[3]} {i:/WORK/gray_gpt/out[3]}}
+{{r:/WORK/gray_ref/out[4]} {i:/WORK/gray_gpt/out[4]}}
+{{r:/WORK/gray_ref/out[5]} {i:/WORK/gray_gpt/out[5]}}
+{{r:/WORK/gray_ref/out[6]} {i:/WORK/gray_gpt/out[6]}}
+{{r:/WORK/gray_ref/out[7]} {i:/WORK/gray_gpt/out[7]}}

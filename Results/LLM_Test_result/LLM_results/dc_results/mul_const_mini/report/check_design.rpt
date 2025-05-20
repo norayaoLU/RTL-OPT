@@ -1,0 +1,28 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 15:09:01 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     11
+    Unconnected ports (LINT-28)                                     2
+    Feedthrough (LINT-29)                                           6
+    Shorted outputs (LINT-31)                                       1
+    Constant outputs (LINT-52)                                      2
+--------------------------------------------------------------------------------
+
+Warning: In design 'mul_const_mini', port 'a[7]' is not connected to any nets. (LINT-28)
+Warning: In design 'mul_const_mini', port 'a[6]' is not connected to any nets. (LINT-28)
+Warning: In design 'mul_const_mini', input port 'a[5]' is connected directly to output port 's1[7]'. (LINT-29)
+Warning: In design 'mul_const_mini', input port 'a[4]' is connected directly to output port 's1[6]'. (LINT-29)
+Warning: In design 'mul_const_mini', input port 'a[3]' is connected directly to output port 's1[5]'. (LINT-29)
+Warning: In design 'mul_const_mini', input port 'a[2]' is connected directly to output port 's1[4]'. (LINT-29)
+Warning: In design 'mul_const_mini', input port 'a[1]' is connected directly to output port 's1[3]'. (LINT-29)
+Warning: In design 'mul_const_mini', input port 'a[0]' is connected directly to output port 's1[2]'. (LINT-29)
+Warning: In design 'mul_const_mini', output port 's1[1]' is connected directly to output port 's1[0]'. (LINT-31)
+Warning: In design 'mul_const_mini', output port 's1[1]' is connected directly to 'logic 0'. (LINT-52)
+Warning: In design 'mul_const_mini', output port 's1[0]' is connected directly to 'logic 0'. (LINT-52)
+1

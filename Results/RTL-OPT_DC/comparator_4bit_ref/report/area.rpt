@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : comparator_4bit_ref
+Version: T-2022.03-SP2
+Date   : Mon May 12 02:39:29 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           11
+Number of nets:                            37
+Number of cells:                           29
+Number of combinational cells:             29
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         11
+Number of references:                       7
+
+Combinational area:                 23.142000
+Buf/Inv area:                        5.852000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    23.142000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+comparator_4bit_ref                 23.1420    100.0   23.1420     0.0000  0.0000  comparator_4bit_ref
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  23.1420     0.0000  0.0000
+
+1

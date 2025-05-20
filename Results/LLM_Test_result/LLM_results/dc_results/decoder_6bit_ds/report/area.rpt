@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : decoder_6bit_ds
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:05:20 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           70
+Number of nets:                           207
+Number of cells:                          204
+Number of combinational cells:            191
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         27
+Number of references:                      12
+
+Combinational area:                208.011999
+Buf/Inv area:                       16.758000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   208.011999
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+decoder_6bit_ds                    208.0120    100.0  208.0120     0.0000  0.0000  decoder_6bit_ds
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 208.0120     0.0000  0.0000
+
+1

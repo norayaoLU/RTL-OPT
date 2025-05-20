@@ -1,0 +1,10 @@
+Directory = /temp2tb/luyao/LLM_benchmark/FM_flow/sub_16bit_rpt
+Total     = 5580 GB
+Available = 2549 GB
+Used      = 3031 GB (55%)
+
+Directory = /tmp
+Total     = 50 GB
+Available = 16 GB
+Used      = 34 GB (68%)
+

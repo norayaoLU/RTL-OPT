@@ -1,0 +1,144 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/fsm_encode_ref
+Implementation : i:/WORK/fsm_encode_dsr
+Version        : V-2023.12
+Date           : Tue May 13 14:57:49 2025
+**************************************************
+
+36 Passing compare points:
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/current_state_reg[0]
+  Impl DFF        i:/WORK/fsm_encode_dsr/current_state_reg[0]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/current_state_reg[1]
+  Impl DFF        i:/WORK/fsm_encode_dsr/current_state_reg[1]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/current_state_reg[2]
+  Impl DFF        i:/WORK/fsm_encode_dsr/current_state_reg[2]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[0]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[0]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[1]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[1]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[2]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[2]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[3]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[3]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[4]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[4]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[5]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[5]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[6]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[6]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/out_reg_reg[7]
+  Impl DFF        i:/WORK/fsm_encode_dsr/out_reg_reg[7]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[0]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[0]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[1]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[1]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[2]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[2]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[3]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[3]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[4]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[4]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[5]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[5]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[6]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[6]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg1_reg[7]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg1_reg[7]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[0]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[0]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[1]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[1]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[2]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[2]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[3]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[3]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[4]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[4]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[5]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[5]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[6]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[6]
+
+  Ref  DFF        r:/WORK/fsm_encode_ref/reg2_reg[7]
+  Impl DFF        i:/WORK/fsm_encode_dsr/reg2_reg[7]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[0]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[0]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[1]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[1]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[2]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[2]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[3]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[3]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[4]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[4]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[5]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[5]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[6]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[6]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/data_out[7]
+  Impl Port       i:/WORK/fsm_encode_dsr/data_out[7]
+
+  Ref  Port       r:/WORK/fsm_encode_ref/done
+  Impl Port       i:/WORK/fsm_encode_dsr/done
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

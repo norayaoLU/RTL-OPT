@@ -1,0 +1,12 @@
+{{r:/WORK/fsm_ref/state_reg[0]} {i:/WORK/fsm_mini/state_reg[0]}}
+{{r:/WORK/fsm_ref/state_reg[1]} {i:/WORK/fsm_mini/state_reg[1]}}
+{{r:/WORK/fsm_ref/state_reg[2]} {i:/WORK/fsm_mini/state_reg[2]}}
+{{r:/WORK/fsm_ref/data_out[0]} {i:/WORK/fsm_mini/data_out[0]}}
+{{r:/WORK/fsm_ref/data_out[1]} {i:/WORK/fsm_mini/data_out[1]}}
+{{r:/WORK/fsm_ref/data_out[2]} {i:/WORK/fsm_mini/data_out[2]}}
+{{r:/WORK/fsm_ref/data_out[3]} {i:/WORK/fsm_mini/data_out[3]}}
+{{r:/WORK/fsm_ref/data_out[4]} {i:/WORK/fsm_mini/data_out[4]}}
+{{r:/WORK/fsm_ref/data_out[5]} {i:/WORK/fsm_mini/data_out[5]}}
+{{r:/WORK/fsm_ref/data_out[6]} {i:/WORK/fsm_mini/data_out[6]}}
+{{r:/WORK/fsm_ref/data_out[7]} {i:/WORK/fsm_mini/data_out[7]}}
+{r:/WORK/fsm_ref/done i:/WORK/fsm_mini/done}

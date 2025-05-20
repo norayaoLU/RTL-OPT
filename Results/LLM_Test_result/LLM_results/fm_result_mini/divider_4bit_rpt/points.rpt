@@ -1,0 +1,50 @@
+Found 8 X Sources
+--------------------------------
+X sources are objects in the implementation design that are the source
+of unknown logic values that propagate to failing compare points. The
+most common types are undriven nets, tristates and power-off X corruption cells.
+--------------------------------
+i:/WORK/divider_4bit_mini/rem_13/C27
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/odd[0]
+
+-----------
+i:/WORK/divider_4bit_mini/rem_13/C25
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/odd[1]
+
+-----------
+i:/WORK/divider_4bit_mini/rem_13/C31
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/odd[2]
+
+-----------
+i:/WORK/divider_4bit_mini/rem_13/C29
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/odd[3]
+
+-----------
+i:/WORK/divider_4bit_mini/div_14/C31
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/result[0]
+
+-----------
+i:/WORK/divider_4bit_mini/div_14/C29
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/result[1]
+
+-----------
+i:/WORK/divider_4bit_mini/div_14/C35
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/result[2]
+
+-----------
+i:/WORK/divider_4bit_mini/div_14/C33
+    Propagates 'X' to the impl compare point in the cones for 1 compare point(s):
+        r:/WORK/divider_4bit_ref/result[3]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

@@ -1,0 +1,82 @@
+Found 6 Unmatched Cone Inputs
+--------------------------------
+Unmatched cone inputs result either from mismatched compare points
+or from differences in the logic within the cones. Only unmatched
+inputs that are suspected of contributing to verification failures
+are included in the report.
+The source of the matching or logical differences may be determined
+using the schematic, cone and source views.
+--------------------------------
+r:/WORK/divider_4bit_ref/A[0]
+    Matched with port i:/WORK/divider_4bit_ds/A[0]
+    Exists in the ref cone but not in the impl cone for 2 compare point(s):
+        i:/WORK/divider_4bit_ds/odd[0]
+        i:/WORK/divider_4bit_ds/odd[2]
+
+-----------
+r:/WORK/divider_4bit_ref/A[1]
+    Matched with port i:/WORK/divider_4bit_ds/A[1]
+    Exists in the ref cone but not in the impl cone for 3 compare point(s):
+        i:/WORK/divider_4bit_ds/odd[0]
+        i:/WORK/divider_4bit_ds/odd[1]
+        i:/WORK/divider_4bit_ds/odd[2]
+
+-----------
+r:/WORK/divider_4bit_ref/A[2]
+    Matched with port i:/WORK/divider_4bit_ds/A[2]
+    Exists in the ref cone but not in the impl cone for 2 compare point(s):
+        i:/WORK/divider_4bit_ds/odd[0]
+        i:/WORK/divider_4bit_ds/odd[2]
+
+-----------
+r:/WORK/divider_4bit_ref/B[0]
+    Matched with port i:/WORK/divider_4bit_ds/B[0]
+    Exists in the ref cone but not in the impl cone for 3 compare point(s):
+        i:/WORK/divider_4bit_ds/result[0]
+        i:/WORK/divider_4bit_ds/result[1]
+        i:/WORK/divider_4bit_ds/result[2]
+
+-----------
+r:/WORK/divider_4bit_ref/B[1]
+    Matched with port i:/WORK/divider_4bit_ds/B[1]
+    Exists in the ref cone but not in the impl cone for 3 compare point(s):
+        i:/WORK/divider_4bit_ds/result[0]
+        i:/WORK/divider_4bit_ds/result[1]
+        i:/WORK/divider_4bit_ds/result[2]
+
+-----------
+r:/WORK/divider_4bit_ref/A[3]
+    Matched with port i:/WORK/divider_4bit_ds/A[3]
+    Exists in the ref cone but not in the impl cone for 2 compare point(s):
+        i:/WORK/divider_4bit_ds/result[1]
+        i:/WORK/divider_4bit_ds/result[2]
+
+-----------
+--------------------------------
+Found 2 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/divider_4bit_ds/B[1]
+    Fans out to 5 failing and 0 passing points and has
+    logic value '0' for 3 compare point(s):
+        i:/WORK/divider_4bit_ds/odd[2]
+        i:/WORK/divider_4bit_ds/odd[3]
+        i:/WORK/divider_4bit_ds/result[3]
+
+-----------
+i:/WORK/divider_4bit_ds/A[3]
+    Fans out to 5 failing and 0 passing points and has
+    logic value '1' for 2 compare point(s):
+        i:/WORK/divider_4bit_ds/odd[3]
+        i:/WORK/divider_4bit_ds/result[3]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

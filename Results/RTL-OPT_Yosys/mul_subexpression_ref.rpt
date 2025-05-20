@@ -1,0 +1,37 @@
+
+13. Printing statistics.
+
+=== mul_subexpression_ref ===
+
+   Number of wires:                480
+   Number of wire bits:           1034
+   Number of public wires:          17
+   Number of public wire bits:     256
+   Number of ports:                  3
+   Number of port bits:             32
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                289
+     AND2_X1                         9
+     AND3_X1                         4
+     AOI211_X1                       3
+     AOI21_X1                       24
+     AOI22_X1                        9
+     INV_X1                          6
+     MUX2_X1                         1
+     NAND2_X1                       70
+     NAND3_X1                        1
+     NOR2_X1                        28
+     NOR3_X1                         4
+     NOR4_X1                         1
+     OAI21_X1                       22
+     OAI22_X1                        2
+     OR2_X1                         10
+     OR3_X1                          8
+     XNOR2_X1                       43
+     XOR2_X1                        44
+
+   Chip area for module '\mul_subexpression_ref': 332.500000
+     of which used for sequential elements: 0.000000 (0.00%)
+

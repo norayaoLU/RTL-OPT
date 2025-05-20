@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : gray_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:30:08 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           14
+Number of nets:                            92
+Number of cells:                           82
+Number of combinational cells:             78
+Number of sequential cells:                 4
+Number of macros/black boxes:               0
+Number of buf/inv:                         24
+Number of references:                      18
+
+Combinational area:                 72.884000
+Buf/Inv area:                       14.896000
+Noncombinational area:              21.280001
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    94.164001
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+gray_gpt                            94.1640    100.0   72.8840    21.2800  0.0000  gray_gpt
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  72.8840    21.2800  0.0000
+
+1

@@ -1,0 +1,30 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 15:09:52 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              16
+    Cells do not drive (LINT-1)                                    16
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_16bit_mini', cell 'C472' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C473' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C474' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C475' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C476' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C477' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C478' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C479' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C480' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C481' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C482' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C483' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C484' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C485' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C486' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_mini', cell 'C487' does not drive any nets. (LINT-1)
+1

@@ -1,0 +1,87 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/sub_16bit_ref
+Implementation : i:/WORK/sub_16bit_gpt
+Version        : V-2023.12
+Date           : Mon May 12 14:25:14 2025
+**************************************************
+
+17 Passing compare points:
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[0]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[0]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[10]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[10]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[11]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[11]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[12]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[12]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[13]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[13]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[14]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[14]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[15]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[15]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[1]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[1]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[2]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[2]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[3]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[3]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[4]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[4]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[5]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[5]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[6]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[6]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[7]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[7]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[8]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[8]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/diff[9]
+  Impl Port       i:/WORK/sub_16bit_gpt/diff[9]
+
+  Ref  Port       r:/WORK/sub_16bit_ref/overflow
+  Impl Port       i:/WORK/sub_16bit_gpt/overflow
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

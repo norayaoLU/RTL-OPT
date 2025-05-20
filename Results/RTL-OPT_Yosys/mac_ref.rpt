@@ -1,0 +1,42 @@
+
+13. Printing statistics.
+
+=== mac_ref ===
+
+   Number of wires:                699
+   Number of wire bits:           2379
+   Number of public wires:           6
+   Number of public wire bits:      50
+   Number of ports:                  5
+   Number of port bits:             34
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                529
+     AND2_X1                        28
+     AND3_X1                        21
+     AND4_X1                        10
+     AOI21_X1                       58
+     AOI221_X1                       1
+     AOI22_X1                       14
+     DFF_X1                         32
+     INV_X1                         27
+     MUX2_X1                         2
+     NAND2_X1                       55
+     NAND3_X1                       16
+     NAND4_X1                        7
+     NOR2_X1                        47
+     NOR3_X1                        13
+     OAI21_X1                       64
+     OAI221_X1                       1
+     OAI22_X1                        2
+     OAI33_X1                        1
+     OR2_X1                         17
+     OR3_X1                         21
+     OR4_X1                          1
+     XNOR2_X1                       51
+     XOR2_X1                        40
+
+   Chip area for module '\mac_ref': 707.028000
+     of which used for sequential elements: 144.704000 (20.47%)
+

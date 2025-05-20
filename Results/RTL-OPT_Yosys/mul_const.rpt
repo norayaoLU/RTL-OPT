@@ -1,0 +1,33 @@
+
+13. Printing statistics.
+
+=== mul_const ===
+
+   Number of wires:                111
+   Number of wire bits:           1021
+   Number of public wires:           6
+   Number of public wire bits:      48
+   Number of ports:                  6
+   Number of port bits:             48
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 61
+     AND2_X1                         1
+     AND3_X1                         5
+     AOI21_X1                        9
+     INV_X1                          6
+     NAND2_X1                        5
+     NAND3_X1                        2
+     NOR2_X1                         4
+     NOR3_X1                         1
+     OAI211_X1                       1
+     OAI21_X1                        4
+     OR2_X1                          1
+     OR3_X1                          2
+     XNOR2_X1                       14
+     XOR2_X1                         6
+
+   Chip area for module '\mul_const': 72.086000
+     of which used for sequential elements: 0.000000 (0.00%)
+

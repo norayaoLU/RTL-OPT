@@ -1,0 +1,113 @@
+#@ # 
+#@ # Running fm_shell Version V-2023.12 for linux64 -- Nov 16, 2023
+#@ # Date:   Mon May 12 15:11:12 2025
+#@ # Run by: coguest10@acf3030
+#@ 
+
+source /usr/eelocal/synopsys/fm-vv2023.12/admin/setup/.synopsys_fm.setup
+#@ # -- Starting source /usr/eelocal/synopsys/fm-vv2023.12/admin/setup/.synopsys_fm.setup
+
+#@ #
+#@ # .synopsys_fm.setup: Initialization File for Formality
+#@ #
+#@ 
+#@ 
+#@ #
+#@ # Enable stack trace output on fatal.  Not available for all architectures.
+#@ #
+#@ if { $sh_arch == "sparc" || $sh_arch == "sparcOS5" || \
+#@      $sh_arch == "hp700" || $sh_arch == "hpux10" } {
+#@   set_unix_variable SYNOPSYS_TRACE ""
+#@ }
+#@ 
+#@ #
+#@ # Variable settings
+#@ #
+#@ set sh_new_variable_message true
+#@ 
+#@ #
+#@ # Synopsys strongly recommends that you uncomment the following command
+#@ # in order to set sh_command_abbrev_mode to the value "Command-Line-Only".
+#@ # Command abbreviation is intended as an interactive convenience.  Using
+#@ # abbreviations in scripts can cause commands to fail in subsequent releases.
+#@ # 
+#@ #set sh_command_abbrev_mode "Command-Line-Only"
+#@ 
+#@ #
+#@ # Some useful aliases
+#@ #
+#@ alias list_commands		help
+#@ 
+#@ #
+#@ # The alias of q to quit is commented out.  Remove the comment 
+#@ # character if you want this alias.  Some users find that having 
+#@ # this particular alias causes problems when mixed with page-mode
+#@ # for reports - an accidental repeated 'q' not only cancels the
+#@ # output but exits the tool.
+#@ #
+#@ #alias q quit
+#@ # -- End source /usr/eelocal/synopsys/fm-vv2023.12/admin/setup/.synopsys_fm.setup
+
+
+    set design_name adder_select;
+    set design_name_i adder_select_ds;
+    set file_format verilog;
+    set file_format_ref verilog;
+    source -e -v ../run_fm.tcl;
+ 
+#@ # -- Starting source ../run_fm.tcl
+
+#@ set DESIGN_NAME $design_name
+#@ set DESIGN_NAME_i $design_name_i
+#@ set FILE_FORMAT $file_format
+#@ set FILE_FORMAT_REF $file_format_ref
+#@ 
+#@ set RTL_DIR "/home/coguest10/zha/Code"
+#@ 
+#@ 
+#@ #------------------------------------------------------------------------------
+#@ # Setup the libraries
+#@ #------------------------------------------------------------------------------
+#@ set search_path [list ./rtl]
+#@ set all_dbs [list /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db]
+#@ 
+#@ #------------------------------------------------------------------------------
+#@ # Read reference design
+#@ #------------------------------------------------------------------------------
+#@ if {${FILE_FORMAT_REF} == "verilog"} {
+#@         read_verilog -container r ${RTL_DIR}/${DESIGN_NAME}_ref/${DESIGN_NAME}_ref.v
+#@     } elseif {${FILE_FORMAT_REF} == "sverilog"} {
+#@         read_sverilog -container r ${RTL_DIR}/${DESIGN_NAME}_ref/${DESIGN_NAME}_ref.sv
+#@     } else {
+#@         read_vhdl -container r ${RTL_DIR}/${DESIGN_NAME}_ref/${DESIGN_NAME}_ref.v
+#@     }
+#@ set_top ${DESIGN_NAME}_ref
+#@ 
+#@ #------------------------------------------------------------------------------
+#@ # Read implementation design
+#@ #------------------------------------------------------------------------------
+#@ if {${FILE_FORMAT} == "verilog"} {
+#@         read_verilog -container i ${RTL_DIR}/${DESIGN_NAME_i}/${DESIGN_NAME_i}.v
+#@     } elseif {${FILE_FORMAT} == "sverilog"} {
+#@         read_sverilog -container i ${RTL_DIR}/${DESIGN_NAME_i}/${DESIGN_NAME_i}.sv
+#@     } else {
+#@         read_vhdl -container i ${RTL_DIR}/${DESIGN_NAME_i}/${DESIGN_NAME_i}.v
+#@     }
+#@ set_top ${DESIGN_NAME_i}
+#@ 
+#@ #------------------------------------------------------------------------------
+#@ # Perform formal verification
+#@ #------------------------------------------------------------------------------
+#@ match
+#@ 
+#@ verify
+#@ 
+#@ #------------------------------------------------------------------------------
+#@ # Generate reports
+#@ #------------------------------------------------------------------------------
+#@ report_unmatched_points > unmatched_points.rpt
+#@ report_passing_points > passing_points.rpt
+#@ report_failing_points -list -matched > failing_points.rpt
+#@ analyze_points -all > points.rpt
+#@ 
+#@ exit

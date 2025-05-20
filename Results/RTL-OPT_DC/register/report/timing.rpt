@@ -1,0 +1,1069 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : register
+Version: T-2022.03-SP2
+Date   : Wed May 14 19:03:54 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_19__11_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  write_addr[2] (in)                       0.00      0.00       0.00 f
+  write_addr[2] (net)           14                   0.00       0.00 f
+  U2475/ZN (INV_X1)                        0.01      0.04       0.04 r
+  n2305 (net)                    2                   0.00       0.04 r
+  U2948/ZN (AND3_X2)                       0.02      0.06       0.10 r
+  n5973 (net)                    4                   0.00       0.10 r
+  U2848/ZN (NAND4_X2)                      0.03      0.07       0.17 f
+  n5497 (net)                    6                   0.00       0.17 f
+  U2919/ZN (INV_X1)                        0.03      0.07       0.24 r
+  n3615 (net)                    6                   0.00       0.24 r
+  U5520/ZN (OAI22_X1)                      0.02      0.04       0.28 f
+  n1743 (net)                    1                   0.00       0.28 f
+  data_reg_19__11_/D (DFFR_X1)             0.02      0.01       0.29 f
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.05       0.05
+  data required time                                            0.05
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.05
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_19__0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  write_addr[2] (in)                       0.00      0.00       0.00 f
+  write_addr[2] (net)           14                   0.00       0.00 f
+  U2475/ZN (INV_X1)                        0.01      0.04       0.04 r
+  n2305 (net)                    2                   0.00       0.04 r
+  U2948/ZN (AND3_X2)                       0.02      0.06       0.10 r
+  n5973 (net)                    4                   0.00       0.10 r
+  U2848/ZN (NAND4_X2)                      0.03      0.07       0.17 f
+  n5497 (net)                    6                   0.00       0.17 f
+  U2919/ZN (INV_X1)                        0.03      0.07       0.24 r
+  n3615 (net)                    6                   0.00       0.24 r
+  U5531/ZN (OAI22_X1)                      0.02      0.04       0.28 f
+  n1732 (net)                    1                   0.00       0.28 f
+  data_reg_19__0_/D (DFFR_X1)              0.02      0.01       0.29 f
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.05       0.05
+  data required time                                            0.05
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.05
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_19__8_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  write_addr[2] (in)                       0.00      0.00       0.00 f
+  write_addr[2] (net)           14                   0.00       0.00 f
+  U2475/ZN (INV_X1)                        0.01      0.04       0.04 r
+  n2305 (net)                    2                   0.00       0.04 r
+  U2948/ZN (AND3_X2)                       0.02      0.06       0.10 r
+  n5973 (net)                    4                   0.00       0.10 r
+  U2848/ZN (NAND4_X2)                      0.03      0.07       0.17 f
+  n5497 (net)                    6                   0.00       0.17 f
+  U2919/ZN (INV_X1)                        0.03      0.07       0.24 r
+  n3615 (net)                    6                   0.00       0.24 r
+  U5523/ZN (OAI22_X1)                      0.02      0.04       0.28 f
+  n1740 (net)                    1                   0.00       0.28 f
+  data_reg_19__8_/D (DFFR_X1)              0.02      0.01       0.29 f
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.05       0.05
+  data required time                                            0.05
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.05
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_19__31_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  write_addr[2] (in)                       0.00      0.00       0.00 f
+  write_addr[2] (net)           14                   0.00       0.00 f
+  U2475/ZN (INV_X1)                        0.01      0.04       0.04 r
+  n2305 (net)                    2                   0.00       0.04 r
+  U2948/ZN (AND3_X2)                       0.02      0.06       0.10 r
+  n5973 (net)                    4                   0.00       0.10 r
+  U2848/ZN (NAND4_X2)                      0.03      0.07       0.17 f
+  n5497 (net)                    6                   0.00       0.17 f
+  U2919/ZN (INV_X1)                        0.03      0.07       0.24 r
+  n3615 (net)                    6                   0.00       0.24 r
+  U5500/ZN (OAI22_X1)                      0.02      0.04       0.28 f
+  n1763 (net)                    1                   0.00       0.28 f
+  data_reg_19__31_/D (DFFR_X1)             0.02      0.01       0.29 f
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.05       0.05
+  data required time                                            0.05
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.05
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_6__21_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  write_addr[2] (in)                       0.00      0.00       0.00 r
+  write_addr[2] (net)           14                   0.00       0.00 r
+  U2396/Z (BUF_X1)                         0.02      0.05       0.05 r
+  n2254 (net)                    3                   0.00       0.05 r
+  U2325/ZN (AND3_X2)                       0.01      0.06       0.11 r
+  n5969 (net)                    3                   0.00       0.11 r
+  U2531/ZN (NAND4_X1)                      0.03      0.05       0.16 f
+  n3334 (net)                    3                   0.00       0.16 f
+  U2520/Z (BUF_X1)                         0.02      0.07       0.23 f
+  n3322 (net)                    9                   0.00       0.23 f
+  U5933/ZN (OAI22_X1)                      0.03      0.06       0.28 r
+  n1337 (net)                    1                   0.00       0.28 r
+  data_reg_6__21_/D (DFFR_X1)              0.03      0.01       0.29 r
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_6__13_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  write_addr[2] (in)                       0.00      0.00       0.00 r
+  write_addr[2] (net)           14                   0.00       0.00 r
+  U2396/Z (BUF_X1)                         0.02      0.05       0.05 r
+  n2254 (net)                    3                   0.00       0.05 r
+  U2325/ZN (AND3_X2)                       0.01      0.06       0.11 r
+  n5969 (net)                    3                   0.00       0.11 r
+  U2531/ZN (NAND4_X1)                      0.03      0.05       0.16 f
+  n3334 (net)                    3                   0.00       0.16 f
+  U2520/Z (BUF_X1)                         0.02      0.07       0.23 f
+  n3322 (net)                    9                   0.00       0.23 f
+  U5941/ZN (OAI22_X1)                      0.03      0.06       0.28 r
+  n1329 (net)                    1                   0.00       0.28 r
+  data_reg_6__13_/D (DFFR_X1)              0.03      0.01       0.29 r
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_6__5_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  write_addr[2] (in)                       0.00      0.00       0.00 r
+  write_addr[2] (net)           14                   0.00       0.00 r
+  U2396/Z (BUF_X1)                         0.02      0.05       0.05 r
+  n2254 (net)                    3                   0.00       0.05 r
+  U2325/ZN (AND3_X2)                       0.01      0.06       0.11 r
+  n5969 (net)                    3                   0.00       0.11 r
+  U2531/ZN (NAND4_X1)                      0.03      0.05       0.16 f
+  n3334 (net)                    3                   0.00       0.16 f
+  U2520/Z (BUF_X1)                         0.02      0.07       0.23 f
+  n3322 (net)                    9                   0.00       0.23 f
+  U5949/ZN (OAI22_X1)                      0.03      0.06       0.28 r
+  n1321 (net)                    1                   0.00       0.28 r
+  data_reg_6__5_/D (DFFR_X1)               0.03      0.01       0.29 r
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_6__14_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  write_addr[2] (in)                       0.00      0.00       0.00 r
+  write_addr[2] (net)           14                   0.00       0.00 r
+  U2396/Z (BUF_X1)                         0.02      0.05       0.05 r
+  n2254 (net)                    3                   0.00       0.05 r
+  U2325/ZN (AND3_X2)                       0.01      0.06       0.11 r
+  n5969 (net)                    3                   0.00       0.11 r
+  U2531/ZN (NAND4_X1)                      0.03      0.05       0.16 f
+  n3334 (net)                    3                   0.00       0.16 f
+  U2520/Z (BUF_X1)                         0.02      0.07       0.23 f
+  n3322 (net)                    9                   0.00       0.23 f
+  U5940/ZN (OAI22_X1)                      0.03      0.06       0.28 r
+  n1330 (net)                    1                   0.00       0.28 r
+  data_reg_6__14_/D (DFFR_X1)              0.03      0.01       0.29 r
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_6__7_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  write_addr[2] (in)                       0.00      0.00       0.00 r
+  write_addr[2] (net)           14                   0.00       0.00 r
+  U2396/Z (BUF_X1)                         0.02      0.05       0.05 r
+  n2254 (net)                    3                   0.00       0.05 r
+  U2325/ZN (AND3_X2)                       0.01      0.06       0.11 r
+  n5969 (net)                    3                   0.00       0.11 r
+  U2531/ZN (NAND4_X1)                      0.03      0.05       0.16 f
+  n3334 (net)                    3                   0.00       0.16 f
+  U2520/Z (BUF_X1)                         0.02      0.07       0.23 f
+  n3322 (net)                    9                   0.00       0.23 f
+  U5947/ZN (OAI22_X1)                      0.03      0.06       0.28 r
+  n1323 (net)                    1                   0.00       0.28 r
+  data_reg_6__7_/D (DFFR_X1)               0.03      0.01       0.29 r
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: write_addr[2]
+              (input port)
+  Endpoint: data_reg_6__4_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  write_addr[2] (in)                       0.00      0.00       0.00 r
+  write_addr[2] (net)           14                   0.00       0.00 r
+  U2396/Z (BUF_X1)                         0.02      0.05       0.05 r
+  n2254 (net)                    3                   0.00       0.05 r
+  U2325/ZN (AND3_X2)                       0.01      0.06       0.11 r
+  n5969 (net)                    3                   0.00       0.11 r
+  U2531/ZN (NAND4_X1)                      0.03      0.05       0.16 f
+  n3334 (net)                    3                   0.00       0.16 f
+  U2520/Z (BUF_X1)                         0.02      0.07       0.23 f
+  n3322 (net)                    9                   0.00       0.23 f
+  U5950/ZN (OAI22_X1)                      0.03      0.06       0.28 r
+  n1320 (net)                    1                   0.00       0.28 r
+  data_reg_6__4_/D (DFFR_X1)               0.03      0.01       0.29 r
+  data arrival time                                             0.29
+
+  max_delay                                          0.10       0.10
+  library setup time                                -0.04       0.06
+  data required time                                            0.06
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.06
+  data arrival time                                            -0.29
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.23
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[11]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2222/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4552 (net)                   11                   0.00       0.18 f
+  U3549/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n4043 (net)                    1                   0.00       0.25 r
+  U3548/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n4022 (net)                    1                   0.00       0.29 f
+  U2711/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3466 (net)                    1                   0.00       0.34 f
+  U2713/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n4021 (net)                    1                   0.00       0.40 r
+  U3530/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N46 (net)                      1                   0.00       0.42 f
+  U6183/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6073 (net)                    1                   0.00       0.48 r
+  U6184/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[11] (net)           1                   0.00       0.49 f
+  read_data1[11] (out)                     0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[2]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2822/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4551 (net)                   11                   0.00       0.18 f
+  U3356/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n3846 (net)                    1                   0.00       0.25 r
+  U3355/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n3825 (net)                    1                   0.00       0.29 f
+  U2646/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3419 (net)                    1                   0.00       0.34 f
+  U2648/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n3824 (net)                    1                   0.00       0.40 r
+  U3337/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N55 (net)                      1                   0.00       0.42 f
+  U6165/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6064 (net)                    1                   0.00       0.48 r
+  U6166/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[2] (net)            1                   0.00       0.49 f
+  read_data1[2] (out)                      0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[26]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2822/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4551 (net)                   11                   0.00       0.18 f
+  U3879/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n4378 (net)                    1                   0.00       0.25 r
+  U3878/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n4357 (net)                    1                   0.00       0.29 f
+  U2811/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3531 (net)                    1                   0.00       0.34 f
+  U2813/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n4356 (net)                    1                   0.00       0.40 r
+  U3860/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N31 (net)                      1                   0.00       0.42 f
+  U6213/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6088 (net)                    1                   0.00       0.48 r
+  U6214/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[26] (net)           1                   0.00       0.49 f
+  read_data1[26] (out)                     0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[20]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2222/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4552 (net)                   11                   0.00       0.18 f
+  U3748/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n4245 (net)                    1                   0.00       0.25 r
+  U3747/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n4225 (net)                    1                   0.00       0.29 f
+  U2311/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n2202 (net)                    1                   0.00       0.34 f
+  U2313/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n4224 (net)                    1                   0.00       0.40 r
+  U3730/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N37 (net)                      1                   0.00       0.42 f
+  U6201/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6082 (net)                    1                   0.00       0.48 r
+  U6202/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[20] (net)           1                   0.00       0.49 f
+  read_data1[20] (out)                     0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[1]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2825/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4548 (net)                   11                   0.00       0.18 f
+  U3333/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n3823 (net)                    1                   0.00       0.25 r
+  U3332/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n3802 (net)                    1                   0.00       0.29 f
+  U2657/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3427 (net)                    1                   0.00       0.34 f
+  U2659/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n3801 (net)                    1                   0.00       0.40 r
+  U3314/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N56 (net)                      1                   0.00       0.42 f
+  U6163/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6063 (net)                    1                   0.00       0.48 r
+  U6164/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[1] (net)            1                   0.00       0.49 f
+  read_data1[1] (out)                      0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[14]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2824/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4549 (net)                   11                   0.00       0.18 f
+  U3615/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n4110 (net)                    1                   0.00       0.25 r
+  U3614/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n4089 (net)                    1                   0.00       0.29 f
+  U2829/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3541 (net)                    1                   0.00       0.34 f
+  U2831/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n4088 (net)                    1                   0.00       0.40 r
+  U3596/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N43 (net)                      1                   0.00       0.42 f
+  U6189/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6076 (net)                    1                   0.00       0.48 r
+  U6190/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[14] (net)           1                   0.00       0.49 f
+  read_data1[14] (out)                     0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[17]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2824/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4549 (net)                   11                   0.00       0.18 f
+  U3681/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n4178 (net)                    1                   0.00       0.25 r
+  U3680/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n4157 (net)                    1                   0.00       0.29 f
+  U2795/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3521 (net)                    1                   0.00       0.34 f
+  U2797/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n4156 (net)                    1                   0.00       0.40 r
+  U3663/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N40 (net)                      1                   0.00       0.42 f
+  U6195/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6079 (net)                    1                   0.00       0.48 r
+  U6196/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[17] (net)           1                   0.00       0.49 f
+  read_data1[17] (out)                     0.01      0.00       0.50 f
+  data arrival time                                             0.50
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.50
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.40
+
+
+  Startpoint: read_addr1[1]
+              (input port)
+  Endpoint: read_data1[16]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr1[1] (in)                       0.00      0.00       0.00 r
+  read_addr1[1] (net)           11                   0.00       0.00 r
+  U2977/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n3661 (net)                    3                   0.00       0.03 f
+  U3998/ZN (NAND3_X1)                      0.03      0.05       0.07 r
+  n4500 (net)                    4                   0.00       0.07 r
+  U2678/ZN (INV_X1)                        0.01      0.04       0.11 f
+  n3782 (net)                    6                   0.00       0.11 f
+  U2222/Z (BUF_X1)                         0.03      0.07       0.18 f
+  n4552 (net)                   11                   0.00       0.18 f
+  U3654/ZN (AOI22_X1)                      0.03      0.07       0.25 r
+  n4151 (net)                    1                   0.00       0.25 r
+  U3653/ZN (NAND4_X1)                      0.02      0.04       0.29 f
+  n4135 (net)                    1                   0.00       0.29 f
+  U2827/ZN (AND2_X1)                       0.01      0.04       0.34 f
+  n3540 (net)                    1                   0.00       0.34 f
+  U2828/ZN (NOR3_X1)                       0.03      0.06       0.40 r
+  n4133 (net)                    1                   0.00       0.40 r
+  U3640/ZN (INV_X1)                        0.01      0.02       0.42 f
+  N41 (net)                      1                   0.00       0.42 f
+  U6193/ZN (AOI22_X1)                      0.03      0.05       0.48 r
+  n6078 (net)                    1                   0.00       0.48 r
+  U6194/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data1[16] (net)           1                   0.00       0.49 f
+  read_data1[16] (out)                     0.01      0.00       0.49 f
+  data arrival time                                             0.49
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.49
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.39
+
+
+  Startpoint: read_addr2[3]
+              (input port)
+  Endpoint: read_data2[24]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr2[3] (in)                       0.00      0.00       0.00 r
+  read_addr2[3] (net)            3                   0.00       0.00 r
+  U4755/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n5330 (net)                    3                   0.00       0.03 f
+  U2306/ZN (AND2_X2)                       0.01      0.05       0.08 f
+  n3750 (net)                    4                   0.00       0.08 f
+  U4732/ZN (NAND4_X1)                      0.02      0.05       0.12 r
+  n5306 (net)                    3                   0.00       0.12 r
+  U4791/ZN (INV_X1)                        0.03      0.06       0.18 f
+  n5410 (net)                   13                   0.00       0.18 f
+  U4579/ZN (AOI222_X1)                     0.04      0.12       0.30 r
+  n5141 (net)                    1                   0.00       0.30 r
+  U2819/ZN (AND4_X1)                       0.01      0.07       0.37 r
+  n3537 (net)                    1                   0.00       0.37 r
+  U2816/ZN (OAI221_X1)                     0.02      0.04       0.42 f
+  n3534 (net)                    1                   0.00       0.42 f
+  U6150/ZN (AOI22_X1)                      0.03      0.06       0.48 r
+  n6049 (net)                    1                   0.00       0.48 r
+  U6151/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data2[24] (net)           1                   0.00       0.49 f
+  read_data2[24] (out)                     0.01      0.00       0.49 f
+  data arrival time                                             0.49
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.49
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.39
+
+
+  Startpoint: read_addr2[3]
+              (input port)
+  Endpoint: read_data2[8]
+            (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  register           5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  read_addr2[3] (in)                       0.00      0.00       0.00 r
+  read_addr2[3] (net)            3                   0.00       0.00 r
+  U4755/ZN (INV_X1)                        0.01      0.03       0.03 f
+  n5330 (net)                    3                   0.00       0.03 f
+  U2306/ZN (AND2_X2)                       0.01      0.05       0.08 f
+  n3750 (net)                    4                   0.00       0.08 f
+  U4732/ZN (NAND4_X1)                      0.02      0.05       0.12 r
+  n5306 (net)                    3                   0.00       0.12 r
+  U4791/ZN (INV_X1)                        0.03      0.06       0.18 f
+  n5410 (net)                   13                   0.00       0.18 f
+  U4236/ZN (AOI222_X1)                     0.04      0.12       0.30 r
+  n4795 (net)                    1                   0.00       0.30 r
+  U3011/ZN (AND4_X1)                       0.01      0.07       0.37 r
+  n3684 (net)                    1                   0.00       0.37 r
+  U3008/ZN (OAI221_X1)                     0.02      0.04       0.42 f
+  n3681 (net)                    1                   0.00       0.42 f
+  U6134/ZN (AOI22_X1)                      0.03      0.06       0.48 r
+  n6041 (net)                    1                   0.00       0.48 r
+  U6135/ZN (INV_X1)                        0.01      0.02       0.49 f
+  read_data2[8] (net)            1                   0.00       0.49 f
+  read_data2[8] (out)                      0.01      0.00       0.49 f
+  data arrival time                                             0.49
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.49
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.39
+
+
+1

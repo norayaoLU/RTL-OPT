@@ -1,0 +1,84 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : mul_const_gpt
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:30:32 2025
+****************************************
+
+
+  Timing Path Group 'default'
+  -----------------------------------
+  Levels of Logic:               5.00
+  Critical Path Length:          0.21
+  Critical Path Slack:          -0.11
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:         -0.65
+  No. of Violating Paths:       10.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                114
+  Buf/Inv Cell Count:              41
+  Buf Cell Count:                  11
+  Inv Cell Count:                  30
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       114
+  Sequential Cell Count:            0
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:      111.187999
+  Noncombinational Area:     0.000000
+  Buf/Inv Area:             25.004000
+  Total Buffer Area:             9.04
+  Total Inverter Area:          15.96
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:               111.187999
+  Design Area:             111.187999
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:           138
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: acf3030
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.04
+  Logic Optimization:                  0.22
+  Mapping Optimization:                0.24
+  -----------------------------------------
+  Overall Compile Time:                0.89
+  Overall Compile Wall Clock Time:     1.12
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.11  TNS: 0.65  Number of Violating Paths: 10
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

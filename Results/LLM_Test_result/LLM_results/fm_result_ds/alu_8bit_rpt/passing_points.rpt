@@ -1,0 +1,60 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/alu_8bit_ref
+Implementation : i:/WORK/alu_8bit_ds
+Version        : V-2023.12
+Date           : Mon May 12 15:11:15 2025
+**************************************************
+
+8 Passing compare points:
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[0]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[0]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[1]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[1]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[2]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[2]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[3]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[3]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[4]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[4]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[5]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[5]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[6]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[6]
+
+  Ref  Port       r:/WORK/alu_8bit_ref/sum[7]
+  Impl Port       i:/WORK/alu_8bit_ds/sum[7]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

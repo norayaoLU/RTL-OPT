@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : mux_4to1_64bit
+Version: T-2022.03-SP2
+Date   : Mon May 12 03:09:52 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                          322
+Number of nets:                           497
+Number of cells:                          239
+Number of combinational cells:            239
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         37
+Number of references:                       7
+
+Combinational area:                263.872005
+Buf/Inv area:                       31.388000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   263.872005
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+mux_4to1_64bit                     263.8720    100.0  263.8720     0.0000  0.0000  mux_4to1_64bit
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 263.8720     0.0000  0.0000
+
+1

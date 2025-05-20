@@ -1,0 +1,553 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 10
+        -transition_time
+Design : sub_16bit_ref
+Version: T-2022.03-SP2
+Date   : Mon May 12 23:46:27 2025
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: b[10] (input port)
+  Endpoint: diff[15] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[10] (in)                               0.00      0.00       0.00 f
+  b[10] (net)                    2                   0.00       0.00 f
+  U177/ZN (INV_X1)                         0.01      0.02       0.02 r
+  n240 (net)                     1                   0.00       0.02 r
+  U195/ZN (OAI22_X1)                       0.01      0.03       0.05 f
+  n141 (net)                     1                   0.00       0.05 f
+  U196/ZN (INV_X1)                         0.01      0.03       0.08 r
+  n157 (net)                     3                   0.00       0.08 r
+  U119/ZN (AND3_X1)                        0.01      0.05       0.14 r
+  n96 (net)                      1                   0.00       0.14 r
+  U181/ZN (NAND2_X1)                       0.01      0.03       0.16 f
+  n160 (net)                     3                   0.00       0.16 f
+  U179/ZN (AND4_X1)                        0.01      0.04       0.21 f
+  n138 (net)                     1                   0.00       0.21 f
+  U320/ZN (NAND2_X1)                       0.01      0.03       0.24 r
+  n287 (net)                     2                   0.00       0.24 r
+  U321/ZN (INV_X1)                         0.01      0.02       0.26 f
+  n284 (net)                     1                   0.00       0.26 f
+  U322/ZN (OAI33_X1)                       0.05      0.07       0.33 r
+  n288 (net)                     1                   0.00       0.33 r
+  U323/ZN (OR2_X1)                         0.01      0.04       0.37 r
+  diff[15] (net)                 1                   0.00       0.37 r
+  diff[15] (out)                           0.01      0.00       0.37 r
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: b[10] (input port)
+  Endpoint: diff[14] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  b[10] (in)                               0.00      0.00       0.00 f
+  b[10] (net)                    2                   0.00       0.00 f
+  U177/ZN (INV_X1)                         0.01      0.02       0.02 r
+  n240 (net)                     1                   0.00       0.02 r
+  U195/ZN (OAI22_X1)                       0.01      0.03       0.05 f
+  n141 (net)                     1                   0.00       0.05 f
+  U196/ZN (INV_X1)                         0.01      0.03       0.08 r
+  n157 (net)                     3                   0.00       0.08 r
+  U119/ZN (AND3_X1)                        0.01      0.05       0.14 r
+  n96 (net)                      1                   0.00       0.14 r
+  U181/ZN (NAND2_X1)                       0.01      0.03       0.16 f
+  n160 (net)                     3                   0.00       0.16 f
+  U178/ZN (AND4_X1)                        0.01      0.04       0.21 f
+  n137 (net)                     1                   0.00       0.21 f
+  U311/ZN (NAND2_X1)                       0.01      0.03       0.24 r
+  n274 (net)                     2                   0.00       0.24 r
+  U313/ZN (INV_X1)                         0.01      0.02       0.26 f
+  n271 (net)                     1                   0.00       0.26 f
+  U314/ZN (OAI33_X1)                       0.05      0.07       0.33 r
+  n275 (net)                     1                   0.00       0.33 r
+  U315/ZN (OR2_X1)                         0.01      0.04       0.37 r
+  diff[14] (net)                 1                   0.00       0.37 r
+  diff[14] (out)                           0.01      0.00       0.37 r
+  data arrival time                                             0.37
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.37
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.27
+
+
+  Startpoint: b[10] (input port)
+  Endpoint: diff[13] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[10] (in)                               0.00      0.00       0.00 r
+  b[10] (net)                    2                   0.00       0.00 r
+  U177/ZN (INV_X1)                         0.00      0.02       0.02 f
+  n240 (net)                     1                   0.00       0.02 f
+  U195/ZN (OAI22_X1)                       0.03      0.05       0.07 r
+  n141 (net)                     1                   0.00       0.07 r
+  U196/ZN (INV_X1)                         0.01      0.03       0.09 f
+  n157 (net)                     3                   0.00       0.09 f
+  U109/Z (BUF_X1)                          0.01      0.04       0.13 f
+  n131 (net)                     2                   0.00       0.13 f
+  U91/Z (CLKBUF_X1)                        0.01      0.04       0.17 f
+  n74 (net)                      1                   0.00       0.17 f
+  U116/ZN (NAND2_X1)                       0.02      0.04       0.21 r
+  n94 (net)                      4                   0.00       0.21 r
+  U126/ZN (NAND3_X1)                       0.02      0.05       0.26 f
+  n261 (net)                     2                   0.00       0.26 f
+  U305/ZN (OAI21_X1)                       0.02      0.05       0.30 r
+  n263 (net)                     1                   0.00       0.30 r
+  U150/ZN (XNOR2_X1)                       0.01      0.05       0.36 r
+  diff[13] (net)                 1                   0.00       0.36 r
+  diff[13] (out)                           0.01      0.00       0.36 r
+  data arrival time                                             0.36
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.36
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.26
+
+
+  Startpoint: b[10] (input port)
+  Endpoint: overflow (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[10] (in)                               0.00      0.00       0.00 r
+  b[10] (net)                    2                   0.00       0.00 r
+  U177/ZN (INV_X1)                         0.00      0.02       0.02 f
+  n240 (net)                     1                   0.00       0.02 f
+  U195/ZN (OAI22_X1)                       0.03      0.05       0.07 r
+  n141 (net)                     1                   0.00       0.07 r
+  U196/ZN (INV_X1)                         0.01      0.03       0.09 f
+  n157 (net)                     3                   0.00       0.09 f
+  U109/Z (BUF_X1)                          0.01      0.04       0.13 f
+  n131 (net)                     2                   0.00       0.13 f
+  U91/Z (CLKBUF_X1)                        0.01      0.04       0.17 f
+  n74 (net)                      1                   0.00       0.17 f
+  U116/ZN (NAND2_X1)                       0.02      0.04       0.21 r
+  n94 (net)                      4                   0.00       0.21 r
+  U126/ZN (NAND3_X1)                       0.02      0.05       0.26 f
+  n261 (net)                     2                   0.00       0.26 f
+  U227/ZN (NOR2_X1)                        0.01      0.04       0.29 r
+  n169 (net)                     1                   0.00       0.29 r
+  U137/ZN (AND2_X1)                        0.01      0.04       0.33 r
+  n111 (net)                     1                   0.00       0.33 r
+  U138/ZN (NOR3_X1)                        0.01      0.02       0.35 f
+  overflow (net)                 1                   0.00       0.35 f
+  overflow (out)                           0.01      0.00       0.36 f
+  data arrival time                                             0.36
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.36
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.26
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: diff[9] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[2] (in)                                0.00      0.00       0.00 r
+  b[2] (net)                     2                   0.00       0.00 r
+  U139/ZN (INV_X1)                         0.00      0.02       0.02 f
+  n112 (net)                     1                   0.00       0.02 f
+  U214/ZN (OAI22_X1)                       0.04      0.05       0.07 r
+  n183 (net)                     2                   0.00       0.07 r
+  U215/ZN (INV_X1)                         0.01      0.02       0.10 f
+  n149 (net)                     1                   0.00       0.10 f
+  U216/ZN (NAND3_X1)                       0.02      0.03       0.13 r
+  n151 (net)                     2                   0.00       0.13 r
+  U110/ZN (OAI211_X1)                      0.02      0.05       0.18 f
+  n88 (net)                      2                   0.00       0.18 f
+  U272/ZN (NAND2_X1)                       0.01      0.04       0.22 r
+  n221 (net)                     2                   0.00       0.22 r
+  U279/ZN (NAND2_X1)                       0.02      0.04       0.26 f
+  n250 (net)                     4                   0.00       0.26 f
+  U153/ZN (AND2_X1)                        0.01      0.04       0.30 f
+  n120 (net)                     1                   0.00       0.30 f
+  U152/ZN (XNOR2_X1)                       0.01      0.05       0.35 f
+  diff[9] (net)                  1                   0.00       0.35 f
+  diff[9] (out)                            0.01      0.00       0.35 f
+  data arrival time                                             0.35
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.35
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.25
+
+
+  Startpoint: a[4] (input port)
+  Endpoint: diff[7] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  a[4] (in)                                0.00      0.00       0.00 f
+  a[4] (net)                     2                   0.00       0.00 f
+  U250/ZN (INV_X1)                         0.01      0.02       0.02 r
+  n188 (net)                     1                   0.00       0.02 r
+  U251/ZN (NAND2_X1)                       0.01      0.03       0.05 f
+  n190 (net)                     2                   0.00       0.05 f
+  U256/ZN (OAI21_X1)                       0.02      0.03       0.08 r
+  n197 (net)                     1                   0.00       0.08 r
+  U257/ZN (INV_X1)                         0.01      0.02       0.11 f
+  n204 (net)                     2                   0.00       0.11 f
+  U141/ZN (AND2_X1)                        0.01      0.04       0.14 f
+  n114 (net)                     2                   0.00       0.14 f
+  U263/ZN (AOI211_X1)                      0.04      0.08       0.22 r
+  n206 (net)                     1                   0.00       0.22 r
+  U265/ZN (NAND2_X1)                       0.01      0.04       0.26 f
+  n210 (net)                     3                   0.00       0.26 f
+  U149/ZN (AND2_X1)                        0.01      0.04       0.30 f
+  n118 (net)                     1                   0.00       0.30 f
+  U148/ZN (XNOR2_X1)                       0.01      0.05       0.35 f
+  diff[7] (net)                  1                   0.00       0.35 f
+  diff[7] (out)                            0.01      0.00       0.35 f
+  data arrival time                                             0.35
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.35
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.25
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: diff[12] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[2] (in)                                0.00      0.00       0.00 r
+  b[2] (net)                     2                   0.00       0.00 r
+  U139/ZN (INV_X1)                         0.00      0.02       0.02 f
+  n112 (net)                     1                   0.00       0.02 f
+  U214/ZN (OAI22_X1)                       0.04      0.05       0.07 r
+  n183 (net)                     2                   0.00       0.07 r
+  U215/ZN (INV_X1)                         0.01      0.02       0.10 f
+  n149 (net)                     1                   0.00       0.10 f
+  U216/ZN (NAND3_X1)                       0.02      0.03       0.13 r
+  n151 (net)                     2                   0.00       0.13 r
+  U110/ZN (OAI211_X1)                      0.02      0.05       0.18 f
+  n88 (net)                      2                   0.00       0.18 f
+  U272/ZN (NAND2_X1)                       0.01      0.04       0.22 r
+  n221 (net)                     2                   0.00       0.22 r
+  U273/ZN (NAND2_X1)                       0.01      0.04       0.26 f
+  n251 (net)                     3                   0.00       0.26 f
+  U300/ZN (INV_X1)                         0.01      0.03       0.29 r
+  n252 (net)                     1                   0.00       0.29 r
+  U301/ZN (NOR3_X1)                        0.01      0.02       0.31 f
+  n259 (net)                     1                   0.00       0.31 f
+  U304/ZN (NOR4_X1)                        0.03      0.04       0.35 r
+  diff[12] (net)                 1                   0.00       0.35 r
+  diff[12] (out)                           0.03      0.00       0.35 r
+  data arrival time                                             0.35
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.35
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.25
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: diff[6] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[2] (in)                                0.00      0.00       0.00 r
+  b[2] (net)                     2                   0.00       0.00 r
+  U139/ZN (INV_X1)                         0.00      0.02       0.02 f
+  n112 (net)                     1                   0.00       0.02 f
+  U214/ZN (OAI22_X1)                       0.04      0.05       0.07 r
+  n183 (net)                     2                   0.00       0.07 r
+  U169/Z (CLKBUF_X1)                       0.01      0.05       0.12 r
+  n127 (net)                     1                   0.00       0.12 r
+  U248/ZN (OAI221_X1)                      0.02      0.04       0.16 f
+  n202 (net)                     2                   0.00       0.16 f
+  U94/ZN (AND2_X1)                         0.01      0.05       0.22 f
+  n75 (net)                      4                   0.00       0.22 f
+  U93/ZN (INV_X1)                          0.01      0.03       0.25 r
+  n193 (net)                     1                   0.00       0.25 r
+  U259/ZN (OAI33_X1)                       0.02      0.03       0.28 f
+  n196 (net)                     1                   0.00       0.28 f
+  U261/ZN (AOI211_X1)                      0.03      0.07       0.34 r
+  diff[6] (net)                  1                   0.00       0.34 r
+  diff[6] (out)                            0.03      0.00       0.35 r
+  data arrival time                                             0.35
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.35
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.25
+
+
+  Startpoint: a[4] (input port)
+  Endpoint: diff[8] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 f
+  a[4] (in)                                0.00      0.00       0.00 f
+  a[4] (net)                     2                   0.00       0.00 f
+  U250/ZN (INV_X1)                         0.01      0.02       0.02 r
+  n188 (net)                     1                   0.00       0.02 r
+  U251/ZN (NAND2_X1)                       0.01      0.03       0.05 f
+  n190 (net)                     2                   0.00       0.05 f
+  U256/ZN (OAI21_X1)                       0.02      0.03       0.08 r
+  n197 (net)                     1                   0.00       0.08 r
+  U257/ZN (INV_X1)                         0.01      0.02       0.11 f
+  n204 (net)                     2                   0.00       0.11 f
+  U141/ZN (AND2_X1)                        0.01      0.04       0.14 f
+  n114 (net)                     2                   0.00       0.14 f
+  U263/ZN (AOI211_X1)                      0.04      0.08       0.22 r
+  n206 (net)                     1                   0.00       0.22 r
+  U265/ZN (NAND2_X1)                       0.01      0.04       0.26 f
+  n210 (net)                     3                   0.00       0.26 f
+  U98/ZN (AND3_X1)                         0.01      0.04       0.30 f
+  n213 (net)                     1                   0.00       0.30 f
+  U174/ZN (NOR3_X1)                        0.02      0.03       0.33 r
+  diff[8] (net)                  1                   0.00       0.33 r
+  diff[8] (out)                            0.02      0.00       0.34 r
+  data arrival time                                             0.34
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.34
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.24
+
+
+  Startpoint: b[2] (input port)
+  Endpoint: diff[10] (output port)
+  Path Group: default
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  sub_16bit_ref      5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  input external delay                               0.00       0.00 r
+  b[2] (in)                                0.00      0.00       0.00 r
+  b[2] (net)                     2                   0.00       0.00 r
+  U139/ZN (INV_X1)                         0.00      0.02       0.02 f
+  n112 (net)                     1                   0.00       0.02 f
+  U214/ZN (OAI22_X1)                       0.04      0.05       0.07 r
+  n183 (net)                     2                   0.00       0.07 r
+  U215/ZN (INV_X1)                         0.01      0.02       0.10 f
+  n149 (net)                     1                   0.00       0.10 f
+  U216/ZN (NAND3_X1)                       0.02      0.03       0.13 r
+  n151 (net)                     2                   0.00       0.13 r
+  U110/ZN (OAI211_X1)                      0.02      0.05       0.18 f
+  n88 (net)                      2                   0.00       0.18 f
+  U272/ZN (NAND2_X1)                       0.01      0.04       0.22 r
+  n221 (net)                     2                   0.00       0.22 r
+  U279/ZN (NAND2_X1)                       0.02      0.04       0.26 f
+  n250 (net)                     4                   0.00       0.26 f
+  U284/ZN (NOR3_X1)                        0.03      0.05       0.31 r
+  n229 (net)                     1                   0.00       0.31 r
+  U133/ZN (NOR3_X1)                        0.01      0.02       0.33 f
+  diff[10] (net)                 1                   0.00       0.33 f
+  diff[10] (out)                           0.01      0.00       0.34 f
+  data arrival time                                             0.34
+
+  max_delay                                          0.10       0.10
+  output external delay                              0.00       0.10
+  data required time                                            0.10
+  ------------------------------------------------------------------------------------------
+  data required time                                            0.10
+  data arrival time                                            -0.34
+  ------------------------------------------------------------------------------------------
+  slack (VIOLATED)                                             -0.24
+
+
+1

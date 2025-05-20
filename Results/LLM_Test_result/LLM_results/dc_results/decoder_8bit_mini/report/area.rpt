@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : decoder_8bit_mini
+Version: T-2022.03-SP2
+Date   : Mon May 12 15:07:56 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                          264
+Number of nets:                           362
+Number of cells:                          354
+Number of combinational cells:            354
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                         25
+Number of references:                       6
+
+Combinational area:                297.387995
+Buf/Inv area:                       13.300000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                   297.387995
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+decoder_8bit_mini                  297.3880    100.0  297.3880     0.0000  0.0000  decoder_8bit_mini
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                 297.3880     0.0000  0.0000
+
+1

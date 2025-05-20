@@ -1,0 +1,97 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : qor
+Design : ticket_machine_dsr
+Version: T-2022.03-SP2
+Date   : Thu May 15 22:35:51 2025
+****************************************
+
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:               4.00
+  Critical Path Length:          0.25
+  Critical Path Slack:          -0.19
+  Critical Path Clk Period:      0.10
+  Total Negative Slack:         -0.55
+  No. of Violating Paths:        3.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'default'
+  -----------------------------------
+  Levels of Logic:               3.00
+  Critical Path Length:          0.18
+  Critical Path Slack:          -0.08
+  Critical Path Clk Period:       n/a
+  Total Negative Slack:         -0.30
+  No. of Violating Paths:        4.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:          0
+  Hierarchical Port Count:          0
+  Leaf Cell Count:                 54
+  Buf/Inv Cell Count:              18
+  Buf Cell Count:                   7
+  Inv Cell Count:                  11
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:        51
+  Sequential Cell Count:            3
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:       46.550000
+  Noncombinational Area:    13.566000
+  Buf/Inv Area:             11.438000
+  Total Buffer Area:             5.59
+  Total Inverter Area:           5.85
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:                60.115999
+  Design Area:              60.115999
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:            61
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: acf3030
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.02
+  Logic Optimization:                  0.34
+  Mapping Optimization:                0.54
+  -----------------------------------------
+  Overall Compile Time:                1.30
+  Overall Compile Wall Clock Time:     1.49
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.19  TNS: 0.85  Number of Violating Paths: 7
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1

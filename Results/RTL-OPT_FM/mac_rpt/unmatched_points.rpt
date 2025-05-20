@@ -1,0 +1,104 @@
+**************************************************
+Report         : unmatched_points
+
+Reference      : r:/WORK/mac_ref
+Implementation : i:/WORK/mac
+Version        : V-2023.12
+Date           : Mon May 12 01:44:35 2025
+**************************************************
+
+32 Unmatched points (0 reference, 32 implementation):
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[0]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[1]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[2]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[3]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[4]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[5]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[6]
+
+  Impl DFF        i:/WORK/mac/a_reg_reg[7]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[0]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[1]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[2]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[3]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[4]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[5]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[6]
+
+  Impl DFF        i:/WORK/mac/b_reg_reg[7]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[0]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[10]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[11]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[12]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[13]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[14]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[15]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[1]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[2]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[3]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[4]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[5]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[6]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[7]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[8]
+
+  Impl DFF        i:/WORK/mac/product_reg_reg[9]
+
+ [BBNet: multiply-driven net
+  BBox:  black-box
+  BBPin: black-box pin
+  Block: hierarchical block
+  BlPin: hierarchical block pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Net:   matchable net
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

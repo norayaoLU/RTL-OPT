@@ -1,0 +1,45 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Tue May 13 12:46:28 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                              31
+    Cells do not drive (LINT-1)                                    31
+--------------------------------------------------------------------------------
+
+Warning: In design 'divider_16bit_dsr', cell 'B_15' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_16' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_17' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_18' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_19' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_20' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_21' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_22' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_23' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_24' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_25' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_26' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_27' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_28' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_29' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_30' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_31' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_32' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_33' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_34' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_35' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_36' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_37' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_38' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_39' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_40' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_41' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_42' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_43' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'B_44' does not drive any nets. (LINT-1)
+Warning: In design 'divider_16bit_dsr', cell 'C456' does not drive any nets. (LINT-1)
+1

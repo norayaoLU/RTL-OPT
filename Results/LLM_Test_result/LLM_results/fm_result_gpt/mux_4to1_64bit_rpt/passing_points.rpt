@@ -1,0 +1,228 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/mux_4to1_64bit_ref
+Implementation : i:/WORK/mux_4to1_64bit_gpt
+Version        : V-2023.12
+Date           : Mon May 12 14:25:10 2025
+**************************************************
+
+64 Passing compare points:
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[0]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[0]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[10]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[10]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[11]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[11]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[12]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[12]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[13]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[13]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[14]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[14]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[15]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[15]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[16]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[16]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[17]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[17]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[18]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[18]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[19]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[19]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[1]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[1]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[20]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[20]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[21]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[21]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[22]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[22]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[23]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[23]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[24]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[24]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[25]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[25]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[26]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[26]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[27]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[27]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[28]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[28]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[29]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[29]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[2]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[2]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[30]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[30]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[31]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[31]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[32]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[32]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[33]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[33]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[34]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[34]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[35]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[35]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[36]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[36]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[37]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[37]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[38]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[38]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[39]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[39]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[3]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[3]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[40]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[40]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[41]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[41]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[42]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[42]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[43]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[43]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[44]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[44]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[45]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[45]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[46]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[46]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[47]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[47]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[48]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[48]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[49]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[49]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[4]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[4]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[50]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[50]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[51]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[51]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[52]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[52]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[53]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[53]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[54]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[54]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[55]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[55]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[56]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[56]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[57]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[57]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[58]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[58]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[59]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[59]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[5]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[5]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[60]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[60]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[61]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[61]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[62]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[62]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[63]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[63]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[6]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[6]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[7]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[7]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[8]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[8]
+
+  Ref  Port       r:/WORK/mux_4to1_64bit_ref/out[9]
+  Impl Port       i:/WORK/mux_4to1_64bit_gpt/out[9]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

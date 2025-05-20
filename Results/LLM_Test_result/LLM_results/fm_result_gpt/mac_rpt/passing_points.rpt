@@ -1,0 +1,84 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/mac_ref
+Implementation : i:/WORK/mac_gpt
+Version        : V-2023.12
+Date           : Mon May 12 14:24:59 2025
+**************************************************
+
+16 Passing compare points:
+
+  Ref  Port       r:/WORK/mac_ref/z[0]
+  Impl Port       i:/WORK/mac_gpt/z[0]
+
+  Ref  Port       r:/WORK/mac_ref/z[10]
+  Impl Port       i:/WORK/mac_gpt/z[10]
+
+  Ref  Port       r:/WORK/mac_ref/z[11]
+  Impl Port       i:/WORK/mac_gpt/z[11]
+
+  Ref  Port       r:/WORK/mac_ref/z[12]
+  Impl Port       i:/WORK/mac_gpt/z[12]
+
+  Ref  Port       r:/WORK/mac_ref/z[13]
+  Impl Port       i:/WORK/mac_gpt/z[13]
+
+  Ref  Port       r:/WORK/mac_ref/z[14]
+  Impl Port       i:/WORK/mac_gpt/z[14]
+
+  Ref  Port       r:/WORK/mac_ref/z[15]
+  Impl Port       i:/WORK/mac_gpt/z[15]
+
+  Ref  Port       r:/WORK/mac_ref/z[1]
+  Impl Port       i:/WORK/mac_gpt/z[1]
+
+  Ref  Port       r:/WORK/mac_ref/z[2]
+  Impl Port       i:/WORK/mac_gpt/z[2]
+
+  Ref  Port       r:/WORK/mac_ref/z[3]
+  Impl Port       i:/WORK/mac_gpt/z[3]
+
+  Ref  Port       r:/WORK/mac_ref/z[4]
+  Impl Port       i:/WORK/mac_gpt/z[4]
+
+  Ref  Port       r:/WORK/mac_ref/z[5]
+  Impl Port       i:/WORK/mac_gpt/z[5]
+
+  Ref  Port       r:/WORK/mac_ref/z[6]
+  Impl Port       i:/WORK/mac_gpt/z[6]
+
+  Ref  Port       r:/WORK/mac_ref/z[7]
+  Impl Port       i:/WORK/mac_gpt/z[7]
+
+  Ref  Port       r:/WORK/mac_ref/z[8]
+  Impl Port       i:/WORK/mac_gpt/z[8]
+
+  Ref  Port       r:/WORK/mac_ref/z[9]
+  Impl Port       i:/WORK/mac_gpt/z[9]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1

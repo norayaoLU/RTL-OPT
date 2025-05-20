@@ -1,0 +1,30 @@
+
+13. Printing statistics.
+
+=== sub_32bit ===
+
+   Number of wires:                444
+   Number of wire bits:            599
+   Number of public wires:           7
+   Number of public wire bits:     162
+   Number of ports:                  4
+   Number of port bits:             97
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                189
+     AND2_X1                         1
+     AOI21_X1                       15
+     AOI22_X1                       12
+     INV_X1                         32
+     MUX2_X1                         1
+     NAND2_X1                       30
+     NOR2_X1                        33
+     OAI21_X1                       15
+     OR2_X1                         12
+     XNOR2_X1                       22
+     XOR2_X1                        16
+
+   Chip area for module '\sub_32bit': 191.520000
+     of which used for sequential elements: 0.000000 (0.00%)
+

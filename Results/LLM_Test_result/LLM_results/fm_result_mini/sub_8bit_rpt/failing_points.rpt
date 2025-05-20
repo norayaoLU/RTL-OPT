@@ -1,0 +1,9 @@
+{{r:/WORK/sub_8bit_ref/diff[0]} {i:/WORK/sub_8bit_mini/diff[0]}}
+{{r:/WORK/sub_8bit_ref/diff[1]} {i:/WORK/sub_8bit_mini/diff[1]}}
+{{r:/WORK/sub_8bit_ref/diff[2]} {i:/WORK/sub_8bit_mini/diff[2]}}
+{{r:/WORK/sub_8bit_ref/diff[3]} {i:/WORK/sub_8bit_mini/diff[3]}}
+{{r:/WORK/sub_8bit_ref/diff[4]} {i:/WORK/sub_8bit_mini/diff[4]}}
+{{r:/WORK/sub_8bit_ref/diff[5]} {i:/WORK/sub_8bit_mini/diff[5]}}
+{{r:/WORK/sub_8bit_ref/diff[6]} {i:/WORK/sub_8bit_mini/diff[6]}}
+{{r:/WORK/sub_8bit_ref/diff[7]} {i:/WORK/sub_8bit_mini/diff[7]}}
+{r:/WORK/sub_8bit_ref/overflow i:/WORK/sub_8bit_mini/overflow}

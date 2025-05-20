@@ -1,0 +1,49 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 03:08:14 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                     16
+    Multiply driven inputs (LINT-6)                                16
+
+Nets                                                               16
+    Unloaded nets (LINT-2)                                         16
+--------------------------------------------------------------------------------
+
+Warning: In design 'mux_dead_ref', net 'alu_result[0]' driven by pin 'alu_module/alu_result[0]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[1]' driven by pin 'alu_module/alu_result[1]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[2]' driven by pin 'alu_module/alu_result[2]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[3]' driven by pin 'alu_module/alu_result[3]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[4]' driven by pin 'alu_module/alu_result[4]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[5]' driven by pin 'alu_module/alu_result[5]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[6]' driven by pin 'alu_module/alu_result[6]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'alu_result[7]' driven by pin 'alu_module/alu_result[7]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[0]' driven by pin 'subtract_module/diff_result[0]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[1]' driven by pin 'subtract_module/diff_result[1]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[2]' driven by pin 'subtract_module/diff_result[2]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[3]' driven by pin 'subtract_module/diff_result[3]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[4]' driven by pin 'subtract_module/diff_result[4]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[5]' driven by pin 'subtract_module/diff_result[5]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[6]' driven by pin 'subtract_module/diff_result[6]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', net 'diff_result[7]' driven by pin 'subtract_module/diff_result[7]' has no loads. (LINT-2)
+Warning: In design 'mux_dead_ref', input port 'a[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'a[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[7]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[6]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[5]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[4]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[3]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[2]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[1]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+Warning: In design 'mux_dead_ref', input port 'b[0]' drives wired logic; the port direction may have been specified incorrectly. (LINT-6)
+1

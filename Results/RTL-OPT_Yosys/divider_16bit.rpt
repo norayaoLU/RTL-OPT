@@ -1,0 +1,45 @@
+
+13. Printing statistics.
+
+=== divider_16bit ===
+
+   Number of wires:               2385
+   Number of wire bits:           4869
+   Number of public wires:           6
+   Number of public wire bits:     120
+   Number of ports:                  4
+   Number of port bits:             56
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:               1264
+     AND2_X1                        69
+     AND3_X1                        20
+     AND4_X1                         2
+     AOI211_X1                      13
+     AOI21_X1                      153
+     AOI221_X1                       6
+     AOI222_X1                       1
+     AOI22_X1                       11
+     INV_X1                        100
+     MUX2_X1                        46
+     NAND2_X1                      149
+     NAND3_X1                       34
+     NAND4_X1                        6
+     NOR2_X1                       147
+     NOR3_X1                        26
+     NOR4_X1                         1
+     OAI211_X1                      43
+     OAI21_X1                      141
+     OAI221_X1                       4
+     OAI22_X1                        4
+     OAI33_X1                       15
+     OR2_X1                         46
+     OR3_X1                         15
+     OR4_X1                          1
+     XNOR2_X1                      165
+     XOR2_X1                        46
+
+   Chip area for module '\divider_16bit': 1411.928000
+     of which used for sequential elements: 0.000000 (0.00%)
+

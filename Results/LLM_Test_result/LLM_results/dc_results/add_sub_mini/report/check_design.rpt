@@ -1,0 +1,16 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Thu May 15 22:34:00 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               2
+    Cells do not drive (LINT-1)                                     2
+--------------------------------------------------------------------------------
+
+Warning: In design 'add_sub_mini', cell 'B_2' does not drive any nets. (LINT-1)
+Warning: In design 'add_sub_mini', cell 'B_3' does not drive any nets. (LINT-1)
+1

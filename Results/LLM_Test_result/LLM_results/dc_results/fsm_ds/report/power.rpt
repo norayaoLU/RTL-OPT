@@ -1,0 +1,62 @@
+Loading db file '/temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : fsm_ds
+Version: T-2022.03-SP2
+Date   : Mon May 12 14:06:15 2025
+****************************************
+
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+fsm_ds                 5K_hvratio_1_1    NangateOpenCellLibrary
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  = 455.5460 uW   (76%)
+  Net Switching Power  = 147.5765 uW   (24%)
+                         ---------
+Total Dynamic Power    = 603.1225 uW  (100%)
+
+Cell Leakage Power     =   2.8556 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network    269.4973            0.0000            0.0000            0.0000  (   0.00%)  i
+register          31.9915           31.5658          330.4709          333.3852  (  55.02%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    154.0571          116.0107        2.5252e+03          272.5930  (  44.98%)
+--------------------------------------------------------------------------------------------------
+Total            455.5460 uW       147.5765 uW     2.8556e+03 nW       605.9781 uW
+1

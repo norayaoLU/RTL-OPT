@@ -1,0 +1,182 @@
+Found 23 Required Inputs
+--------------------------------
+A required input is one that is designated as required
+for all failing patterns for one or more cpoints and fans out 
+to more failing than passing points.
+This implies that it may be driving downstream logic that is related to
+the failure(s)
+--------------------------------
+i:/WORK/divider_32bit_ds/B[3]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '0' for 5 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[0]
+        i:/WORK/divider_32bit_ds/odd[10]
+        i:/WORK/divider_32bit_ds/odd[11]
+        i:/WORK/divider_32bit_ds/odd[13]
+        i:/WORK/divider_32bit_ds/odd[1]
+
+-----------
+i:/WORK/divider_32bit_ds/B[4]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '0' for 9 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[0]
+        i:/WORK/divider_32bit_ds/odd[10]
+        i:/WORK/divider_32bit_ds/odd[11]
+        i:/WORK/divider_32bit_ds/odd[12]
+        i:/WORK/divider_32bit_ds/odd[13]
+        i:/WORK/divider_32bit_ds/odd[14]
+        i:/WORK/divider_32bit_ds/odd[15]
+        i:/WORK/divider_32bit_ds/odd[16]
+        i:/WORK/divider_32bit_ds/odd[1]
+
+-----------
+i:/WORK/divider_32bit_ds/A[9]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 3 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[12]
+        i:/WORK/divider_32bit_ds/odd[14]
+        i:/WORK/divider_32bit_ds/odd[25]
+
+-----------
+i:/WORK/divider_32bit_ds/A[1]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[17]
+
+-----------
+i:/WORK/divider_32bit_ds/A[30]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 6 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[17]
+        i:/WORK/divider_32bit_ds/odd[19]
+        i:/WORK/divider_32bit_ds/odd[20]
+        i:/WORK/divider_32bit_ds/odd[21]
+        i:/WORK/divider_32bit_ds/odd[24]
+        i:/WORK/divider_32bit_ds/odd[25]
+
+-----------
+i:/WORK/divider_32bit_ds/B[15]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '0' for 11 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[17]
+        i:/WORK/divider_32bit_ds/odd[18]
+        i:/WORK/divider_32bit_ds/odd[19]
+        i:/WORK/divider_32bit_ds/odd[20]
+        i:/WORK/divider_32bit_ds/odd[21]
+        i:/WORK/divider_32bit_ds/odd[22]
+        i:/WORK/divider_32bit_ds/odd[23]
+        i:/WORK/divider_32bit_ds/odd[24]
+        i:/WORK/divider_32bit_ds/odd[25]
+        i:/WORK/divider_32bit_ds/odd[26]
+        i:/WORK/divider_32bit_ds/odd[27]
+
+-----------
+i:/WORK/divider_32bit_ds/A[2]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[18]
+
+-----------
+i:/WORK/divider_32bit_ds/A[3]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[19]
+
+-----------
+i:/WORK/divider_32bit_ds/B[7]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[19]
+
+-----------
+i:/WORK/divider_32bit_ds/A[26]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[1]
+
+-----------
+i:/WORK/divider_32bit_ds/A[12]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 2 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[20]
+        i:/WORK/divider_32bit_ds/odd[26]
+
+-----------
+i:/WORK/divider_32bit_ds/A[16]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '0' for 2 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[20]
+        i:/WORK/divider_32bit_ds/odd[27]
+
+-----------
+i:/WORK/divider_32bit_ds/A[22]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[20]
+
+-----------
+i:/WORK/divider_32bit_ds/A[27]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 2 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[20]
+        i:/WORK/divider_32bit_ds/odd[27]
+
+-----------
+i:/WORK/divider_32bit_ds/A[4]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[20]
+
+-----------
+i:/WORK/divider_32bit_ds/B[5]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[20]
+
+-----------
+i:/WORK/divider_32bit_ds/A[5]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[21]
+
+-----------
+i:/WORK/divider_32bit_ds/B[14]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '0' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[21]
+
+-----------
+i:/WORK/divider_32bit_ds/A[6]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[22]
+
+-----------
+i:/WORK/divider_32bit_ds/A[7]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[23]
+
+-----------
+i:/WORK/divider_32bit_ds/A[8]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[24]
+
+-----------
+i:/WORK/divider_32bit_ds/A[10]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[26]
+
+-----------
+i:/WORK/divider_32bit_ds/A[11]
+    Fans out to 19 failing and 0 passing points and has
+    logic value '1' for 1 compare point(s):
+        i:/WORK/divider_32bit_ds/odd[27]
+
+-----------
+--------------------------------
+****************************************************************************************
+Analysis Completed
+1

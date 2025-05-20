@@ -1,0 +1,5 @@
+{{r:/WORK/sub_4bit_ref/diff[0]} {i:/WORK/sub_4bit_mini/diff[0]}}
+{{r:/WORK/sub_4bit_ref/diff[1]} {i:/WORK/sub_4bit_mini/diff[1]}}
+{{r:/WORK/sub_4bit_ref/diff[2]} {i:/WORK/sub_4bit_mini/diff[2]}}
+{{r:/WORK/sub_4bit_ref/diff[3]} {i:/WORK/sub_4bit_mini/diff[3]}}
+{r:/WORK/sub_4bit_ref/overflow i:/WORK/sub_4bit_mini/overflow}

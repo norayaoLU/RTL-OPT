@@ -1,0 +1,43 @@
+ 
+****************************************
+Report : area
+Design : mult_if_dsr
+Version: T-2022.03-SP2
+Date   : Thu May 15 22:34:41 2025
+****************************************
+
+Library(s) Used:
+
+    NangateOpenCellLibrary (File: /temp2tb/luyao/lib/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+Number of ports:                           15
+Number of nets:                            24
+Number of cells:                           15
+Number of combinational cells:             15
+Number of sequential cells:                 0
+Number of macros/black boxes:               0
+Number of buf/inv:                          2
+Number of references:                       5
+
+Combinational area:                 12.502000
+Buf/Inv area:                        1.064000
+Noncombinational area:               0.000000
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (Wire load has zero net area)
+
+Total cell area:                    12.502000
+Total area:                 undefined
+
+Hierarchical area distribution
+------------------------------
+
+                                  Global cell area          Local cell area
+                                  ------------------  --------------------------- 
+Hierarchical cell                 Absolute   Percent  Combi-    Noncombi-  Black-
+                                  Total      Total    national  national   boxes   Design
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+mult_if_dsr                         12.5020    100.0   12.5020     0.0000  0.0000  mult_if_dsr
+--------------------------------  ---------  -------  --------  ---------  ------  ---------
+Total                                                  12.5020     0.0000  0.0000
+
+1

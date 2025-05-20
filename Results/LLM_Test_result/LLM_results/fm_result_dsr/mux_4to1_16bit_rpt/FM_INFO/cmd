@@ -1,0 +1,12 @@
+/usr/eelocal/synopsys/fm-vv2023.12/linux64/fm/bin/fm_shell_exec -r /usr/eelocal/synopsys/fm-vv2023.12 -x 
+    set design_name mux_4to1_16bit;
+    set design_name_i mux_4to1_16bit_dsr;
+    set file_format verilog;
+    set file_format_ref verilog;
+    source -e -v ../run_fm.tcl;
+ 
+
+Version    = V-2023.12
+Build      = V-2023.12-formality_v2023.12_rel-8560677
+Build date = Nov 16, 2023
+Run date   = Tue May 13 14:58:01 2025 HKT

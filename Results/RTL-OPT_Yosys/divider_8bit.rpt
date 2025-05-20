@@ -1,0 +1,40 @@
+
+13. Printing statistics.
+
+=== divider_8bit ===
+
+   Number of wires:                539
+   Number of wire bits:           1155
+   Number of public wires:           6
+   Number of public wire bits:      76
+   Number of ports:                  4
+   Number of port bits:             28
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                302
+     AND2_X1                        11
+     AND3_X1                         2
+     AOI211_X1                       5
+     AOI21_X1                       27
+     AOI221_X1                       1
+     AOI22_X1                        4
+     INV_X1                         36
+     MUX2_X1                        17
+     NAND2_X1                       31
+     NAND3_X1                        8
+     NOR2_X1                        33
+     NOR3_X1                         6
+     OAI211_X1                      12
+     OAI21_X1                       36
+     OAI221_X1                       1
+     OAI33_X1                        2
+     OR2_X1                          9
+     OR3_X1                          1
+     OR4_X1                          1
+     XNOR2_X1                       44
+     XOR2_X1                        15
+
+   Chip area for module '\divider_8bit': 339.682000
+     of which used for sequential elements: 0.000000 (0.00%)
+

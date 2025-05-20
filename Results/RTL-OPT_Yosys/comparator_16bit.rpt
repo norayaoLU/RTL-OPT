@@ -1,0 +1,36 @@
+
+13. Printing statistics.
+
+=== comparator_16bit ===
+
+   Number of wires:                141
+   Number of wire bits:            268
+   Number of public wires:           5
+   Number of public wire bits:      35
+   Number of ports:                  5
+   Number of port bits:             35
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 64
+     AND2_X1                         2
+     AND4_X1                         2
+     AOI211_X1                       3
+     AOI21_X1                        5
+     AOI222_X1                       1
+     AOI22_X1                        6
+     INV_X1                         23
+     NAND2_X1                        2
+     NAND3_X1                        1
+     NOR2_X1                         2
+     NOR3_X1                         1
+     OAI211_X1                       2
+     OAI21_X1                        7
+     OAI22_X1                        3
+     OR2_X1                          1
+     XNOR2_X1                        2
+     XOR2_X1                         1
+
+   Chip area for module '\comparator_16bit': 62.244000
+     of which used for sequential elements: 0.000000 (0.00%)
+

@@ -1,0 +1,16 @@
+ 
+****************************************
+check_design summary:
+Version:     T-2022.03-SP2
+Date:        Mon May 12 15:08:32 2025
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Cells                                                               2
+    Cells do not drive (LINT-1)                                     2
+--------------------------------------------------------------------------------
+
+Warning: In design 'fsm_encode_mini', cell 'C290' does not drive any nets. (LINT-1)
+Warning: In design 'fsm_encode_mini', cell 'C291' does not drive any nets. (LINT-1)
+1

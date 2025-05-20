@@ -1,0 +1,135 @@
+**************************************************
+Report         : passing_points
+
+Reference      : r:/WORK/adder_select_ref
+Implementation : i:/WORK/adder_select_dsr
+Version        : V-2023.12
+Date           : Tue May 13 14:57:35 2025
+**************************************************
+
+33 Passing compare points:
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[0]
+  Impl Port       i:/WORK/adder_select_dsr/Z[0]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[10]
+  Impl Port       i:/WORK/adder_select_dsr/Z[10]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[11]
+  Impl Port       i:/WORK/adder_select_dsr/Z[11]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[12]
+  Impl Port       i:/WORK/adder_select_dsr/Z[12]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[13]
+  Impl Port       i:/WORK/adder_select_dsr/Z[13]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[14]
+  Impl Port       i:/WORK/adder_select_dsr/Z[14]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[15]
+  Impl Port       i:/WORK/adder_select_dsr/Z[15]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[16]
+  Impl Port       i:/WORK/adder_select_dsr/Z[16]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[17]
+  Impl Port       i:/WORK/adder_select_dsr/Z[17]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[18]
+  Impl Port       i:/WORK/adder_select_dsr/Z[18]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[19]
+  Impl Port       i:/WORK/adder_select_dsr/Z[19]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[1]
+  Impl Port       i:/WORK/adder_select_dsr/Z[1]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[20]
+  Impl Port       i:/WORK/adder_select_dsr/Z[20]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[21]
+  Impl Port       i:/WORK/adder_select_dsr/Z[21]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[22]
+  Impl Port       i:/WORK/adder_select_dsr/Z[22]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[23]
+  Impl Port       i:/WORK/adder_select_dsr/Z[23]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[24]
+  Impl Port       i:/WORK/adder_select_dsr/Z[24]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[25]
+  Impl Port       i:/WORK/adder_select_dsr/Z[25]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[26]
+  Impl Port       i:/WORK/adder_select_dsr/Z[26]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[27]
+  Impl Port       i:/WORK/adder_select_dsr/Z[27]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[28]
+  Impl Port       i:/WORK/adder_select_dsr/Z[28]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[29]
+  Impl Port       i:/WORK/adder_select_dsr/Z[29]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[2]
+  Impl Port       i:/WORK/adder_select_dsr/Z[2]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[30]
+  Impl Port       i:/WORK/adder_select_dsr/Z[30]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[31]
+  Impl Port       i:/WORK/adder_select_dsr/Z[31]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[32]
+  Impl Port       i:/WORK/adder_select_dsr/Z[32]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[3]
+  Impl Port       i:/WORK/adder_select_dsr/Z[3]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[4]
+  Impl Port       i:/WORK/adder_select_dsr/Z[4]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[5]
+  Impl Port       i:/WORK/adder_select_dsr/Z[5]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[6]
+  Impl Port       i:/WORK/adder_select_dsr/Z[6]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[7]
+  Impl Port       i:/WORK/adder_select_dsr/Z[7]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[8]
+  Impl Port       i:/WORK/adder_select_dsr/Z[8]
+
+  Ref  Port       r:/WORK/adder_select_ref/Z[9]
+  Impl Port       i:/WORK/adder_select_dsr/Z[9]
+
+ [BBNet: multiply-driven net
+  BBPin: black-box pin
+  Cut:   cut-point
+  DFF:   non-constant DFF register
+  DFF0:  constant 0 DFF register
+  DFF1:  constant 1 DFF register
+  DFFX:  constant X DFF register
+  DFF0X: constrained 0X DFF register
+  DFF1X: constrained 1X DFF register
+  LAT:   non-constant latch register
+  LAT0:  constant 0 latch register
+  LAT1:  constant 1 latch register
+  LATX:  constant X latch register
+  LAT0X: constrained 0X latch register
+  LAT1X: constrained 1X latch register
+  LATCG: clock-gating latch register
+  TLA:   transparent latch register
+  TLA0X: transparent constrained 0X latch register
+  TLA1X: transparent constrained 1X latch register
+  Loop:  cycle break point
+  Port:  primary (top-level) port
+  Und:   undriven signal cut-point
+  Unk:   unknown signal cut-point]
+
+1
