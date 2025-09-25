@@ -15,7 +15,7 @@ This benchmark provides a realistic and comprehensive evaluation method for gene
 
 ## Dataset Contents
 
-- **Number of Designs**: 40 digital IC designs
+- **Number of Designs**: 36 digital IC designs
 - **Code Types**:
   - Suboptimal RTL code
   - Expert-optimized RTL code (golden reference)
